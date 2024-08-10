@@ -26,17 +26,17 @@
 
 ***
 
-### 💠𝟎𝟏 𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀 
+### 💠𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀 
 ### Click and wait a little bit for loading the site.
 <p align="left">
 <a href="https://gds-md-pair.onrender.com/"><img height= "30" title="Author" src="https://img.shields.io/badge/SESSION ID-black?style=for-the-badge&logo=render"></a>
 <p/>
 
 
-### 💠𝟎𝟐 𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀 
-### On Replit if you guys can get it from here
+### 💠𝙋𝘼𝙄𝙍 𝘼𝙉𝘿 𝙌𝙍 𝘾𝙊𝘿𝙀
+### Click and wait a little bit for loading the site.
 <p align="left">
-<a href="https://replit.com/@iycwwwuaaipgfjs/Prince-PairCode?v=1"><img height= "30" title="Author" src="https://img.shields.io/badge/SESSION ID-black?style=for-the-badge&logo=replit"></a>
+<a href="https://princebotzsession.onrender.com"><img height= "30" title="Author" src="https://img.shields.io/badge/SESSION ID-skyblue?style=for-the-badge&logo=render"></a>
 <p/>
   
 𝘐𝘧 𝘱𝘢𝘪𝘳 𝘤𝘰𝘥𝘦 𝘥𝘰𝘯'𝘵 𝘸𝘰𝘳𝘬 𝘵𝘩𝘦𝘯 𝘴𝘤𝘢𝘯 𝘘𝘙 𝘧𝘰𝘳 𝘴𝘦𝘴𝘴𝘪𝘰𝘯 𝘐𝘋
@@ -46,11 +46,6 @@
 <p/>
 
 ****
-
-### 🔵🟠𝘿𝙀𝙋𝙇𝙊𝙔 𝙏𝙊 𝙃𝙀𝙍𝙊𝙆𝙐 𝘼𝙉𝘿 𝙆𝙊𝙔𝙀𝘽🟠🔵
-
-
-💠[𝘊𝘓𝘐𝘊𝘒 𝘏𝘌𝘙𝘌](http://localhost:2435/storage/emulated/0/DCIM/GDS-MD-Deploy.html)
 
 
 ****
@@ -114,7 +109,7 @@
   
 ----
 ### 💠 [`𝐿𝐴𝑁𝐺𝑈𝐴𝐺𝐸𝑆 𝐴𝑉𝐴𝐼𝐿𝐴𝐵𝐿𝐸 𝐹𝑂𝑅 𝑃𝑅𝐼𝑁𝐶𝐸-𝑀𝐷`]
-#### 🌐 Arabic Global = ar 
+#### 🌐 Arabic = ar 
 #### 🌐 Urdu = ur
 #### 🌐 English Global = en
 #### 🌐 Bahasa Indonesia = id

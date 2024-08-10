@@ -1,4 +1,4 @@
-FROM node:20.10.0-alpine3.18
+FROM node:lts-buster
 
 RUN apk update && \
   apk add --no-cache \
@@ -8,7 +8,7 @@ RUN apk update && \
   libwebp-tools && \
   rm -rf /var/cache/apk/*
 
-COPY package*.json .
+COPY package.json .
 
 RUN yarn install
 

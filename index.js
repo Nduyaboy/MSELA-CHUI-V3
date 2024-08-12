@@ -1,41 +1,25 @@
-import chalk from 'chalk'
-import { spawn } from 'child_process'
+console.log('✅ Prince bot Starting...')
+
+import { join, dirname } from 'path'
+import { createRequire } from 'module';
+import { fileURLToPath } from 'url'
+import { setupMaster, fork } from 'cluster'
+import { watchFile, unwatchFile } from 'fs'
+import cfonts from 'cfonts';
+import { createInterface } from 'readline'
+import yargs from 'yargs'
 import express from 'express'
-import figlet from 'figlet'
-import fs from 'fs'
+import chalk from 'chalk'
 import path from 'path'
-import { fileURLToPath } from 'url';
+import os from 'os'
+import { promises as fsPromises } from 'fs'
 
-figlet(
-  'PRINCE BOT',
-  {
-    font: 'Ghost',
-    horizontalLayout: 'default',
-    verticalLayout: 'default',
-  },
-  (err, data) => {
-    if (err) {
-      console.error(chalk.red('Figlet error:', err))
-      return
-    }
-    console.log(chalk.yellow(data))
-  }
-)
-
-figlet(
-  'Advanced Whatsapp Bot',
-  {
-    horizontalLayout: 'default',
-    verticalLayout: 'default',
-  },
-  (err, data) => {
-    if (err) {
-      console.error(chalk.red('Figlet error:', err))
-      return
-    }
-    console.log(chalk.magenta(data))
-  }
-)
+// https://stackoverflow.com/a/50052194
+const __dirname = dirname(fileURLToPath(import.meta.url))
+const require = createRequire(__dirname) // Bring in the ability to create the 'require' method
+const { name, author } = require(join(__dirname, './package.json')) // https://www.stefanjudis.com/snippets/how-to-import-json-files-in-es-modules-node-js/
+const { say } = cfonts
+const rl = createInterface(process.stdin, process.stdout)
 
 const app = express()
 const port = process.env.PORT || 5000
@@ -50,26 +34,31 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(chalk.green(`Port ${port} is open`))
+  console.log(chalk.green(`🌐Port ${port} is open`))
 })
 
-let isRunning = false
+var isRunning = false
 
 async function start(file) {
   if (isRunning) return
   isRunning = true
-
   const currentFilePath = new URL(import.meta.url).pathname
-  const args = [path.join(path.dirname(currentFilePath), file), ...process.argv.slice(2)]
-  const p = spawn(process.argv[0], args, {
-    stdio: ['inherit', 'inherit', 'inherit', 'ipc'],
+  let args = [join(__dirname, file), ...process.argv.slice(2)]
+  say([process.argv[0], ...args].join(' '), {
+    font: 'console',
+    align: 'center',
+    gradient: ['red', 'magenta']
   })
-
+  setupMaster({
+    exec: args[0],
+    args: args.slice(1),
+  })
+  let p = fork()
   p.on('message', data => {
-    console.log(chalk.cyan(`✔️RECEIVED ${data}`))
+    console.log('[RECEIVED]', data)
     switch (data) {
       case 'reset':
-        p.kill()
+        p.process.kill()
         isRunning = false
         start.apply(this, arguments)
         break
@@ -78,54 +67,57 @@ async function start(file) {
         break
     }
   })
-
-  p.on('exit', code => {
+  //---
+  p.on('exit', (_, code) => {
     isRunning = false
-    console.error(chalk.red(`❌Exited with code: ${code}`))
+    console.error('❌Exited with code:', code)
+    start('main.js'); //
 
     if (code === 0) return
-
-    fs.watchFile(args[0], () => {
-      fs.unwatchFile(args[0])
-      start('main.js')
+    watchFile(args[0], () => {
+      unwatchFile(args[0])
+      start(file)
     })
   })
 
-  p.on('error', err => {
-    console.error(chalk.red(`Error: ${err}`))
-    p.kill()
-    isRunning = false
-    start('main.js')
-  })
+  //---
+  console.log(chalk.yellow(`🖥️ ${os.type()}, ${os.release()} - ${os.arch()}`));
+  const ramInGB = os.totalmem() / (1024 * 1024 * 1024);
+  console.log(chalk.yellow(`💾 Total RAM: ${ramInGB.toFixed(2)} GB`));
+  const freeRamInGB = os.freemem() / (1024 * 1024 * 1024);
+  console.log(chalk.yellow(`💽 Free RAM: ${freeRamInGB.toFixed(2)} GB`));
+  console.log(chalk.yellow(`📃 OWNER PRINCE DASTAGEER`));
 
-  const pluginsFolder = path.join(path.dirname(currentFilePath), 'plugins')
-
-  fs.readdir(pluginsFolder, async (err, files) => {
-    if (err) {
-      console.error(chalk.red(`Error reading plugins folder: ${err}`))
-      return
-    }
-    console.log(chalk.yellow(`Installed ${files.length} plugins`))
-
+  const packageJsonPath = path.join(path.dirname(currentFilePath), './package.json');
     try {
-      const { default: baileys } = await import('@whiskeysockets/baileys')
-      const version = (await baileys.fetchLatestBaileysVersion()).version
-      console.log(chalk.yellow(`Using Baileys version ${version}`))
-    } catch (e) {
-      console.error(chalk.red(' Baileys library is not installed'))
-    }
-  })
+    const packageJsonData = await fsPromises.readFile(packageJsonPath, 'utf-8');
+    const packageJsonObj = JSON.parse(packageJsonData);
+    console.log(chalk.blue.bold(`\n📦 Package Information`));
+    console.log(chalk.cyan(`Number: ${packageJsonObj.name}`));
+    console.log(chalk.cyan(`Version: ${packageJsonObj.version}`));
+    console.log(chalk.cyan(`Description: ${packageJsonObj.description}`));
+    console.log(chalk.cyan(`Author: ${packageJsonObj.author.name}`));
+  } catch (err) {
+    console.error(chalk.red(`❌Could not read the file package.json: ${err}`));
+  }
+
+
+  console.log(chalk.blue.bold(`\n⏰ Current time`));
+  const currentTime = new Date().toLocaleString('en-US', { timeZone: 'Asia/Karachi' })
+  //const currentTime = new Date().toLocaleString();
+  console.log(chalk.cyan(`${currentTime}`));
+
+  setInterval(() => {}, 1000);
+
+  
+
+  //----
+  let opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
+  if (!opts['test'])
+    if (!rl.listenerCount()) rl.on('line', line => {
+      p.emit('message', line.trim())
+    })
+  // console.log(p)
 }
 
 start('main.js')
-
-process.on('unhandledRejection', () => {
-  console.error(chalk.red(`Unhandled promise rejection. Bot will restart...`))
-  start('main.js')
-})
-
-process.on('exit', code => {
-  console.error(chalk.red(`Exited with code: ${code}`))
-  console.error(chalk.red(`Bot will restart...`))
-  start('main.js')
-})

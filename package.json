@@ -16,7 +16,8 @@
     
 "scripts": {
         "start": "node index.js",
-        "test": "node test.js"
+        "test": "node test.js",
+        "test2": "nodemon index.js"
  },
     
 "homepage": "https://github.com/PRINCE-GDS/PRINCE-MD-BOT",
@@ -115,11 +116,8 @@
 "youtubedl-core": "^4.11.7",
 "ytdl-core": "^4.11.5"
     },
-    "overrides": {
-        "cache-manager": "5.2.2"
-    },
-    "devDependencies": {
-        "prettier": "^3.2.5"
+    "optionalDependencies": {
+         "wa-sticker-formatter": "^4.3.2",
+        "moment-timezone": "^0.5.37"
     }
-
 }

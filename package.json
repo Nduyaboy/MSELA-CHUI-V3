@@ -39,7 +39,7 @@
 "@green-code/music-track-data": "^2.0.3",
 "@shineiichijo/marika": "^2.0.6",
 "@vitalets/google-translate-api": "^9.2.0",
-"@xct007/frieren-scraper": "github:xct007/frieren-scraper",
+"@xct007/frieren-scraper": "*",
 "@xct007/tiktok-scraper": "*", 
 "acrcloud": "^1.4.0",
 "api-dylux": "^1.8.5",

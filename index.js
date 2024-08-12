@@ -22,10 +22,7 @@ const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
 const app = express()
-const port = process.env.PORT || 5000
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const port = process.env.PORT || 8080
 
 app.use(express.static(path.join(__dirname, 'Assets')));
 

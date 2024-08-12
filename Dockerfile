@@ -1,18 +1,10 @@
-FROM node:lts-buster
+FROM quay.io/gurusensei/gurubhay:latest
 
-RUN apk update && \
-  apk add --no-cache \
-  git \
-  ffmpeg \
-  imagemagick \
-  libwebp-tools && \
-  rm -rf /var/cache/apk/*
+RUN git clone https://github.com/PRINCE-GDS/PRINCE-MD-BOT /root/prince
 
-COPY package.json .
+WORKDIR /root/prince/
 
-RUN yarn install
-
-COPY . .
+RUN npm install --platform=linuxmusl
 
 EXPOSE 5000
 

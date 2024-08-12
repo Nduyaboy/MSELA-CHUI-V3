@@ -34,7 +34,7 @@
 "dependencies": {
 "@whiskeysockets/baileys": "^6.7.5",
 "@adiwajshing/keyed-db": "^0.2.4",
-"@bochilteam/scraper": "^5.0.1",
+"@bochilteam/scraper": "*",
 "@brandond/findthelyrics": "^2.0.5",
 "@green-code/music-track-data": "^2.0.3",
 "@shineiichijo/marika": "^2.0.6",
@@ -51,7 +51,7 @@
 "cfonts": "^3.2.0",
 "chess.js": "*",
 "chalk": "^5.1.0",
-"cheerio": "^1.0.0",
+"cheerio": "*",
 "colors": "^1.4.0",
 "countries-and-timezones": "^3.6.0",
 "dotenv": "^16.1.4",
@@ -113,7 +113,6 @@
 "google-it": "^1.6.3",
 "youtube-yts": "^2.0.0", 
 "youtubedl-core": "npm:@distube/ytdl-core",
-"youtubedl-core": "*",
 "ytdl-core": "*"
     },
     "overrides": {

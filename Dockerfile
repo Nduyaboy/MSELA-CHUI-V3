@@ -1,20 +1,19 @@
-
 FROM node:lts-buster
 
-RUN apt-get update && \
-  apt-get install -y \
+RUN apk update && \
+  apk add --no-cache \
+  git \
   ffmpeg \
   imagemagick \
-  webp && \
-  apt-get upgrade -y && \
-  rm -rf /var/lib/apt/lists/*
+  libwebp-tools && \
+  rm -rf /var/cache/apk/*
 
 COPY package.json .
 
-RUN npm install && npm install qrcode-terminal
+RUN yarn install
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 5000
 
-CMD ["node", "index.js", "--server"]
+CMD ["npm", "start"]

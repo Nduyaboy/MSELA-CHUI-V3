@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import yts from 'youtube-yts';
 import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
-import ytdl from 'youtubedl-core';
+import ytdl from 'ytdl-core';
 import {bestFormat, getUrlDl} from '../lib/y2dl.js';
 import YTDL from "../lib/ytdll.js";
 import fs from "fs";

@@ -1,5 +1,5 @@
 import fetch from 'node-fetch'
-import ytdl from 'ytdl-core'
+import ytdl from 'youtubedl-core'
 import yts from 'youtube-yts'
 import fs from 'fs'
 import { pipeline } from 'stream'
@@ -13,7 +13,7 @@ const handler = async (m, { conn, command, text, args, usedPrefix }) => {
   conn.GURUPLAY = conn.GURUPLAY ? conn.GURUPLAY : {}
   await conn.reply(m.chat, wait, m)
   const result = await searchAndDownloadMusic(text)
-  const infoText = `✦ ──『 *ᏢᎡᏆΝᏟᎬ ᏢᏞᎪᎽᎬᎡ* 』── ⚝ \n\n\n [ 🎉 ʀᴇᴘʟʏ ᴡɪᴛʜ ɴᴜᴍʙᴇʀ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ]. \n\n`
+  const infoText = `❣️ ──『 *ᏢᎡᏆΝᏟᎬ ᏢᏞᎪᎽᎬᎡ* 』── ❣️ \n\n\n [ 🎉 ʀᴇᴘʟʏ ᴡɪᴛʜ ɴᴜᴍʙᴇʀ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ]. \n\n`
 
   const orderedLinks = result.allLinks.map((link, index) => {
     const sectionNumber = index + 1

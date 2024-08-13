@@ -35,14 +35,14 @@
 "dependencies": {
 "@whiskeysockets/baileys": "^6.7.2",
 "@adiwajshing/keyed-db": "^0.2.4",
-"@bochilteam/scraper": "^4.0.22-alpha.0",
+"@bochilteam/scraper": "4.2.4",
 "@brandond/findthelyrics": "^2.0.5",
 "@green-code/music-track-data": "^2.0.3",
 "@shineiichijo/marika": "^2.0.6",
 "@vitalets/google-translate-api": "^9.2.0",
 "@xct007/tiktok-scraper": "*", 
 "acrcloud": "^1.4.0",
-"api-dylux": "^1.8.3",
+"api-dylux": "latest",
 "aptoide-scraper": "^1.0.1",
 "awesome-phonenumber": "^2.68.0",
 "axios": "^1.4.0",
@@ -63,6 +63,7 @@
 "fluent-ffmpeg": "^2.1.2",
 "formdata-node": "^4.3.2",
 "fs": "^0.0.1-security",
+"fs-extra": "^11.1.0",  
 "google-play-scraper": "^10.0.0",
 "@google/generative-ai":"0.1.3",
 "g-i-s": "^2.1.6",
@@ -87,7 +88,7 @@
 "md5": "^2.3.0",
 "moment-timezone": "^0.5.34",
 "mongoose": "^7.4.1",
-"node-fetch": "^3.2.10",
+"node-fetch": "^2.6.1",
 "node-gtts": "^2.0.2",
 "node-webpmux": "^3.1.1",
 "node-os-utils": "^1.3.6",
@@ -113,7 +114,7 @@
 "yt-search": "^2.10.3",
 "google-it": "^1.6.3",
 "youtube-yts": "^2.0.0", 
-"youtubedl-core": "*"
+"ytdl-core": "^4.11.5"
    },
     "optionalDependencies": {
          "wa-sticker-formatter": "^4.3.2",

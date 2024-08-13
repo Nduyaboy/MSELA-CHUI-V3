@@ -5,7 +5,7 @@ import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
 import ytdl from 'ytdl-core';
 import {bestFormat, getUrlDl} from '../lib/y2dl.js';
 import YTDL from "../lib/ytdll.js";
-import fs from "fs";
+import fs from "fs-extra";
 let limit1 = 100;
 let limit2 = 400;
 let limit_a1 = 50;

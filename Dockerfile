@@ -10,7 +10,7 @@ RUN apk update && \
 
 COPY package*.json .
 
-RUN yarn install
+RUN npm install && npm install qrcode-terminal
 
 COPY . .
 

@@ -1,19 +1,20 @@
-FROM node:20.10.0-alpine3.18
 
-RUN apk update && \
-  apk add --no-cache \
-  git \
+FROM node:lts-buster
+
+RUN apt-get update && \
+  apt-get install -y \
   ffmpeg \
   imagemagick \
-  libwebp-tools && \
-  rm -rf /var/cache/apk/*
+  webp && \
+  apt-get upgrade -y && \
+  rm -rf /var/lib/apt/lists/*
 
-COPY package*.json .
+COPY package.json .
 
 RUN npm install && npm install qrcode-terminal
 
 COPY . .
 
-EXPOSE 5000
+EXPOSE 3000
 
 CMD ["npm", "start"]

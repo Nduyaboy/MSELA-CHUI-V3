@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import yts from 'youtube-yts';
 import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
-import ytdl from 'ytdl-core';
+import ytdl from 'youtubedl-core';
 import {bestFormat, getUrlDl} from '../lib/y2dl.js';
 import YTDL from "../lib/ytdll.js";
 import fs from "fs-extra";
@@ -26,11 +26,11 @@ const handler = async (m, {conn, command, args, text, usedPrefix}) => {
     }
     const texto1 = `╭━━⊱🌟 Y O U T U B E 🌟⊱━━╮
     
-  🪩 Channel: ${yt_play[0].author.name}
-  📃 Title: ${yt_play[0].title}
-  ⏰ Duration: ${secondString(yt_play[0].duration.seconds)}
-  🎴 Views: ${yt_play[0].views}
-  🔗 Link: ${yt_play[0].url}
+  🌐 ${mssg.type}: ${yt_play[0].author.name}
+  📃 ${mssg.title}: ${yt_play[0].title}
+  ⏰ ${mssg.duration}: ${secondString(yt_play[0].duration.seconds)}
+  🎴 ${mssg.views}: ${yt_play[0].views}
+  🔗 ${mssg.link}: ${yt_play[0].url}
 ⊱─━⊱༻ⓅⓇⒾⓃⒸⒺⒷⓄⓉ༺⊰━─⊰`;
     conn.sendMessage(m.chat, {image: {url: yt_play[0].thumbnail}, caption: texto1}, {quoted: m});
     if (command == 'play') {

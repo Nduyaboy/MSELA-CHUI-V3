@@ -218,36 +218,36 @@ case 'autobio':
       
     default:
      if (!/[01]/.test(command)) return m.reply(`
-╭━⊱⊱⊱『 *🪩ᴏɴ/ᴏғғ ᴍᴇɴᴜ🪩* 』⊱⊱⊱━╮
+╭━⊱⊱⊱『 *🌐𝐎𝐍/𝐎𝐅𝐅 𝐌𝐄𝐍𝐔🌐* 』⊱⊱⊱━╮
 
-╭━━━━⊱『 *ᴏᴡɴᴇʀ*』⊱━━━━╮
-│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴘᴍʙʟᴏᴄᴋᴇʀ
-│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴏɴʟʏᴅᴍ
-│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ɢʀᴏᴜᴘᴏɴʟʏ
-│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴀᴜᴛᴏᴛʏᴘᴇ
-│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴀᴜᴛᴏʙɪᴏ
-│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴀɴᴛɪʙᴏᴛᴄʟᴏɴᴇ
+╭━━━━⊱『 *𝐎𝐖𝐍𝐄𝐑*』⊱━━━━╮
+│⛊ ${usedPrefix}𝗣𝗠𝗕𝗟𝗢𝗖𝗞𝗘𝗥
+│⛊ ${usedPrefix}𝗢𝗡𝗟𝗬𝗗𝗠
+│⛊ ${usedPrefix}𝗚𝗥𝗢𝗨𝗣𝗢𝗡𝗟𝗬
+│⛊ ${usedPrefix}𝗔𝗨𝗧𝗢𝗧𝗬𝗣𝗘
+│⛊ ${usedPrefix}𝗔𝗨𝗧𝗢𝗕𝗜𝗢
+│⛊ ${usedPrefix}𝗔𝗡𝗧𝗜𝗕𝗢𝗧𝗖𝗟𝗢𝗡𝗘
+│⛊ ${usedPrefix}𝗔𝗡𝗧𝗜𝗖𝗔𝗟𝗟
 ╰━━━━━━━━━━━━━━━╯
-╭━━━━⊱『 *Aᴅᴍɪɴ*』⊱━━━━╮
-│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴡᴇʟᴄᴏᴍᴇ
-│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴀɴᴛɪʟɪɴᴋ
-│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴀᴜᴛᴏsᴛɪᴄᴋᴇʀ
-│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴅᴇᴛᴇᴄᴛ
-│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴊᴀʀᴠɪs
-│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴀɴᴛɪsᴘᴀᴍ
-│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴀɴᴛɪᴛᴏxɪᴄ
+╭━━━━⊱『 *𝐀𝐃𝐌𝐈𝐍*』⊱━━━━╮
+│⛊ ${usedPrefix}𝗪𝗘𝗟𝗖𝗢𝗠𝗘
+│⛊ ${usedPrefix}𝗔𝗡𝗧𝗜𝗟𝗜𝗡𝗞
+│⛊ ${usedPrefix}𝗗𝗘𝗧𝗘𝗖𝗧
+│⛊ ${usedPrefix}𝗝𝗔𝗥𝗩𝗜𝗦
+│⛊ ${usedPrefix}𝗔𝗡𝗧𝗜𝗦𝗣𝗔𝗠
+│⛊ ${usedPrefix}𝗔𝗡𝗧𝗜𝗧𝗢𝗫𝗜𝗖
 ╰━━━━━━━━━━━━━━╯
-╭━━━━⊱『 *ᴜsᴇʀs*』⊱━━━━╮
-│⛊ ${usedPrefix}ᴏɴ/ᴏғғ ᴄʜᴀᴛʙᴏᴛ 
+╭━━━━⊱『 *𝗨𝗦𝗘𝗥𝗦*』⊱━━━━╮
+│⛊ ${usedPrefix}𝗖𝗛𝗔𝗧𝗕𝗢𝗧 
 ╰━━━━━━━━━━━━━━╯
-*🔻Exᴀᴍᴘʟᴇ🔻 :*
-*${usedPrefix}ᴏɴ* ᴡᴇʟᴄᴏᴍᴇ
-*${usedPrefix}ᴏғғ* ᴡᴇʟᴄᴏᴍᴇ
+*🔻𝐄𝐗𝐀𝐌𝐏𝐋𝐄🔻 :*
+*${usedPrefix}𝗢𝗡* 𝗪𝗘𝗟𝗖𝗢𝗠𝗘
+*${usedPrefix}𝗢𝗙𝗙* 𝗪𝗘𝗟𝗖𝗢𝗠𝗘
 `)
       throw false
   }
 
-m.reply(`✅ *${type}* 𝙷𝚊𝚜 𝚋𝚎𝚎𝚗 *${isEnable ? '𝙰𝚌𝚝𝚒𝚟𝚊𝚝𝚎𝚍' : '𝙳𝚎𝚊𝚌𝚝𝚒𝚟𝚊𝚝𝚎𝚍'}* ${isAll ? '𝙵𝚘𝚛 𝚝𝚑𝚒𝚜 𝙶𝚛𝚘𝚞𝚙' : isUser ? '' : '𝙵𝚘𝚛 𝚝𝚑𝚒𝚜 𝙲𝚑𝚊𝚝'}
+m.reply(`✅ *${type}* 𝘏𝘈𝘚 𝘉𝘌𝘌𝘕 *${isEnable ? '𝘈𝘊𝘛𝘐𝘝𝘈𝘛𝘌𝘋' : '𝘋𝘌𝘈𝘊𝘛𝘐𝘝𝘈𝘛𝘌𝘋'}* ${isAll ? '𝘍𝘖𝘙 𝘛𝘏𝘐𝘚 𝘎𝘙𝘖𝘜𝘗' : isUser ? '' : '𝘍𝘖𝘙 𝘛𝘏𝘐𝘚 𝘊𝘏𝘈𝘛'}
 `.trim()) 
 
 }

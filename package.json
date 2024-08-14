@@ -36,6 +36,7 @@
 "@whiskeysockets/baileys": "npm:@whiskeysockets/baileys@6.7.2",
 "@adiwajshing/keyed-db": "^0.2.4",
 "@bochilteam/scraper": "^4.2.4",
+"@bochilteam/scraper-youtube": "*"
 "@brandond/findthelyrics": "^2.0.5",
 "@green-code/music-track-data": "^2.0.3",
 "@shineiichijo/marika": "^2.0.6",

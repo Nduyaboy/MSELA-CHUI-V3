@@ -13,7 +13,7 @@ var handler = async (m, {
   usedPrefix
 }) => {
   if (!text) {
-    throw `Contoh: ${usedPrefix + command} cupid`;
+    throw `${mssg.example}: ${usedPrefix + command} Naat`;
   }
   m.reply(wait);
   try {
@@ -40,7 +40,7 @@ var handler = async (m, {
               'text': teks
             }),
             'footer': proto.Message.InteractiveMessage.Footer.create({
-              'text': wm
+              'text': packname
             }),
             'header': proto.Message.InteractiveMessage.Header.create({
               'hasMediaAttachment': false,

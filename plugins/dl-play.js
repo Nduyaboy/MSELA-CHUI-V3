@@ -1,71 +1,84 @@
-import yts from 'youtube-yts'
-import fg from 'api-dylux'
-import { youtubedl, youtubedlv2 } from '@bochilteam/scraper-youtube'
-let limit = 320
-let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, command }) => {
-  
-    if (!text) throw `✳️ Example: *${usedPrefix + command}* Subha Taiba main Owais Raza Qadri Naat`
-  let chat = global.db.data.chats[m.chat]
-  let res = await yts(text)
-  //let vid = res.all.find(video => video.seconds < 3600)
-  let vid = res.videos[0]
-  if (!vid) throw `✳️ Video/Audio No found`
-  let isVideo = /vid$/.test(command)
-  m.react('🎧') 
-  
-  let play = `
-╭━━⊱│✫PRINCE YTDL✫│⊱━━╮
-│✫ -📌 *TITLE:* ${vid.title}
-│✫ -📆 *UPLOAD:* ${vid.ago}
-│✫ -⌚ *DURATION:* ${vid.timestamp}
-│✫ -👀 *VIEWS:* ${vid.views.toLocaleString()}
-╰━━━━━━━━━━━━━━━━━━╯
+import ytdl from 'youtubedl-core';
+import yts from 'yt-search';
+import fs from 'fs';
+import { pipeline } from 'stream';
+import { promisify } from 'util';
+import os from 'os';
+const streamPipeline = promisify(pipeline);
 
-_Downloading..._` 
-conn.sendFile(m.chat, vid.thumbnail, 'play', play, m, null)
-  
-  let q = isVideo ? '360p' : '128kbps' 
-try {
-  let yt = await (isVideo ? fg.ytv : fg.yta)(vid.url, q)
-  let { title, dl_url, quality, size, sizeB } = yt
-  let isLimit = limit * 1024 < sizeB 
-
-     await conn.loadingMsg(m.chat, '📥 Downloading', ` ${isLimit ? `≡  *PRINCE YTDL*\n\n▢ *⚖️SIZE*: ${size}\n▢ *🎞️QUALITY*: ${quality}\n\n▢ _LIMITDL_ *+${limit} MB*` : '✅ Download Completed' }`, ["▬▭▭▭▭▭", "▬▬▭▭▭▭", "▬▬▬▭▭▭", "▬▬▬▬▭▭", "▬▬▬▬▬▭", "▬▬▬▬▬▬"], m)
-     
-	  if(!isLimit) conn.sendFile(m.chat, dl_url, title + '.mp' + (3 + /vid$/.test(command)), `
- 
-╭━━⊱│✫ - 「PRINCE YTDL」 - ✫│⊱━━╮ 
-│✫ - *📌Title* : ${title}
-│✫ - *🎞️Pixels* : ${quality}
-│✫ - *⚖️Size* : ${size}
-`.trim(), m, false, { mimetype: isVideo ? '' : 'audio/mpeg', asDocument: chat.useDocument })
-		m.react(done) 
-  } catch {
+var handler = async (m, {
+  conn,
+  command,
+  text,
+  usedPrefix
+}) => {
+  if (!text) {
+    throw `Contoh: ${usedPrefix + command} cupid`;
+  }
+  m.reply(wait);
   try {
-//  let q = isVideo ? '360p' : '128kbps' 
-  let yt = await (isVideo ? fg.ytmp4 : fg.ytmp3)(vid.url, q)
-  let { title, dl_url, quality, size, sizeB } = yt
-  let isLimit = limit * 1024 < sizeB 
+    let results = await yts(text);
+    let tes = results.all[0]
+    let {
+      title,
+      thumbnail,
+      timestamp,
+      views,
+      ago,
+      url
+    } = tes;
+    let teks = "\n*" + title + "*" + "\n\n*${mssg.duration}:* " + timestamp + "\n*${mssg.views}:* " + views + "\n*${mssg.aploud}:* " + ago + "\n*${mssg.link}:* " + url + "\n";
+    let msg = generateWAMessageFromContent(m.chat, {
+      'viewOnceMessage': {
+        'message': {
+          'messageContextInfo': {
+            'deviceListMetadata': {},
+            'deviceListMetadataVersion': 0x2
+          },
+          'interactiveMessage': proto.Message.InteractiveMessage.create({
+            'body': proto.Message.InteractiveMessage.Body.create({
+              'text': teks
+            }),
+            'footer': proto.Message.InteractiveMessage.Footer.create({
+              'text': wm
+            }),
+            'header': proto.Message.InteractiveMessage.Header.create({
+              'hasMediaAttachment': false,
+              ...(await prepareWAMessageMedia({
+                'image': {
+                  'url': thumbnail
+                }
+              }, {
+                'upload': conn.waUploadToServer
+              }))
+            }),
+            'nativeFlowMessage': proto.Message.InteractiveMessage.NativeFlowMessage.create({
+              'buttons': [{
+                'name': "quick_reply",
+                'buttonParamsJson': "{\"display_text\":\"Audio🎵\",\"id\":\".yta " + url + "\"}"
+              }, {
+                'name': "quick_reply",
+                'buttonParamsJson': "{\"display_text\":\"Video📹\",\"id\":\".ytv " + url + "\"}"
+              }]
+            })
+          })
+        }
+      }
+    }, {
+      'quoted': m
+    });
+    return await conn.relayMessage(m.chat, msg.message, {});
+  } catch (err) {
+    conn.sendFile(m.chat, eror, "anu.mp3", null, m, true, {
+      'type': "audioMessage",
+      'ptt': true
+    });
+  }
+};
 
-     await conn.loadingMsg(m.chat, '📥 Downloading', ` ${isLimit ? `≡  *PRINCE YTDL*\n\n▢ *⚖️SIZE*: ${size}\n▢ *🎞️QUALITY*: ${quality}\n\n▢ _LIMITDL_ *+${limit} MB*` : '✅ Download Completed' }`, ["▬▭▭▭▭▭", "▬▬▭▭▭▭", "▬▬▬▭▭▭", "▬▬▬▬▭▭", "▬▬▬▬▬▭", "▬▬▬▬▬▬"], m)
-	  if(!isLimit) conn.sendFile(m.chat, dl_url, title + '.mp' + (3 + /2$/.test(command)), `
- 
-╭━━⊱│✫ - 「PRINCE YTDL」 - ✫│⊱━━╮
-  
-*📌TITLE* : ${title}
-*🎞️QUALITY* : ${quality}
-*⚖️SIZE* : ${size}
-`.trim(), m, false, { mimetype: isVideo ? '' : 'audio/mpeg', asDocument: chat.useDocument })
-		m.react(done) 
-		
-		 } catch (error) {
-        m.reply(`❎ ERROR`)
-    }
-}
+handler.help = ['play'].map((v) => v + ' <query>');
+handler.tags = ['downloader'];
+handler.command = /^(play|song|lagu|music)$/i;
 
-}
-handler.help = ['play']
-handler.tags = ['downloader']
-handler.command = ['play', 'playvid']
 
-export default handler
+export default handler;

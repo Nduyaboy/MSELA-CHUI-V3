@@ -1,49 +1,37 @@
-import {
-    smsg
-} from "./lib/simple.js"
-import {
-    format
-} from "util"
-import {
-    fileURLToPath
-} from "url"
-import path, {
-    join
-} from "path"
-import {
-    unwatchFile,
-    watchFile,
-    readFileSync
-} from "fs"
-import chalk from "chalk"
-import fetch from "node-fetch"
+import { smsg } from './lib/simple.js'
+import { format } from 'util'
+import { fileURLToPath } from 'url'
+import path, { join } from 'path'
+import { unwatchFile, watchFile } from 'fs'
+import chalk from 'chalk'
+import fetch from 'node-fetch'
+import Pino from 'pino'
 
-import {
-    WelcomeLeave
-} from "./lib/welcome.js"
 /**
  * @type {import("@whiskeysockets/baileys")}
  */
-const isNumber = x => typeof x === "number" && !isNaN(x)
-const delay = ms => isNumber(ms) && new Promise(resolve => setTimeout(function() {
-    clearTimeout(this)
-    resolve()
-}, ms))
+const isNumber = x => typeof x === 'number' && !isNaN(x)
+const delay = ms =>
+  isNumber(ms) &&
+  new Promise(resolve =>
+    setTimeout(function () {
+      clearTimeout(this)
+      resolve()
+    }, ms)
+  )
 
 /**
  * Handle messages upsert
- * @param {import("@whiskeysockets/baileys").BaileysEventMap<unknown>["messages.upsert"]} groupsUpdate 
+ * @param {import("@whiskeysockets/baileys").BaileysEventMap<unknown>["messages.upsert"]} groupsUpdate
  */
-const {
-    getAggregateVotesInPollMessage,
-    makeInMemoryStore
-} = await (await import('@whiskeysockets/baileys')).default;
-import Pino from "pino"
+const { getAggregateVotesInPollMessage, makeInMemoryStore } = await (
+  await import('@whiskeysockets/baileys')
+).default
 const store = makeInMemoryStore({
-    logger: Pino().child({
-        level: 'fatal',
-        stream: 'store'
-    })
+  logger: Pino().child({
+    level: 'fatal',
+    stream: 'store',
+  }),
 })
 export async function handler(chatUpdate) {
     this.msgqueque = this.msgqueque || []

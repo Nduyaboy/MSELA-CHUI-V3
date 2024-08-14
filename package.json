@@ -33,7 +33,7 @@
 "url": "https://github.com/PRINCE-GDS/PRINCE-MD-BOT/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
-"@whiskeysockets/baileys": "^6.7.2",
+"@whiskeysockets/baileys": "npm:@whiskeysockets/baileys@6.7.2",
 "@adiwajshing/keyed-db": "^0.2.4",
 "@bochilteam/scraper": "^4.2.4",
 "@brandond/findthelyrics": "^2.0.5",
@@ -51,7 +51,7 @@
 "cfonts": "^3.2.0",
 "chess.js": "*",
 "chalk": "^5.1.0",
-"cheerio": "^1.0.0-rc.10",
+"cheerio": "^1.0.0-rc.12",
 "colors": "^1.4.0",
 "countries-and-timezones": "^3.6.0",
 "dotenv": "^16.1.4",
@@ -115,9 +115,12 @@
 "google-it": "^1.6.3",
 "youtube-yts": "^2.0.0", 
 "youtubedl-core": "github:khlevon/node-ytdl-core#v4.11.4-patch.2"
-   },
-"devDependencies": {
-"eslint": "^8.45.0",
-"eslint-config-google": "^0.14.0",
-"prettier": "^3.2.5"
-}}
+},
+  "optionalDependencies": {
+    "@xct007/frieren-scraper": "github:xct007/frieren-scraper"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}

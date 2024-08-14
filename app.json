@@ -41,7 +41,7 @@
       "required": true,
       "value": "ᴛʜᴇ-ᴘʀɪɴᴄᴇ-ᴍᴅ-ʙᴏᴛ"
       },
-    "ANTI_LINK": {
+    "antilink": {
       "description": "If you want to turn off antilink then make it false",
       "required": false,
       "value": "true"

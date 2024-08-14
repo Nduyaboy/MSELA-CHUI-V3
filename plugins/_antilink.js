@@ -8,7 +8,8 @@ export async function before(m, {conn, isAdmin, isBotAdmin }) {
     let bot = global.db.data.settings[this.user.jid] || {}
     const isGroupLink = linkRegex.exec(m.text)
 
-    if (process.env.antiLink && isGroupLink && !isAdmin) {
+    if (typeof process.env.antilink === 'undefined' || process.env.antilink.toLowerCase() === 'false') return;
+        if (&& isGroupLink && !isAdmin) {
         if (isBotAdmin) {
             const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
             if (m.text.includes(linkThisGroup)) return !0

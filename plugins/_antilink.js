@@ -5,7 +5,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin }) {
     if (m.isBaileys && m.fromMe)
         return !0
     if (!m.isGroup) return !1
-    let chat = process.env.antilink
+    let chat = global.db.data.chats[m.chat]
     let bot = global.db.data.settings[this.user.jid] || {}
     const isGroupLink = linkRegex.exec(m.text)
 

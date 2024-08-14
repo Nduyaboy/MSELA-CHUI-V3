@@ -1,4 +1,4 @@
-import {youtubedl, youtubedlv2} from '@bochilteam/scraper';
+import {youtubedl, youtubedlv2} from '@bochilteam/scraper-youtube';
 import fetch from 'node-fetch';
 const handler = async (m, {conn, args}) => {
   if (!args[0]) throw '*🚩Need a Youtube Link...*';

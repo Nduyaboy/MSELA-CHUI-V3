@@ -7,350 +7,357 @@ let handler = async (m, { args, usedPrefix, command }) => {
     const daftarsurah = `${mssg.example}:
 .alquran 1 2
 
-maka hasilnya adalah surah Al-Fatihah ayat 2 beserta audionya, & ayatnya 1 saja
+surah number and ayat number e.g .alqruan 36 1 this is surah Yaseen Ayat Number 1 
 
-Nama-nama Surah:
-1. Surat الفاتحة (Surah Al-Fatihah (Pembukaan The Opening)), 7 ayat | مكة
-Surat Al Faatihah (Pembukaan) yang diturunkan di Mekah dan terdiri dari 7 ayat adalah surat yang pertama-tama diturunkan dengan lengkap  diantara surat-surat yang ada dalam Al Quran dan termasuk golongan surat Makkiyyah. Surat ini disebut Al Faatihah (Pembukaan), karena dengan surat inilah dibuka dan dimulainya Al Quran. Dinamakan Ummul Quran (induk Al Quran) atau Ummul Kitaab (induk Al Kitaab) karena dia merupakan induk dari semua isi Al Quran, dan karena itu diwajibkan membacanya pada tiap-tiap sembahyang. Dinamakan pula As Sab'ul matsaany (tujuh yang berulang-ulang) karena ayatnya tujuh dan dibaca berulang-ulang dalam sholat.
+then the result is surah Al-Fatihah verse 2 and its audio, & verse 1 only
+پھر اس کا نتیجہ سورۂ فاتحہ آیت 2 اور اس کی آڈیو اور صرف آیت 1 ہے۔ 
 
-2. Surat البقرة (Surah Al-Baqarah (Sapi The Cow)), 286 ayat | مدينة
-Surat Al Baqarah yang 286 ayat itu turun di Madinah yang sebahagian besar diturunkan pada permulaan tahun Hijrah, kecuali ayat 281 diturunkan di Mina pada Hajji wadaa' (hajji Nabi Muhammad s.a.w. yang terakhir). Seluruh ayat dari surat Al Baqarah termasuk golongan Madaniyyah, merupakan surat yang terpanjang di antara surat-surat Al Quran yang di dalamnya terdapat pula ayat yang terpancang (ayat 282). Surat ini dinamai Al Baqarah karena di dalamnya disebutkan kisah penyembelihan sapi betina yang diperintahkan Allah kepada Bani Israil (ayat 67 sampai dengan 74), dimana dijelaskan watak orang Yahudi pada umumnya. Dinamai Fusthaatul-Quran (puncak Al Quran) karena memuat beberapa hukum yang tidak disebutkan dalam surat yang lain. Dinamai juga surat  alif-laam-miim karena surat ini dimulai dengan Alif-laam-miim.
+سورہ کے نام:
 
-3. Surat آل عمران (Surah Ali 'Imran (Keluarga Imran The Family of Imraan)), 200 ayat | مدينة
-Surat Ali 'Imran yang terdiri dari 200 ayat ini adalah surat Madaniyyah.  Dinamakan Ali 'Imran karena memuat kisah keluarga 'Imran yang di dalam kisah itu disebutkan kelahiran Nabi Isa a.s., persamaan kejadiannya dengan Nabi Adam a. s., kenabian dan beberapa mukjizatnya, serta disebut pula kelahiran Maryam puteri 'Imran, ibu dari Nabi Isa a.s. Surat Al Baqarah dan Ali 'Imran ini dinamakan Az Zahrawaani (dua yang cemerlang), karena kedua surat ini menyingkapkan hal-hal yang disembunyikan oleh para Ahli Kitab, seperti kejadian dan kelahiran Nabi Isa a.s., kedatangan Nabi Muhammad s.a.w. dan sebagainya.
+1. سورہ الفاتحة (سورۃ الفاتحہ)، 7 آیات | مكة
+سورہ فاتحہ جو مکہ میں نازل ہوئی اور 7 آیات پر مشتمل ہے قرآن کے حروف میں سے مکمل طور پر نازل ہونے والا پہلا حرف ہے اور مکیہ سورہ گروپ میں شامل ہے۔ اس حرف کو الفاتحہ کہتے ہیں کیونکہ اس حرف سے قرآن کھلتا اور شروع ہوتا ہے۔ اسے ام القرآن (قرآن کی ماں) یا ام الکتاب (الکتاب کی ماں) کہا جاتا ہے کیونکہ یہ قرآن کے تمام مواد کی ماں ہے، اس لیے اسے ہر نماز میں پڑھنا لازمی ہے۔ اس کو سب المتسانی (سات دہرائے جانے والے) بھی کہا جاتا ہے کیونکہ اس میں سات آیات ہیں اور نماز میں بار بار پڑھی جاتی ہیں۔
 
-4. Surat النساء (Surah An-Nisa' (Wanita The Women)), 176 ayat | مدينة
-Surat An Nisaa' yang terdiri dari 176 ayat itu, adalah surat Madaniyyah yang terpanjang sesudah surat Al Baqarah. Dinamakan An Nisaa' karena dalam surat ini banyak dibicarakan hal-hal yang berhubungan dengan wanita serta merupakan surat yang paling membicarakan hal itu dibanding dengan surat-surat yang lain. Surat yang lain banyak juga yang membicarakan tentang hal wanita ialah surat Ath Thalaq. Dalam hubungan ini biasa disebut surat An Nisaa' dengan sebutan: Surat An Nisaa' Al Kubraa (surat An Nisaa' yang besar), sedang  surat Ath Thalaq disebut dengan sebutan: Surat An Nisaa' Ash Shughraa (surat An Nisaa' yang kecil).
+2. سورہ البقرة (سورہ البقرہ (گائے))، 286 آیات | مدينة
+سورہ بقرہ کی 286 آیات مدینہ منورہ میں نازل ہوئیں، جن میں سے زیادہ تر ہجرت کے سال کے آغاز میں نازل ہوئیں، سوائے آیت 281 کے جو منیٰ میں حجی وداع (پیغمبر اکرم صلی اللہ علیہ وسلم کے آخری حج) پر نازل ہوئی تھی۔ سورہ بقرہ کی تمام آیات مدنی گروپ سے تعلق رکھتی ہیں، یہ قرآن کے حروف میں سب سے لمبا خط ہے جس میں ایک مقررہ آیت (آیت 282) بھی ہے۔ اس خط کو البقرہ کہا جاتا ہے کیونکہ اس میں ایک گائے کے ذبح کی کہانی کا ذکر ہے جس کا اللہ نے بنی اسرائیل کو حکم دیا تھا (آیت 67 تا 74) جہاں عام طور پر یہودیوں کے کردار کی وضاحت کی گئی ہے۔ اس کا نام فصطح القرآن (قرآن کی چوٹی) رکھا گیا ہے کیونکہ اس میں کئی ایسے قوانین ہیں جن کا دوسرے حروف میں ذکر نہیں ہے۔ اسے الف لام میم بھی کہا جاتا ہے کیونکہ یہ حرف الف لام میم سے شروع ہوتا ہے۔
 
-5. Surat المائدة (Surah Al-Ma'idah (Hidangan The Table)), 120 ayat | مدينة
-Surat Al Maa'idah terdiri dari 120 ayat; termasuk golongan surat Madaniyyah. Sekalipun ada ayatnya yang turun di Mekah, namun ayat ini diturunkan sesudah Nabi Muhammad s.a.w. hijrah ke Medinah, yaitu di waktu haji wadaa'. Surat ini dinamakan Al Maa'idah (hidangan) karena memuat kisah pengikut-pengikut setia Nabi Isa a.s. meminta kepada Nabi Isa a.s. agar Allah menurunkan untuk mereka Al Maa'idah (hidangan makanan) dari langit (ayat 112). Dan dinamakan Al Uqud (perjanjian), karena kata itu terdapat pada ayat pertama surat ini, dimana Allah menyuruh agar hamba-hamba-Nya memenuhi janji prasetia terhadap Allah dan perjanjian-perjanjian yang mereka buat sesamanya. Dinamakan juga Al Munqidz (yang menyelamatkan), karena akhir surat ini mengandung kisah tentang Nabi Isa a.s. penyelamat pengikut-pengikut setianya dari azab Allah.
+3. سورہ آل عمران (سورہ علی 'عمران (خاندان عمران دی فیملی آف عمران)) 200 آیات | مدينة
+سورہ علی عمران جو 200 آیات پر مشتمل ہے ایک مدنی خط ہے۔  اسے علی عمران اس لیے کہا جاتا ہے کہ اس میں خاندانِ عمران کی کہانی ہے، جس میں حضرت عیسیٰ علیہ السلام کی پیدائش کا ذکر ہے، یہ واقعہ حضرت آدم علیہ السلام سے ملتا جلتا ہے۔ s.، نبوت اور متعدد معجزات، اور حضرت عیسیٰ علیہ السلام کی والدہ مریم بنت عمران کی ولادت کا بھی ذکر ہے۔ حروف البقرہ اور علی عمران کو عز زہراوانی کہا جاتا ہے کیونکہ یہ دونوں خطوط ان چیزوں کو ظاہر کرتے ہیں جنہیں اہل کتاب نے پوشیدہ رکھا تھا، جیسے واقعات اور حضرت عیسیٰ علیہ السلام کی ولادت، آمد۔ نبی کریم صلی اللہ علیہ وسلم کی وغیرہ
 
-6. Surat الأنعام (Surah Al-An'am (Binatang Ternak The Cattle)), 165 ayat | مكة
-Surat Al An'aam (binatang ternak: unta, sapi, biri-biri dan kambing) yang terdiri atas 165 ayat, termasuk golongan surat Makkiyah, karena hampur seluruh ayat-ayat-Nya diturunkan di Mekah dekat sebelum hijrah. Dinamakan Al An'aam karena di dalamnya disebut kata An'aam dalam hubungan dengan adat-istiadat kaum musyrikin, yang menurut mereka binatang-binatang ternak itu dapat dipergunakan untuk mendekatkan diri kepada tuhan mereka. Juga dalam surat ini disebutkan hukum-hukum yang berkenaan dengan binatang ternak itu.
+4. سورہ النساء (سورہ نساء)، 176 آیات | مدينة
+سورہ نساء، جو 176 آیات پر مشتمل ہے، سورہ بقرہ کے بعد سب سے لمبی مدنی سورت ہے۔ اسے النساء کہا جاتا ہے کیونکہ اس خط میں عورتوں سے متعلق بہت سی باتوں کا ذکر کیا گیا ہے اور دوسرے خطوط کے مقابلے میں اس خط میں سب سے زیادہ بات کی گئی ہے۔ ایک اور خط جو خواتین کے بارے میں بھی بات کرتا ہے وہ ہے اطلاق کا خط۔ اس سلسلے میں عام طور پر ان النساء خط کو کہا جاتا ہے: النساء الکبریٰ خط (بڑا عن النساء خط)، جبکہ اطلاق خط کو کہا جاتا ہے: النساء اششغرا (چھوٹا اننساء خط) )۔
 
-7. Surat الأعراف (Surah Al-A'raf (Tempat Tertinggi The Heights)), 206 ayat | مكة
-Surat Al A'raaf yang berjumlah 206 ayat termasuk golongan surat Makkiyah, diturunkan sebelum turunnya surat Al An'aam dan termasuk golongan surat Assab 'uththiwaal (tujuh surat yang panjang). Dinamakan Al A'raaf karena perkataan Al A'raaf terdapat dalam ayat 46 yang mengemukakan tentang keadaan orang-orang yang berada di atas Al A'raaf yaitu: tempat yang tertinggi di batas surga dan neraka.
+5. سورہ المائدة (سورۃ المائدۃ (دسترخوان کے برتن))، 120 آیات | مدينة
+سورہ مائدہ 120 آیات پر مشتمل ہے۔ مدنی سورہ گروپ سمیت۔ اگرچہ مکہ میں نازل ہونے والی ایک آیت ہے، لیکن یہ آیت رسول اللہ صلی اللہ علیہ وسلم کے بعد نازل ہوئی۔ مدینہ کی طرف ہجرت کی، یعنی حج وداع کے وقت۔ اس خط کو المائدہ (پکوان) کہا جاتا ہے کیونکہ اس میں حضرت عیسیٰ علیہ السلام کے وفادار پیروکاروں کی کہانی ہے۔ حضرت عیسیٰ علیہ السلام سے پوچھا۔ تاکہ اللہ ان کے لیے آسمان سے المائدۃ (کھانے کے پکوان) اتارے (آیت 112)۔ اور اسے عقد (عہد) کہا جاتا ہے، کیونکہ یہ لفظ اس خط کی پہلی آیت میں موجود ہے، جہاں اللہ تعالیٰ اپنے بندوں کو حکم دیتا ہے کہ وہ اللہ کے ساتھ وفاداری کا وعدہ اور ایک دوسرے کے ساتھ کیے گئے معاہدوں کو پورا کریں۔ اسے المنقدز (بچانے والا) بھی کہا جاتا ہے، کیونکہ اس خط کے آخر میں حضرت عیسیٰ علیہ السلام کا قصہ ہے۔ اپنے وفادار پیروکاروں کو اللہ کے عذاب سے بچانے والا۔
 
-8. Surat الأنفال (Surah Al-Anfal (Rampasan Perang The Spoils of War)), 75 ayat | مدينة
-Surat Al Anfaal terdiri atas 75 ayat dan termasuk golongan surat-surat Madaniyyah, karena seluruh ayat-ayatnya diturunkan di Madinah. Surat ini dinamakan Al Anfaal yang berarti harta rampasan perang berhubung kata Al Anfaal terdapat pada permulaan surat ini dan juga persoalan yang menonjol dalam surat ini ialah tentang harta rampasan perang, hukum perang dan hal-hal yang berhubungan dengan peperangan pada umumnya. Menurut riwayat Ibnu Abbas r.a. surat ini diturunkan berkenaan dengan perang Badar Kubra yang terjadi pada tahun kedua hijrah. Peperangan ini sangat penting artinya, karena dialah yang menentukan jalan sejarah Perkembangan Islam. Pada waktu itu umat Islam dengan berkekuatan kecil untuk pertama kali dapat mengalahkan kaum musyrikin yang berjumlah besar, dan berperlengkapan yang cukup, dan mereka dalam peperangan ini memperoleh harta rampasan perang yang tidak sedikit. Oleh sebab itu timbullah masalah bagaimana membagi harta-harta rampasan perang itu, maka kemudian Allah menurunkan ayat pertama dari surat ini.
+6. سورۃ الأنعام (سورۃ الانعام)، 165 آیات | مكة
+سورہ انعام (مویشیوں کے جانور: اونٹ، گائے، بھیڑ اور بکری) جو 165 آیات پر مشتمل ہے، مکی سورہ گروپ میں شامل ہے، کیونکہ اس کی تقریباً تمام آیات ہجرت سے پہلے مکہ میں نازل ہوئی تھیں۔ اسے الانعام اس لیے کہا جاتا ہے کہ اس میں لفظ انعام کا ذکر مشرکین کے رسم و رواج کے حوالے سے کیا گیا ہے جن کے مطابق مویشیوں کو اپنے معبود کا قرب حاصل کرنے کے لیے استعمال کیا جا سکتا ہے۔ اس خط میں مویشیوں سے متعلق قوانین کا بھی ذکر ہے۔
 
-9. Surat التوبة (Surah At-Taubah (Pengampunan The Repentance)), 129 ayat | مدينة
-Surat At Taubah terdiri atas 129 ayat termasuk golongan surat-surat Madaniyyah. Surat ini dinamakan At Taubah yang berarti pengampunan berhubung kata At Taubah berulang kali disebut dalam surat ini. Dinamakan juga dengan Baraah yang berarti berlepas diri yang di sini maksudnya pernyataan pemutusan perhubungan, disebabkan kebanyakan pokok pembicaraannya tentang pernyataan pemutusan perjanjian damai dengan kaum musyrikin.  Di samping kedua nama yang masyhur itu ada lagi beberapa nama yang lain yang merupakan sifat dari surat ini.  Berlainan dengan surat-surat yang lain, maka pada permulaan surat ini tidak terdapat basmalah, karena surat ini adalah pernyataan perang dengan arti bahwa segenap kaum muslimin dikerahkan untuk memerangi seluruh kaum musyrikin, sedangkan basmalah bernafaskan perdamaian dan cinta kasih Allah.  Surat ini diturunkan sesudah Nabi Muhammad s.a.w. kembali dari peperangan Tabuk yang terjadi pada tahun 9 H. Pengumuman ini disampaikan oleh Saidina 'Ali r.a. pada musim haji tahun itu juga.
+7. سورۃ الأعراف (سورۃ الاعراف) 206 آیات | مكة
+سورہ الاعراف جس کی 206 آیات ہیں، مکیہ سورہ گروپ میں شامل ہے، جو الانعام سورہ کے نزول سے پہلے نازل ہوئی تھی اور اصحاب الثالث سورہ گروپ (سات لمبی سورتوں) میں شامل ہے۔ اسے الاعراف اس لیے کہا جاتا ہے کہ لفظ اعراف آیت نمبر 46 میں موجود ہیں جو کہ ان لوگوں کی حالت کی وضاحت کرتی ہے جو اعراف سے اوپر ہیں، یعنی: جنت اور جہنم کی سرحد پر بلند ترین مقام۔
 
-10. Surat يونس (Surah Yunus (Yunus Jonas)), 109 ayat | مكة
-Surat Yunus terdiri atas 109 ayat, termasuk golongan surat-surat Makkiyyah kecuali ayat 40, 94, 95, yang diturunkan pada masa Nabi Muhmmad s.a.w. berada di Madinah. Surat ini dinamai surat Yunus karena dalam surat ini terutama ditampilkan kisah Nabi Yunus a.s. dan pengikut-pengikutnya yang teguh imannya.
+8. سورت الأنفال (سورۃ الانفال (جنگ کے غنیمت)، 75 آیات | مدينة
+سورہ الانفال 75 آیات پر مشتمل ہے اور اسے مدنی سورہ گروپ میں شامل کیا گیا ہے کیونکہ اس کی تمام آیات مدینہ میں نازل ہوئیں۔ اس خط کو الانفال کہا جاتا ہے جس کا مطلب ہے جنگ کا سامان کیونکہ اس خط کے شروع میں لفظ الانفال آیا ہے اور اس خط میں جو مسائل بھی نمایاں ہیں وہ غنیمتوں کے بارے میں ہیں، جنگ کے قوانین اور جنگ سے متعلق امور۔ جنرل ابن عباس رضی اللہ عنہ کی تاریخ کے مطابق یہ خط جنگ بدر کبریٰ کے سلسلے میں نازل ہوا تھا جو ہجری کے دوسرے سال ہوئی تھی۔ یہ جنگ بہت اہم ہے، کیونکہ اسی نے اسلامی ترقی کے تاریخی راستے کا تعین کیا تھا۔ اس وقت مسلمانوں نے ایک قلیل فوج کے ساتھ پہلی بار مشرکین کو شکست دی جو کہ تعداد میں بہت زیادہ تھے اور اس جنگ میں انہیں بہت زیادہ مال غنیمت حاصل ہوا۔ چنانچہ مسئلہ یہ پیدا ہوا کہ غنیمت کی تقسیم کیسے کی جائے تو اللہ تعالیٰ نے اس خط کی پہلی آیت نازل فرمائی۔
 
-11. Surat هود (Surah Hud (Hud Hud)), 123 ayat | مكة
-Surat Huud termasuk golongan surat-surat Makkiyyah, terdiri dari 123 ayat diturunkan sesudah surat Yunus. Surat ini dinamai surat Huud karena ada hubungan dengan terdapatnya kisah Nabi Huud a.s. dan kaumnya dalam surat ini terdapat juga kisah-kisah Nabi yang lain, seperti kisah Nuh a.s., Shaleh a.s., Ibrahim a.s., Luth a.s., Syu'aib a.s. dan Musa a.s.
+9. سورہ التوبة (سورہ توبہ) 129 آیات | مدينة
+سورہ توبہ 129 آیات پر مشتمل ہے جن میں مدنی سورتیں بھی شامل ہیں۔ اس خط کو التتوبہ کہا جاتا ہے جس کا مطلب ہے بخشش اس لیے کہ اس خط میں لفظ توبہ کا بار بار ذکر آیا ہے۔ اسے برعہ بھی کہا جاتا ہے جس کے معنی ترک کرنا ہیں، جس کا مطلب یہاں تعلقات منقطع کرنے کا بیان ہے، کیونکہ بحث کے زیادہ تر نکات مشرکین کے ساتھ صلح کے معاہدے کو ختم کرنے کے بیانات سے متعلق ہیں۔  ان دو مشہور ناموں کے علاوہ اور بھی کئی نام ہیں جو اس حرف کی نوعیت ہیں۔  دوسرے حروف کے مقابلے میں اس خط کے شروع میں بسم اللہ نہیں ہے کیونکہ یہ خط اعلان جنگ ہے یعنی تمام مسلمان تمام مشرکوں سے لڑنے کے لیے متحرک ہیں، جب کہ بسم اللہ امن اور اللہ کی محبت کا سانس لیتی ہے۔  یہ خط رسول اللہ صلی اللہ علیہ وسلم کے بعد نازل ہوا۔ جنگ تبوک سے واپس آئے جو 9 ہجری میں پیش آئی۔ یہ اعلان سیدنا علی رضی اللہ عنہ نے کیا۔ اسی سال حج کے موسم میں۔
 
-12. Surat يوسف (Surah Yusuf (Yusuf Joseph)), 111 ayat | مكة
-Surat Yusuf ini terdiri atas 111 ayat, termasuk golongan surat-surat Makkiyyah karena diturunkan di Mekah sebelum hijrah. Surat ini dinamakan surat Yusuf adalah karena titik berat dari isinya mengenai riwayat Nabi Yusuf a.s.  Riwayat tersebut salah satu di antara cerita-cerita ghaib yang diwahyukan kepada Nabi Muhammad s.a.w. sebagai mukjizat bagi beliau, sedang beliau sebelum diturunkan surat ini tidak mengetahuinya.  Menurut riwayat Al Baihaqi dalam kitab Ad Dalail bahwa segolongan orang Yahudi masuk agama Islam sesudah mereka mendengar cerita Yusuf a.s. ini, karena sesuai dengan cerita-cerita yang mereka ketahui. Dari cerita Yusuf a.s. ini, Nabi Muhammad s.a.w. mengambil pelajaran-pelajaran yang banyak dan merupakan penghibur terhadap beliau dalam menjalankan tugasnya.
+10. سورہ یونس (سورہ یونس)، 109 آیات | مكة
+سورہ یونس 109 آیات پر مشتمل ہے، جن میں مکی حروف بھی شامل ہیں، سوائے آیات 40، 94، 95 کے، جو رسول اللہ صلی اللہ علیہ وسلم کے دور میں نازل ہوئیں۔ مدینہ میں تھا۔ اس خط کو یونس کا خط کہا جاتا ہے کیونکہ یہ خط بنیادی طور پر حضرت یونس علیہ السلام کی کہانی کو ظاہر کرتا ہے۔ اور اس کے پیروکار جو اپنے ایمان پر پختہ ہیں۔
 
-13. Surat الرعد (Surah Ar-Ra'd (Guruh The Thunder)), 43 ayat | مدينة
-Surat Ar Ra'd ini terdiri atas 43 ayat termasuk golongan surat-surat Madaniyyah. Surat ini dinamakan Ar Ra'd yang berarti guruh karena dalam ayat 13 Allah berfirman yang artinya Dan guruh itu bertasbih sambil memuji-Nya, menunjukkan sifat kesucian dan kesempurnaan Allah s.w.t.  Dan lagi sesuai dengan sifat Al Quran yang mengandung ancaman dan harapan, maka demikian pulalah halnya bunyi guruh itu menimbulkan kecemasan dan harapan kepada manusia. Isi yang terpenting dari surat ini ialah bahwa bimbingan Allah kepada makhluk-Nya bertalian erat dengan hukum sebab dan akibat. Bagi Allah s.w.t. tidak ada pilih kasih dalam menetapkan hukuman. Balasan atau hukuman adalah akibat dan ketaatan atau keingkaran terhadap hukum Allah.
+11. سورہ هود (سورہ هود)، 123 آیات | مكة
+سورہ ہود مکی سورہ گروپ میں شامل ہے جو سورہ یونس کے بعد 123 آیات پر مشتمل ہے۔ اس خط کو ہود خط کہا جاتا ہے کیونکہ اس کا تعلق حضرت ہود علیہ السلام سے ہے۔ اور اس خط میں دیگر انبیاء کے قصے بھی ہیں، جیسے نوح علیہ السلام، صالح علیہ السلام، ابراہیم علیہ السلام، لوط علیہ السلام، شعیب علیہ السلام کے قصے بھی۔ اور موسیٰ علیہ السلام
 
-14. Surat ابراهيم (Surah Ibrahim (Ibrahim Abraham)), 52 ayat | مكة
-Surat Ibrahim ini terdiri atas 52 ayat, termasuk golongan surat-surat Makkiyyah karena diturunkan di Mekah sebelum Hijrah. Dinamakan Ibrahim, karena surat ini mengandung doa Nabi Ibrahim a.s. yaitu ayat 35 sampai dengan 41. Do'a ini isinya antara lain: permohonan agar keturunannya mendirikan shalat, dijauhkan dari menyembah berhala-berhala dan agar Mekah dan daerah sekitarnya menjadi daerah yang aman dan makmur. Doa Nabi Ibrahim a.s. ini telah diperkenankan oleh Allah s.w.t. sebagaimana telah terbukti keamanannya sejak dahulu sampai sekarang. Do'a tersebut dipanjatkan beliau ke hadirat Allah s.w.t. sesudah selesai membina Ka'bah bersama puteranya Ismail a.s., di dataran tanah Mekah yang tandus.
+12. سورہ یوسف (سورہ یوسف)، 111 آیات | مكة
+سورہ یوسف 111 آیات پر مشتمل ہے جن میں مکی سورتیں بھی شامل ہیں کیونکہ یہ ہجرت سے پہلے مکہ میں نازل ہوئی تھی۔ اس خط کو یوسف کا خط کہا جاتا ہے کیونکہ اس کے مواد کا زیادہ زور حضرت یوسف علیہ السلام کی تاریخ پر ہے۔  یہ تاریخ ان مافوق الفطرت کہانیوں میں سے ایک ہے جو رسول اللہ صلی اللہ علیہ وسلم پر نازل ہوئیں۔ اس کے لیے ایک معجزہ کے طور پر، جب کہ اس خط کے نازل ہونے سے پہلے وہ اس کے بارے میں نہیں جانتے تھے۔  تاریخ البیحقی کی کتاب عاد دلائل میں ہے کہ یہودیوں کے ایک گروہ نے یوسف علیہ السلام کا قصہ سن کر اسلام قبول کیا۔ اس کی وجہ یہ ہے کہ یہ ان کہانیوں سے میل کھاتا ہے جو وہ جانتے ہیں۔ یوسف علیہ السلام کے قصے سے یہ، حضرت محمد صلی اللہ علیہ وسلم بہت سے اسباق حاصل کیے اور اپنے فرائض کی انجام دہی میں اس کے لیے ایک سکون تھا۔
 
-15. Surat الحجر (Surah Al-Hijr (Hijr The Rock)), 99 ayat | مكة
-Surat ini terdiri atas 99 ayat, termasuk golongan surat-surat Makkiyyah,  karena diturunkan di Mekah sebelum hijrah. Al Hijr  adalah nama  sebuah daerah  pegunungan yang didiami zaman dahulu  oleh kaum  Tsamud terletak  di  pinggir  jalan antara Madinah dan Syam (Syria). Nama surat ini diambil dari nama daerah pegunungan itu, berhubung nasib  penduduknya yaitu  kaum Tsamud  diceritakan pada ayat  80 sampai  dengan 84,  mereka  telah  dimusnahkan Allah  s.w.t.,  karena  mendustakan  Nabi  Shaleh  a.s.  dan berpaling   dari ayat-ayat  Allah. Dalam  surat ini terdapat juga kisah-kisah  kaum yang lain yang telah dibinasakan oleh Allah seperti  kaum Luth  a.s. dan kaum Syu'aib a.s. Dari ke semua kisah-kisah  itu dapat  diambil pelajaran bahwa orang-orang  yang  menentang  ajaran  rasul-rasul  akan  mengalami kehancuran.
+13. سورہ الرعد (سورہ الرعد (گروہ گرج))، 43 آیات | مدينة
+سورہ رعد مدنی سورتوں سمیت 43 آیات پر مشتمل ہے۔ اس سورت کو الرعد کہا جاتا ہے جس کا مطلب گرج ہے کیونکہ آیت 13 میں اللہ تعالیٰ فرماتا ہے جس کا مطلب ہے اور گرج اس کی حمد کرتے ہوئے تسبیح کرتی ہے، اللہ سبحانہ و تعالیٰ کی پاکیزگی اور کمال کی نوعیت کو ظاہر کرتی ہے۔  اور پھر قرآن کی فطرت کے مطابق جس میں دھمکیاں اور امیدیں ہیں، گرج کی آواز بھی انسانوں میں اضطراب اور امید کو جنم دیتی ہے۔ اس خط کا سب سے اہم مواد یہ ہے کہ خدا کی اپنی مخلوق کے لیے ہدایت کا تعلق سبب اور اثر کے قانون سے ہے۔ اللہ تعالیٰ کے لیے سزا کے تعین میں کوئی جانبداری نہیں ہے۔ بدلہ یا سزا خدا کے قانون کی اطاعت یا نافرمانی کا نتیجہ ہے۔
 
-16. Surat النحل (Surah An-Nahl (Lebah The Bee)), 128 ayat | مكة
-Surat ini terdiri atas 128 ayat, termasuk golongan surat-surat Makkiyyah. Surat ini dinamakan An Nahl yang berarti lebah karena di dalamnya, terdapat firman Allah s.w.t. ayat 68 yang artinya : "Dan Tuhanmu mewahyukan kepada lebah." Lebah adalah makhluk Allah yang banyak memberi manfaat  dan kenikmatan kepada manusia. Ada persamaan antara madu yang dihasilkan oleh lebah dengan Al Quranul Karim. Madu berasal dari bermacam-macam sari bunga dan dia menjadi obat bagi bermacam-macam penyakit manusia (lihat ayat 69). Sedang Al Quran mengandung inti sari dari kitab-kitab yang telah diturunkan kepada Nabi-nabi zaman dahulu ditambah dengan ajaran-ajaran yang diperlukan oleh semua bangsa sepanjang masa untuk mencapai kebahagiaan dunia dan akhirat. (Lihat surat (10) Yunus ayat 57 dan surat (17) Al Isra' ayat  82). Surat ini dinamakan pula "An Ni'am" artinya nikmat-nikmat, karena di dalamnya Allah menyebutkan pelbagai macam nikmat untuk hamba-hamba-Nya.
+14. سورہ ابراہیم (سورہ ابراہیم (ابراہیم ابراہیم))، 52 آیات | مكة
+ابراہیم کا یہ خط 52 آیات پر مشتمل ہے جس میں مکی خطوط بھی شامل ہیں کیونکہ یہ ہجرت سے پہلے مکہ میں نازل ہوا تھا۔ اسے ابراہیم کہا جاتا ہے کیونکہ اس خط میں حضرت ابراہیم علیہ السلام کی دعا ہے۔ یعنی آیات 35 تا 41۔ اس دعا میں دیگر چیزوں کے علاوہ: اس کی اولاد سے دعا کرنے کی درخواست، بتوں کی پوجا سے دور رہنے اور مکہ اور اس کے آس پاس کے علاقے کو ایک محفوظ اور خوشحال علاقہ بنانے کی درخواست ہے۔ حضرت ابراہیم علیہ السلام کی دعا اللہ تعالیٰ نے اس کی اجازت دی ہے۔ جیسا کہ ماضی سے اب تک محفوظ ثابت ہوا ہے۔ اس نے یہ دعا اللہ عزوجل کی بارگاہ میں کہی۔ مکہ کے بنجر میدانوں میں اپنے بیٹے اسماعیل ع کے ساتھ خانہ کعبہ کی تعمیر مکمل کرنے کے بعد۔
 
-17. Surat الإسراء (Surah Al-Isra' (Memperjalankan Malam Hari The Night Journey)), 111 ayat | مكة
-Surat ini terdiri atas 111 ayat, termasuk golongan surat-surat Makkiyyah. Dinamakan dengan Al Israa' yang berarti memperjalankan di malam hari, berhubung peristiwa Israa' Nabi Muhammad s.a.w. di Masjidil Haram di Mekah ke Masjidil Aqsha di Baitul Maqdis dicantumkan pada ayat pertama dalam surat ini. Penuturan cerita Israa' pada permulaan surat ini, mengandung isyarat bahwa Nabi Muhammad s.a.w. beserta umatnya kemudian hari akan mencapai martabat yang tinggi dan akan menjadi umat yang besar. Surat ini dinamakan pula dengan Bani Israil artinya keturunan Israil berhubung dengan permulaan surat ini, yakni pada ayat kedua sampai dengan ayat kedelapan dan kemudian dekat akhir surat yakni pada ayat 101 sampai dengan ayat 104, Allah menyebutkan tentang Bani Israil yang setelah menjadi bangsa yang kuat lagi besar lalu menjadi bangsa yang terhina karena menyimpang dari ajaran Allah s.w.t. Dihubungkannya kisah Israa' dengan riwayat Bani Israil pada surat ini, memberikan peringatan bahwa umat Islam akan mengalami keruntuhan, sebagaimana halnya Bani Israil, apabila mereka juga meninggalkan ajaran-ajaran agamanya.
+15. سورہ الحجر (سورہ الحجر (حجر دی راک))، 99 آیات | مكة
+یہ سورت مکی سورتوں سمیت 99 آیات پر مشتمل ہے کیونکہ یہ ہجرت سے پہلے مکہ میں نازل ہوئی تھی۔ الحجر ایک پہاڑی علاقے کا نام ہے جو قدیم ثمود کے ذریعہ آباد تھا جو مدینہ اور شام (شام) کے درمیان سڑک کے کنارے واقع ہے۔ اس خط کا نام پہاڑی علاقے کے نام سے لیا گیا ہے کیونکہ اس کے باشندوں یعنی ثمود کا انجام آیات 80 تا 84 میں بتایا گیا ہے کہ انہیں اللہ تعالیٰ نے ہلاک کر دیا کیونکہ انہوں نے حضرت صالح علیہ السلام سے جھوٹ بولا تھا۔  اور اللہ کی آیات سے منہ پھیر لو۔ اس خط میں دوسرے لوگوں کے قصے بھی ہیں جنہیں اللہ نے ہلاک کر دیا ہے، جیسے لوط علیہ السلام کی قوم۔ اور شعیب علیہ السلام ان تمام کہانیوں سے ایک سبق سیکھا جا سکتا ہے کہ جو لوگ رسولوں کی تعلیمات کی مخالفت کرتے ہیں وہ تباہی کا شکار ہوں گے۔
 
-18. Surat الكهف (Surah Al-Kahf (Goa The Cave)), 110 ayat | مكة
-Surat  ini terdiri atas 110 ayat, termasuk  golongan  surat-surat Makkiyyah. Dinamai Al-Kahfi artinya Gua dan Ashhabul Kahfi yang artinya Penghuni-Penghuni Gua. Kedua nama ini diambil dari cerita yang terdapat dalam surat ini pada ayat 9 sampai dengan 26, tentang beberapa orang pemuda yang tidur dalam gua bertahun-tahun lamanya. Selain cerita tersebut, terdapat pula beberapa buah cerita dalam surat ini, yang kesemuanya mengandung i'tibar dan pelajaran-pelajaran yang amat berguna bagi kehidupan manusia. Banyak hadist-hadist Rasulullah s.a.w. yang menyatakan keutamaan membaca surat ini.
+16. سورہ النحل (سورہ النحل) 128 آیات | مكة
+یہ خط مکی حروف سمیت 128 آیات پر مشتمل ہے۔ اس حرف کو عن نحل کہتے ہیں جس کے معنی شہد کی مکھی کے ہیں کیونکہ اس میں اللہ تعالیٰ کے کلمات ہیں۔ آیت 68 جس کا مطلب ہے: "اور آپ کے رب نے اسے شہد کی مکھیوں پر نازل کیا۔" شہد کی مکھیاں خدا کی مخلوق ہیں جو انسانوں کو بہت سے فوائد اور لذتیں فراہم کرتی ہیں۔ شہد کی مکھیوں کے ذریعہ تیار کردہ شہد اور قرآن الکریم میں مماثلت پائی جاتی ہے۔ شہد مختلف پھولوں کے جوہروں سے آتا ہے اور مختلف انسانی بیماریوں کی دوا ہے (دیکھیں آیت 69)۔ دریں اثنا، قرآن ان کتابوں کا نچوڑ پر مشتمل ہے جو قدیم انبیاء پر نازل ہوئی تھیں اور اس کے ساتھ ساتھ دنیا اور آخرت میں سعادت حاصل کرنے کے لیے ہر وقت کی تمام قوموں کو درکار تعلیمات بھی شامل ہیں۔ (دیکھئے خط (10) یونس آیت 57 اور خط (17) الاسراء آیت 82)۔ اس خط کو "نعم" یعنی نعمتیں بھی کہتے ہیں، کیونکہ اس میں اللہ تعالیٰ نے اپنے بندوں کے لیے طرح طرح کی نعمتوں کا ذکر کیا ہے۔
 
-19. Surat مريم (Surah Maryam (Maryam Mary)), 98 ayat | مكة
-Surat Maryam terdiri atas 98 ayat, termasuk golongan surat-surat Makkiyyah, karena hampir seluruh ayatnya diturunkan sebelum Nabi Muhammad s.a.w. hijrah ke Madinah, bahkan sebelum sahabat-sahabat beliau hijrah ke negeri Habsyi. Menurut riwayat Ibnu Mas'ud, Ja'far bin Abi Thalib membacakan permulaan surat Maryam ini kepada raja Najasyi dan pengikut-pengikutnya di waktu ia ikut hijrah bersama-sama sahabat-sahabat yang lain ke negeri Habsyi.Surat ini dinamai Maryam, karena surat ini mengandung kisah Maryam, ibu Nabi Isa a.s. yang serba ajaib, yaitu melahirkan puteranya lsa a.s., sedang ia sebelumnya belum pernah dikawini atau dicampuri oleh seorang laki-laki pun. Kelahiran Isa a.s. tanpa bapa, merupakan suatu bukti kekuasaan Allah s.w.t.  Pengutaraan kisah Maryam sebagai kejadian yang luar biasa dan ajaib dalam surat ini, diawali dengan kisah kejadian yang luar biasa dan ajaib pula, yaitu dikabulkannya doa Zakaria a.s. oleh Allah s.w.t., agar beliau dianugerahi seorang putera sebagai pewaris dan pelanjut cita-cita dan kepercayaan beliau, sedang usia beliau sudah sangat tua dan isteri beliau seorang yang mandul yang menurut ukuran ilmu biologi tidak mungkin akan terjadi.
+17. سورہ الإسراء (سورہ الاسراء (رات کا سفر رات کا سفر))، 111 آیات | مكة
+یہ خط مکی حروف سمیت 111 آیات پر مشتمل ہے۔ اسے الاسراء کہا جاتا ہے جس کا مطلب ہے رات کو سفر کرنا، کیونکہ اسراء واقعہ نبی اکرم صلی اللہ علیہ وسلم کا ہے۔ مکہ کی عظیم الشان مسجد سے بیت المقدس میں مسجد اقصیٰ تک اس خط کی پہلی آیت میں بیان کیا گیا ہے۔ اس خط کے شروع میں اسراء کا قصہ بیان کرنے سے یہ اشارہ ملتا ہے کہ حضرت محمد صلی اللہ علیہ وسلم اور اس کے لوگ بعد میں اعلیٰ مقام پر فائز ہوں گے اور عظیم لوگ بنیں گے۔ اس خط کو بنی اسرائیل بھی کہا جاتا ہے، یعنی بنی اسرائیل، اس خط کے آغاز کے سلسلے میں، یعنی دوسری آیت سے آٹھویں آیت تک اور پھر حرف کے آخر تک، یعنی آیت نمبر 101 سے آیت 104 تک اللہ تعالیٰ نے فرمایا۔ بنی اسرائیل کا تذکرہ ہے جو ایک مضبوط قوم بننے کے بعد پھر پروان چڑھے اور پھر ذلیل قوم بن گئے کیونکہ اس نے اللہ تعالیٰ کی تعلیمات سے انحراف کیا۔ اس خط میں قصہ اسراء اور بنی اسرائیل کی تاریخ کے درمیان تعلق اس بات کی تنبیہ کرتا ہے کہ اگر وہ بھی اپنی مذہبی تعلیمات کو چھوڑ دیں تو بنی اسرائیل کی طرح امت مسلمہ کو بھی تباہی کا سامنا کرنا پڑے گا۔
 
-20. Surat طه (Surah Taha (Taha Taa-Haa)), 135 ayat | مكة
-Surat Thaahaa terdiri atas 135 ayat, diturunkan sesudah diturunkannya surat Maryam, termasuk golongan surat-surat Makkiyyah. Surat ini dinamai Thaahaa, diambil dari perkataan yang berasal dan ayat pertama surat ini. Sebagaimana yang lazim terdapat pada surat-surat yang memakai huruf-huruf abjad pada permulaannya, di mana huruf tersebut seakan-akan merupakan pemberitahuan Allah kepada orang-orang yang membacanya, bahwa sesudah huruf itu akan dikemukakan hal-hal yang  sangat penting diketahui, maka demikian pula halnya dengan ayat-ayat yang terdapat sesudah huruf thaahaa dalam surat ini. Allah menerangkan bahwa Al Quran merupakan peringatan bagi manusia, wahyu dari Allah, Pencipta semesta alam. Kemudian Allah menerangkan kisah beberapa orang nabi; akibat-akibat yang telah ada akan dialami oleh orang-orang yang percaya kepada Allah dan orang-orang yang mengingkari-Nya, baik di dunia maupun di akhirat. Selain hal-hal tersebut di atas, maka surat ini mengandung pokok-pokok isi sebagai berikut:
+18. سورۃ الكهف (سورۃ الکہف (گوا غار))، 110 آیات | مكة
+یہ خط مکی حروف سمیت 110 آیات پر مشتمل ہے۔ اس کا نام الکہفی ہے جس کا مطلب ہے غار اور اشہاب الکہفی یعنی غار میں رہنے والے۔ یہ دونوں نام اس خط میں آیت نمبر 9 سے 26 میں درج کہانی سے لیے گئے ہیں، جو کئی نوجوانوں کے بارے میں ہیں جو ایک غار میں برسوں سے سوتے تھے۔ اس قصے کے علاوہ اس خط میں کئی کہانیاں بھی ہیں جن میں سے تمام احادیث اور اسباق ہیں جو انسانی زندگی کے لیے بہت مفید ہیں۔ نبی کریم صلی اللہ علیہ وسلم کی بہت سی احادیث جو اس خط کو پڑھنے کی اہمیت بیان کرتا ہے۔
 
-21. Surat الأنبياء (Surah Al-Anbiya' (Para Nabi The Prophets)), 112 ayat | مكة
-Surat Al Anbiyaa' yang terdiri atas 112 ayat, termasuk golongan surat Makkiyyah. Dinamai surat ini dengan al anbiyaa'(nabi-nabi), karena surat ini mengutarakan kisah beberapa orang nabi. Permulaan surat Al Anbiyaa' menegaskan bahwa manusia lalai dalam menghadapi hari berhisab, kemudian berhubung adanya pengingkaran kaum musyrik Mekah terhadap wahyu yang dibawa Nabi Muhammad s.a.w. maka ditegaskan Allah, kendatipun nabi-nabi itu manusia biasa, akan tetapi masing-masing mereka adalah manusia yang membawa wahyu yang pokok ajarannya adalah tauhid, dan keharusan manusia menyembah Allah Tuhan Penciptanya. Orang yang tidak mau mengakui kekuasaan Allah dan mengingkari ajaran yang dibawa oleh nabi-nabi itu, akan diazab Allah didunia dan di akhirat nanti. Kemudian dikemukakan kisah beberapa orang nabi dengan umatnya. Akhirnya surat itu ditutup dengan seruan agar kaum musyrik Mekah percaya kepada ajaran yang dibawa Muhammad s.a.w supaya tidak mengalami apa yang telah dialami oleh umat-umat yang dahulu.
+19. سورہ مریم (سورہ مریم)، ​​98 آیات | مكة
+سورہ مریم 98 آیات پر مشتمل ہے، جن میں مکی سورتیں بھی شامل ہیں، کیونکہ تقریباً تمام آیات نبی کریم صلی اللہ علیہ وسلم کے دیدار سے پہلے نازل ہوئی تھیں۔ مدینہ کی طرف ہجرت کی، یہاں تک کہ اس کے دوستوں نے حبشی ملک کی طرف ہجرت کی۔ ابن مسعود کی تاریخ کے مطابق جعفر بن ابی طالب نے شاہ نجاسی اور ان کے پیروکاروں کے نام مریم کے خط کی ابتداء پڑھی جب وہ اپنے دوسرے دوستوں کے ساتھ حبشی ملک کی طرف ہجرت کر گئے اس خط کا نام مریم رکھا گیا۔ حضرت عیسیٰ علیہ السلام کی والدہ مریم کا قصہ۔ جو مکمل طور پر معجزانہ تھا، یعنی اپنے بیٹے عیسیٰ علیہ السلام کو جنم دینا، حالانکہ اس نے پہلے کبھی کسی مرد سے شادی نہیں کی تھی اور نہ ہی اس کے ساتھ جنسی تعلقات قائم کیے تھے۔ حضرت عیسیٰ علیہ السلام کی ولادت بغیر باپ کے اللہ تعالیٰ کی قدرت کی دلیل ہے۔  اس خط میں مریم کی کہانی کو ایک غیر معمولی اور معجزاتی واقعہ بتانے کا آغاز ایک غیر معمولی اور معجزاتی واقعہ کی کہانی سے ہوتا ہے، یعنی زکریا علیہ السلام کی دعا کی منظوری۔ اللہ سبحانہ وتعالیٰ کی طرف سے، تاکہ اسے ایک بیٹا عطا کیا جائے اور اس کے نظریات اور عقائد کا تسلسل برقرار رہے، حالانکہ وہ بہت بوڑھا تھا اور اس کی بیوی بانجھ تھی، جو حیاتیاتی سائنس کے معیارات کے مطابق ناممکن تھی۔
 
-22. Surat الحج (Surah Al-Hajj (Haji The Pilgrimage)), 78 ayat | مدينة
-Surat Al Hajj, termasuk golongan surat-surat Madaniyyah, terdiri atas 78 ayat, sedang menurut pendapat sebahagian ahli tafsir termasuk golongan surat-surat Makkiyah. Sebab perbedaan ini ialah karena sebahagian ayat-ayat surat ini ada yang diturunkan di Mekah dan sebahagian lagi diturunkan di Madinah. Dinamai surat ini Al Hajj, karena surat ini mengemukakan hal-hal yang berhubungan dengan ibadat haji, seperti ihram, thawaf, sa'i, wuquf di Arafah, mencukur rambut, syi'ar-syi'ar Allah, faedah-faedah dan hikmah-hikmah disyari'atkannya haji. Ditegaskan pula bahwa ibadat haji itu telah disyari'atkan di masa Nabi Ibrahim a.s., dan Ka'bah didirikan oleh Nabi Ibrahim a.s. bersama puteranya Ismail a.s.Menurut Al Ghaznawi, surat Al Hajj termasuk di antara surat- surat yang ajaib, diturunkan di malam dan di siang hari, dalam musafir dan dalam keadaan tidak musafir, ada ayat-ayat yang diturunkan di Mekah dan ada pula yang diturunkan di Madinah, isinya ada yang berhubungan dengan peperangan dan ada pula yang berhubungan dengan perdamaian, ada ayat-ayatnya yang muhkam dan ada pula yang mutasyabihaat.
+20. سورہ طه (سورہ طٰہٰ، 135 آیات) مكة
+سورہ طٰہٰ 135 آیات پر مشتمل ہے، جو سورہ مریم کے نزول کے بعد نازل ہوئی، بشمول مکی حروف کا گروپ۔ اس خط کا نام طہٰ ہے جو اس حرف کی پہلی آیت سے نکلنے والے الفاظ سے لیا گیا ہے۔ جیسا کہ ان حروف میں عام ہے جن میں شروع میں حروف تہجی کے حروف کا استعمال کیا جاتا ہے، جہاں یہ خط پڑھنے والوں کے لیے خدا کی اطلاع معلوم ہوتا ہے، کہ حرف کے بعد ایسی چیزیں بیان کی جائیں گی جن کا جاننا بہت ضروری ہے، لہٰذا یہ ہے۔ اس خط میں حروف تہذہ کے بعد آنے والی آیات کا بھی معاملہ ہے۔ اللہ وضاحت کرتا ہے کہ قرآن انسانوں کے لیے ایک تنبیہ ہے، کائنات کے خالق اللہ کی طرف سے وحی ہے۔ پھر اللہ نے کئی انبیاء کا قصہ بیان کیا۔ موجودہ نتائج ان لوگوں کو بھگتنا ہوں گے جو اللہ پر ایمان رکھتے ہیں اور جو لوگ اس کا انکار کرتے ہیں، دنیا اور آخرت دونوں میں۔ مذکورہ بالا امور کے علاوہ اس خط میں درج ذیل اہم مواد ہیں:
 
-23. Surat المؤمنون (Surah Al-Mu'minun (Orang-Orang Mukmin The Believers)), 118 ayat | مكة
-Surat Al Mu'minuun terdiri atas 118 ayat, termasuk golongan surat-surat Makkiyyah. Dinamai Al Mu'minuun, karena permulaan ayat ini manerangkan bagaimana seharusnya sifat-sifat orang mukmin yang menyebabkan keberuntungan mereka di akhirat dan ketenteraman jiwa mereka di dunia. Demikian tingginya sifat-sifat itu, hingga ia telah menjadi akhlak bagi Nabi Muhammad s.a.w.
+21. سورہ الأنبیاء (سورہ الانبیاء)، 112 آیات | مكة
+سورہ الانبیاء، جو 112 آیات پر مشتمل ہے، مکی سورہ گروپ میں شامل ہے۔ اس خط کو الانبیاء (انبیاء) کہا جاتا ہے، کیونکہ یہ خط متعدد انبیاء کے قصے بیان کرتا ہے۔ خط الانبیاء کا آغاز اس بات پر زور دیتا ہے کہ انسان یوم حساب کا سامنا کرنے سے غافل ہیں، پھر مشرکین مکہ کے پیغمبر محمد صلی اللہ علیہ وسلم کی وحی کے انکار کی وجہ سے۔ چنانچہ اللہ نے اس بات پر زور دیا کہ اگرچہ انبیاء عام انسان تھے، وہ ہر ایک انسان تھے جو وحی لائے جن کی بنیادی تعلیمات توحید تھیں، اور انسانوں پر اللہ، خالق کی عبادت کرنا فرض تھا۔ جو لوگ اللہ کی قدرت کو تسلیم نہیں کرنا چاہتے اور انبیاء کی لائی ہوئی تعلیمات کا انکار کرنا چاہتے ہیں اللہ کی طرف سے دنیا اور آخرت میں عذاب ہوگا۔ پھر کئی انبیاء اور ان کی امت کا قصہ پیش کیا گیا۔ آخر میں یہ خط مشرکین مکہ سے اس اپیل کے ساتھ بند ہوا کہ وہ محمد صلی اللہ علیہ وسلم کی لائی ہوئی تعلیمات پر ایمان لائیں تاکہ وہ وہ تجربہ نہ کر سکیں جو پہلے لوگوں نے کیا تھا۔
 
-24. Surat النور (Surah An-Nur (Cahaya The Light)), 64 ayat | مدينة
-Surat An Nuur terdiri atas 64 ayat, dan termasuk golongan surat-surat Madaniyah. Dinamai An Nuur yang berarti Cahaya, diambil dari kata An Nuur yang terdapat pada ayat ke 35. Dalam ayat ini, Allah s.w.t. menjelaskan tentang Nuur Ilahi, yakni Al Quran yang mengandung petunjuk-petunjuk. Petunjuk-petunjuk Allah itu, merupakan cahaya yang terang benderang menerangi alam semesta. Surat ini sebagian besar isinya memuat petunjuk- petunjuk Allah yang berhubungan dengan soal kemasyarakatan dan rumah tangga.
+22. سورۃ الحج (سورۃ الحج)، 78 آیات | مدينة
+مدنی سورہ گروپ میں شامل سورہ الحج 78 آیات پر مشتمل ہے جب کہ بعض مفسرین کے خیال میں یہ سورہ مکی گروپ میں شامل ہے۔ اس اختلاف کی وجہ یہ ہے کہ اس خط کی کچھ آیات مکہ میں نازل ہوئیں اور کچھ مدینہ میں نازل ہوئیں۔ اس خط کو الحج کہا جاتا ہے کیونکہ اس خط میں حج سے متعلق امور مثلاً احرام، طواف، سعی، عرفہ کا وقوف، بال منڈوانا، اللہ کا سیر، وظائف اور حکمتیں بیان کی گئی ہیں۔ حج کی حکمتیں بیان کی گئی ہیں۔ اس بات پر بھی زور دیا گیا کہ حج حضرت ابراہیم علیہ السلام کے دور میں فرض کیا گیا تھا، اور کعبہ کی بنیاد حضرت ابراہیم علیہ السلام نے رکھی تھی۔ ان کے بیٹے اسماعیل علیہ السلام کے ساتھ الغزنوی کے مطابق، حج کا خط ان معجزاتی خطوط میں سے ہے جو رات اور دن میں نازل ہوتے ہیں، مسافروں اور غیر مسافروں میں ایسی آیات ہیں جو مکہ میں نازل ہوئیں اور کچھ مدینہ میں نازل ہوئیں، اس کے کچھ مضامین جنگ سے متعلق ہیں اور کچھ امن سے متعلق ہیں، کچھ آیات محکم ہیں اور کچھ متشابہات ہیں۔
 
-25. Surat الفرقان (Surah Al-Furqan (Pembeda The Criterion)), 77 ayat | مكة
-Surat ini terdiri atas 77 ayat, termasuk golongan surat-surat Makkiyah. Dinamai Al Furqaan yang artinya pembeda, diambil dari kata Al Furqaan yang terdapat pada ayat pertama surat ini. Yang dimaksud dengan Al Furqaan dalam ayat ini ialah Al Quran. Al Quran dinamakan Al Furqaan karena dia membedakan antara yang haq dengan yang batil. MAka pada surat ini pun terdapat ayat-ayat yang membedakan antara kebenaran ke-esaan Allah s.w.t. dengan kebatilan kepercayaan syirik.
+23. سورہ المؤمنون (سورہ المؤمنون)، 118 آیات | مكة
+سورۃ المومنون 118 آیات پر مشتمل ہے جن میں مکی سورتیں بھی شامل ہیں۔ اس کا نام المومنون رکھا گیا ہے، کیونکہ اس آیت کی ابتداء بتاتی ہے کہ مومنین کی وہ خصوصیات کیا ہونی چاہئیں جو آخرت میں ان کی قسمت اور دنیا میں ان کی روحوں کے سکون کا باعث بنیں۔ یہ صفات اس قدر بلند ہیں کہ رسول اللہ صلی اللہ علیہ وسلم کے اخلاق بن گئے ہیں۔
 
-26. Surat الشعراء (Surah Asy-Syu'ara' (Para Penyair The Poets)), 227 ayat | مكة
-Surat ini terdiri dari 227 ayat termasuk golongan surat-surat Makkiyyah. Dinamakan Asy Syu'araa' (kata jamak dari Asy Syaa'ir yang berarti penyair) diambil dari kata Asy Syuaraa' yang terdapat pada ayat 224, yaitu pada bagian terakhir surat ini, di kala Allah s.w.t. secara khusus menyebutkan kedudukan penyair- penyair. Para penyair-penyair itu mempunyai sifat-sifat yang jauh berbeda dengan para rasul-rasul; mereka diikuti oleh orang-orang yang sesat dan mereka suka memutar balikkan lidah dan mereka tidak mempunyai pendirian, perbuatan mereka tidak sesuai dengan tidak mempunyai pendirian, perbuatan mereka tidak sesuai dengan apa yang mereka ucapkan. Sifat-sifat yang demikian tidaklah sekali-kali terdapat pada rasul-rasul. Oleh karena demikian tidak patut bila Nabi Muhammad s.a.w. dituduh sebagai penyair, dan Al Quran dituduh sebagai syair, Al Quran adalah wahyu Allah, bukan buatan manusia.
+24. سورہ النور (سورۃ النور)، 64 آیات | مدينة
+سورہ النور 64 آیات پر مشتمل ہے اور مدنی سورہ گروپ میں شامل ہے۔ اس کا نام النور رکھا گیا ہے جس کا مطلب نور ہے، لفظ النور سے لیا گیا ہے جو آیت نمبر 35 میں موجود ہے۔ نور الہی کے بارے میں وضاحت کرتا ہے، یعنی القرآن جس میں ہدایات موجود ہیں۔ خدا کی ہدایات ایک روشن روشنی ہیں جو کائنات کو منور کرتی ہے۔ اس خط میں زیادہ تر سماجی اور گھریلو معاملات سے متعلق خدا کی ہدایات پر مشتمل ہے۔
 
-27. Surat النمل (Surah An-Naml (Semut-semut The Ant)), 93 ayat | مكة
-Surat An Naml terdiri atas 98 ayat, termasuk golongan surat- surat Makkiyyah dan diturunkan sesudah surat Asy Syu'araa'. Dinamai dengan An Naml, karena pada ayat 18 dan 19 terdapat perkataan An Naml (semut), di mana raja semut mengatakan kepada anak buahnya agar masuk sarangnya masing-masing, supaya jangan terpijak oleh Nabi Sulaiman a.s. dan tentaranya yang akan lalu di tempat itu. Mendengar perintah raja semut kepada anak buahnya itu, Nabi Sulaiman tersenyum dan ta'jub atas keteraturan kerajaan semut itu dan beliau mengucapkan syukur kepada Tuhan Yang Maba Kuasa yang telah melimpahkan nikmat kepadanya, berupa kerajaan, kekayaan, memahami ucapan-ucapan binatang, mempunyai tentara yang terdiri atas jin, manusia, burung dan sebagainya. Nabi Sulaiman a.s. yang telah diberi Allah nikmat yang besar itu tidak merasa takabur dan sombong dan sebagai seorang hamba Allah mohon agar Allah memasukkannya ke dalam golongan orang-orang yang saleh. Allah s.w.t. menyebut binatang semut dalam surat ini agar manusia mengambil pelajaran dari kehidupan semut itu. Semut adalah binatang yang hidup berkelompok di dalam tanah, membuat liang dan ruang yang bertingkat-tingkat sebagai rumah dan gudang tempat menyimpan makanan musim dingin. Kerapian dan kedisiplinan yang terdapat dalam kerajaan semut ini, dinyatakan Allah dalam ayat ini dengan bagaimana rakyat semut mencari perlindungan segera agar jangan terpijak oleh Nabi Sulaiman a.s dan tentaranya, setelah menerima peringatan dari rajanya. Secara tidak langsung Allah mengingatkan juga kepada manusia agar dalam berusaha untuk mencukupkan kebutuhan sehari-hari, mementingkan pula kemaslahatan bersama dan sebagainya, rakyat semut mempunyai organisasi dan kerja sama yang baik pula. Dengan mengisahkan kisah Nabi Sulaiman a.s. dalam surat ini Allah mengisyaratkan hari depan dan kebesaran Nabi Muhammad s.a.w. Nabi Sulaiman a.s. sebagai seorang nabi, rasul dan raja yang dianugerahi kekayaan yang melimpah ruah, begitu pula Nabi Muhammad s.a.w. sebagai seorang nabi, rasul dan seoramg kepala negara yang ummi' dan miskin akan berhasil membawa dan memimpin umatnya ke jalan Allah.
+25. سورہ الفرقان (سورہ الفرقان)، 77 آیات | مكة
+یہ خط مکی حروف سمیت 77 آیات پر مشتمل ہے۔ اس کا نام الفرقان رکھا گیا ہے جس کا مطلب ہے فرق کرنے والا، لفظ الفرقان سے لیا گیا ہے جو اس حرف کی پہلی آیت میں موجود ہے۔ اس آیت میں الفرقان سے جو مراد ہے وہ القرآن ہے۔ قرآن کو الفرقان کہا جاتا ہے کیونکہ یہ حق اور باطل میں فرق کرتا ہے۔ چنانچہ اس خط میں ایسی آیات ہیں جو اللہ سبحانہ وتعالیٰ کی وحدانیت کی حقیقت میں فرق کرتی ہیں۔ شرک عقائد کے جھوٹ کے ساتھ.
 
-28. Surat القصص (Surah Al-Qasas (Kisah-Kisah The Stories)), 88 ayat | مكة
-Surat Al Qashash terdiri atas 88 ayat termasuk golongan surat-surat Makkiyyah. Dinamai dengan Al Qashash, karena pada ayat 25 surat ini terdapat kata Al Qashash yang berarti cerita. Ayat ini menerangkan bahwa setelah Nabi Musa a.s. bertemu dengan Nabi Syua'ib a.s. ia menceritakan cerita yang berhubungan  dengan dirinya sendiri, yakni pengalamannya dengan Fir'aun, sampai waktu ia diburu oleh Fir'aun karena membunuh seseorang dari bangsa Qibthi tanpa disengaja, Syua'ib a.s. menjawab bahwa Musa a.s. telah selamat dari pengejaran  orang-orang zalim. Turunnya ayat 25 surat ini amat besar artinya bagi Nabi Muhammad s.a.w. dan bagi sahabat-sahabat yang melakukan hijrah ke Madinah, yang menambah keyakinan mereka, bahwa akhirnya orang-orang Islamlah yang menang, sebab ayat ini menunjukkan bahwa barangsiapa yang berhijrah dari tempat musuh untuk mempertahankan keimanan, pasti akan berhasil dalam perjuangannya menghadapi musuh-musuh agama. Kepastian kemenangan bagi kaum muslimin itu, ditegaskan pada bagian akhir surat ini yang mengandung bahwa setelah hijrah ke Madinah kaum muslimin akan kembali ke Mekah sebagai pemenang dan penegak agama Allah. Surat Al Qashash ini adalah surat yang paling lengkap memuat cerita Nabi Musa a.s. sehingga menurut suatu riwayat, surat ini dinamai juga dengan surat Musa.
+26. سورہ الشعراء، 227 آیات | مكة
+یہ خط مکی حروف سمیت 227 آیات پر مشتمل ہے۔ اس کو اسّی سَیْرَاء کہا جاتا ہے (آسِی سَیْرَ کی جمع جس کا مطلب شاعر ہے) لفظ عاصی سُوراء سے لیا گیا ہے جو کہ آیت 224 میں پایا جاتا ہے، یعنی اس خط کے آخری حصے میں، جب اللہ سبحانہ وتعالیٰ نے فرمایا۔ خاص طور پر شاعروں کے مقام کا ذکر کیا ہے۔ شاعروں میں رسولوں سے بہت مختلف خصوصیات تھیں۔ ان کے پیچھے ایسے لوگ آتے ہیں جو گمراہ ہیں اور وہ اپنی زبان کو مروڑنا پسند کرتے ہیں اور ان کا کوئی یقین نہیں ہے، ان کے اعمال ان کے یقین کی کمی کے مطابق نہیں ہیں، ان کے اعمال ان کے کہنے کے مطابق نہیں ہیں۔ ایسی خوبیاں رسولوں میں کبھی نہیں پائی گئیں۔ لہٰذا یہ نبی کریم صلی اللہ علیہ وسلم کے لیے مناسب نہیں۔ شاعر ہونے کا الزام، اور قرآن پر شاعری کا الزام، قرآن اللہ کی طرف سے نازل کردہ وحی ہے، انسان کی تخلیق نہیں ہے۔
 
-29. Surat العنكبوت (Surah Al-'Ankabut (Laba-Laba The Spider)), 69 ayat | مكة
-Surat Al 'Ankabuut terdiri atas 69 ayat, termasuk golongan surat-surrat Makkiyah. Dinamai Al 'Ankabuut berhubung terdapatnya perkataan Al 'Ankabuut yang berarti laba-laba pada ayat 41 surat ini, dimana Allah mengumpamakan penyembah-penyembah berhala-berhala itu, dengan laba-laba yang percaya kepada kekuatan rumahnya sebagai tempat ia berlindung dan tempat ia menjerat mangsanya, padahal kalau dihembus angin atau ditimpa oleh suatu barang yang kecil saja, rumah itu akan hancur. Begitu pula halnya dengan kaum musyrikin yang percaya kepada kekuatan sembahan-sembahan mereka sebagai tempat berlindung dan tempat meminta sesuatu yang mereka ingini, padahal sembahan-sembahan mereka itu tidak mampu sedikit juga menolong mereka dari azab Allah waktu di dunia, seperti yang terjadi pada kaum Nuh, kaum Ibrahim, kaum Luth, kaum Syu'aib, kaum Saleh, dan lain-lain. Apalagi menghadapi azab Allah di akhirat nanti, sembahan-sembahan mereka itu lebih tidak mampu menghindarkan dan melindungi mereka.
+27. سورہ النمل (سورہ نمل)، 93 آیات | مكة
+سورہ نمل 98 آیات پر مشتمل ہے، یہ مکی حروف کے گروہ سے تعلق رکھتی ہے اور سورہ عاص کے بعد نازل ہوئی ہے۔ اسے عن نمل کا نام دیا گیا ہے، کیونکہ آیات 18 اور 19 میں عن نمل (چیونٹی) کے الفاظ ہیں، جہاں چیونٹیوں کا بادشاہ اپنے ماتحتوں سے کہتا ہے کہ وہ اپنے اپنے گھونسلوں میں داخل ہو جائیں، تاکہ وہ حضرت سلیمان علیہ السلام کے قدموں پر نہ پڑیں۔ اور اس کے سپاہی جو اس جگہ سے گزریں گے۔ چیونٹی کے بادشاہ کا حکم اپنے ماتحتوں کو سن کر حضرت سلیمان علیہ السلام مسکرائے اور چیونٹی کی بادشاہت کے نظم و ضبط پر حیران رہ گئے اور اللہ تعالیٰ کا شکر ادا کیا جس نے ان کو بادشاہی، دولت، فہم و فراست، جانوروں کی بول چال کی صورت میں نعمتوں سے نوازا تھا۔ اور جنوں، انسانوں، پرندوں وغیرہ پر مشتمل ایک مضبوط لشکر۔ حضرت سلیمان علیہ السلام جن لوگوں کو اللہ تعالیٰ نے عظیم نعمتیں عطا کی ہیں وہ تکبر یا تکبر نہیں کرتے اور اللہ کا بندہ ہونے کے ناطے اللہ سے دعا کرتے ہیں کہ وہ انہیں نیک لوگوں میں شامل کرے۔ اللہ SWT. اس خط میں چیونٹیوں کا ذکر ہے تاکہ انسان ان چیونٹیوں کی زندگی سے سبق حاصل کر سکے۔ چیونٹیاں وہ جانور ہیں جو زمین میں گروہوں میں رہتے ہیں، سردیوں کے کھانے کو ذخیرہ کرنے کے لیے بل اور کثیر المنزلہ جگہوں کو مکان اور گودام بناتے ہیں۔ چیونٹیوں کی بادشاہی میں جو صفائی اور نظم و ضبط موجود ہے، اللہ تعالیٰ اس آیت میں بتاتا ہے کہ کس طرح چیونٹیوں نے اپنے بادشاہ کی طرف سے تنبیہ ملنے کے بعد فوری طور پر حفاظت کی کوشش کی تاکہ حضرت سلیمان علیہ السلام اور ان کے سپاہیوں کی طرف سے قدم نہ رکھا جائے۔ بالواسطہ طور پر، اللہ تعالیٰ نے انسانوں کو یہ بھی یاد دلایا کہ اپنی روزمرہ کی ضروریات کو پورا کرنے کی کوشش میں، عام بھلائی وغیرہ کو ترجیح دیتے ہوئے، چیونٹی والے بھی اچھی تنظیم اور تعاون رکھتے ہیں۔ حضرت سلیمان علیہ السلام کا واقعہ بیان کرتے ہوئے اس خط میں اللہ تعالیٰ نے نبی کریم صلی اللہ علیہ وسلم کے مستقبل اور عظمت کی طرف اشارہ کیا ہے۔ حضرت سلیمان علیہ السلام جیسا کہ ایک نبی، رسول اور بادشاہ جس کو بے شمار دولت سے نوازا گیا تھا، اسی طرح حضرت محمد صلی اللہ علیہ وسلم بھی تھے۔ ایک نبی، رسول اور سربراہ مملکت کی حیثیت سے امت اور غریب اپنی قوم کو اللہ کے راستے پر لانے اور لے جانے میں کامیاب ہوں گے۔
 
-30. Surat الروم (Surah Ar-Rum (Romawi The Romans)), 60 ayat | مكة
-Surat Ar Ruum terdiri atas 60 ayat, termasuk golongan surat-surat Makkiyah diturunkan sesudah ayat Al Insyiqaq. Dinamakan Ar Ruum karena pada permulaan surat ini, yaitu ayat 2, 3 dan 4 terdapat pemberitaan bangsa Rumawi yang pada mulanya dikalahkan oleh bangsa Persia, tetapi setelah beberapa tahun kemudian kerajaan Ruum dapat menuntut balas dan mengalahkan kerajaan Persia kembali. Ini adalah suatu mukjizat Al Quran, yaitu memberitakan hal-hal yang akan terjadi di masa yang akan datang. Dan juga suatu isyarat bahwa kaum muslimin yang demikian lemahnya di waktu itu akan menang dan dapat menghancurkan kaum musyrikin. Isyarat ini terbukti pertama kali pada perang Badar.
+28. سورۃ القصص (سورۃ القصص)، 88 آیات | مكة
+سورۃ القشش 88 آیات پر مشتمل ہے جن میں مکی سورتیں بھی شامل ہیں۔ اس کا نام القشش رکھا گیا ہے کیونکہ اس خط کی آیت نمبر 25 میں لفظ القشاش ہے جس کے معنی کہانی ہیں۔ یہ آیت بتاتی ہے کہ حضرت موسیٰ علیہ السلام کے بعد۔ حضرت شعیب علیہ السلام سے ملاقات ہوئی۔ اس نے اپنی ذات سے متعلق کہانیاں بیان کیں، یعنی فرعون کے ساتھ اپنے تجربات، جب تک کہ اسے فرعون نے قبطی قوم کے ایک شخص شعیب علیہ السلام کو حادثاتی طور پر قتل کرنے کے لیے شکار کیا تھا۔ جواب دیا کہ موسیٰ علیہ السلام ظالم لوگوں کے ظلم و ستم سے بچ گیا ہے۔ اس خط کی آیت نمبر 25 کا نزول نبی اکرم صلی اللہ علیہ وسلم کے لیے بہت بڑا معنی رکھتا ہے۔ اور مدینہ کی طرف ہجرت کرنے والے دوستوں کے لیے، جس سے ان کے اعتماد میں اضافہ ہوتا ہے کہ آخر کار مسلمانوں کی ہی فتح ہوگی، کیونکہ یہ آیت بتاتی ہے کہ جو کوئی دشمن کی جگہ سے اپنے عقیدے کے دفاع کے لیے ہجرت کرے گا، وہ یقیناً اپنے دشمنوں کے خلاف جدوجہد میں کامیاب ہوگا۔ مذہب اس خط کے آخر میں مسلمانوں کی فتح کے یقینی ہونے پر زور دیا گیا ہے جس میں کہا گیا ہے کہ مدینہ منورہ منتقل ہونے کے بعد مسلمان فاتح اور اللہ کے دین کے علمبردار بن کر مکہ واپس آئیں گے۔ سورہ القشاش سب سے مکمل خط ہے جس میں حضرت موسیٰ علیہ السلام کی کہانی ہے۔ چنانچہ ایک تاریخ کے مطابق اس خط کو موسیٰ کا خط بھی کہا جاتا ہے۔
 
-31. Surat لقمان (Surah Luqman (Luqman Luqman)), 34 ayat | مكة
-Surat  Luqman  terdiri   dari   34   ayat,   termasuk   golongan   surat-surat Makkiyyah, diturunkan sesudah surat Ash Shaffaat. Dinamai Luqman karena pada  ayat  12   disebutkan   bahwa   Luqman   telah diberi   oleh   Allah   nikmat   dan   ilmu   pengetahuan,  oleh sebab itu dia bersyukur kepadaNya atas nikmat yang  diberikan  itu.   Dan   pada   ayat   13 sampai 19 terdapat nasihat-nasihat Luqman kepada anaknya.Ini adalah sebagai  isyarat   daripada   Allah   supaya   setiap   ibu   bapak melaksanakan  pula terhadap anak-anak mereka sebagai yang telah dilakukan oleh Luqman.
+29. سورہ العنکبوت (سورہ العنکبوت (مکڑی))، 69 آیات | مكة
+سورہ عنکبوت مکی حروف سمیت 69 آیات پر مشتمل ہے۔ اس خط کی آیت نمبر 41 میں لفظ العنکبوت کی وجہ سے اس کا نام العنکبوت رکھا گیا ہے جس کا مطلب مکڑی ہے، جہاں اللہ تعالیٰ نے بتوں کی پرستش کرنے والوں کو ایک مکڑی سے تشبیہ دی ہے جو اپنے گھر کی طاقت پر یقین رکھتی ہے کہ وہ اس کے لیے پناہ لینے کی جگہ ہے۔ ایک ایسی جگہ جہاں وہ اپنے شکار کو پھنساتا ہے، اگرچہ ہوا چلتی ہے یا اس پر کوئی چھوٹی چیز گر جاتی ہے، گھر تباہ ہو جائے گا۔ اسی طرح مشرکین اپنی عبادت کی طاقت کو ایک پناہ گاہ اور جو چاہیں مانگنے کی جگہ مانتے ہیں، حالانکہ ان کی عبادت دنیا میں اللہ کے عذاب سے ان کی ذرا بھی مدد نہیں کر سکتی، جیسا کہ ہوا۔ قوم نوح، قوم ابراہیم، قوم لوط، قوم شعیب، قوم صالح اور دیگر۔ مزید برآں، آخرت میں اللہ کے عذاب کا سامنا کرتے ہوئے، ان کے معبود ان کو روکنے اور حفاظت کرنے سے بھی زیادہ عاجز ہیں۔
 
-32. Surat السجدة (Surah As-Sajdah (Sajdah The Prostration)), 30 ayat | مكة
-Surat As Sajdah terdiri atas 30 ayat termasuk golongan surat Makkiyah diturunkan sesudah surat Al Mu'minuun. Dinamakan As Sajdah berhubung pada surat ini terdapat ayat sajdah, yaitu ayat yang kelima belas.
+30. سورہ الروم (سورہ روم (رومن دی رومز))، 60 آیات | مكة
+سورہ روم 60 آیات پر مشتمل ہے، جس میں مکیہ حروف کا گروپ بھی شامل ہے جو آیت النسائق کے بعد نازل ہوا ہے۔ اسے اروم کہا جاتا ہے کیونکہ اس خط کے شروع میں یعنی آیات 2، 3 اور 4 میں رومیوں کے بارے میں خبر ہے جنہیں شروع میں فارسیوں نے شکست دی تھی، لیکن کئی سالوں کے بعد روم سلطنت اس قابل ہو گئی کہ وہ بدلہ لے اور اسے شکست دے سکے۔ فارس کی بادشاہت دوبارہ۔ یہ قرآن کا ایک معجزہ ہے، یعنی مستقبل میں ہونے والی چیزوں کی اطلاع دینا۔ اور یہ بھی ایک نشانی ہے کہ جو مسلمان اس وقت بہت کمزور تھے وہ جیت جائیں گے اور مشرکوں کو نیست و نابود کر سکیں گے۔ یہ اشارہ پہلی بار جنگ بدر میں ثابت ہوا۔
 
-33. Surat الأحزاب (Surah Al-Ahzab (Golongan Yang Bersekutu The Clans)), 73 ayat | مدينة
-Surat Al Ahzab terdiri atas 73 ayat, termasuk golongan surat-surat Madaniyah, diturunkan sesudah surat Ali'Imran. Dinamai Al Ahzab yang berarti golongan-golongan yang bersekutu karena dalam surat ini terdapat beberapa ayat, yaitu ayat 9 sampai dengan ayat 27 yang berhubungan dengan peperangan Al Ahzab, yaitu peperangan yang dilancarkan oleh orang-orang Yahudi, kaum munafik dan orang-orang musyrik terhadap orang-orang mukmin di Medinah. Mereka telah mengepung rapat orang- orang mukmin sehingga sebahagian dari mereka telah berputus asa dan menyangka bahwa mereka akan dihancurkan oleh musuh-musuh mereka itu. Ini adalah suatu ujian yang berat dari Allah untuk menguji sampai dimana teguhnya keimanan mereka. Akhirnya Allah mengirimkan bantuan berupa tentara yang tidak kelihatan dan angin topan, sehingga musuh-musuh itu menjadi kacau balau dan melarikan diri.
+31. سورہ لقمان (سورہ لقمان)، 34 آیات | مكة
+لقمان کا خط 34 آیات پر مشتمل ہے، جن میں مکی حروف بھی شامل ہیں، جو خط شفاعت کے بعد نازل ہوئے۔ اس کا نام لقمان رکھا گیا ہے کیونکہ آیت نمبر 12 میں بتایا گیا ہے کہ لقمان کو اللہ نے نعمتیں اور علم عطا کیا ہے اس لیے وہ عطا کردہ نعمتوں پر اس کا شکر گزار ہے۔   اور آیت 13 سے 19 میں لقمان کی اپنے بچوں کو نصیحت ہے کہ یہ اللہ کی طرف سے ایک نشانی ہے کہ ہر ماں اور باپ کو بھی اپنے بچوں کے ساتھ وہی کرنا چاہیے جو لقمان نے کیا ہے۔
 
-34. Surat سبإ (Surah Saba' (Saba' Sheba)), 54 ayat | مكة
-Surat Saba' terdiri atas 54 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Luqman. Dinamakan Saba' karena didalamnya terdapat kisah kaum Saba'. Saba' adalah nama suatu kabilah dari kabilah-kabilah Arab yang tinggal di daerah Yaman sekarang ini. Mereka mendirikan kerajaan yang terkenal dengan nama kerajaan Sabaiyyah, ibukotanya Ma'rib; telah dapat membangun suatu bendungan raksasa, yang bernama Bendungan Ma'rib, sehingga negeri meka subur dan makmur. Kemewahan dan kemakmuran ini menyebabkan kaum Saba' lupa dan ingkar kepada Allah yang telah melimpahkan nikmatnya kepada mereka, serta mereka mengingkari pula seruan para rasul. Karena keingkaran mereka ini, Allah menimpahkan kepada mereka azab berupa sailul 'arim (banjir yang besar) yang ditimbulkan oleh bobolnya bendungan Ma'rib. Setelah bendungan ma'rib bobol negeri Saba' menjadi kering dan kerajaan mereka hancur.
+32. سورہ السجدة (سورہ سجدہ)، 30 آیات | مكة
+سورہ سجدہ 30 آیات پر مشتمل ہے جس میں مکی سورہ بھی شامل ہے جو سورہ المومنون کے بعد نازل ہوئی ہے۔ اس کو سجدہ اس لیے کہا جاتا ہے کہ اس حرف میں ایک سجدہ آیت ہے یعنی پندرہویں آیت۔
 
-35. Surat فاطر (Surah Fatir (Maha Pencipta The Originator)), 45 ayat | مكة
-Surat Faathir terdiri atas 45 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Al Furqaan dan merupakan surat akhir dari urutan surat-surat dalam Al Quran yang dimulai dengan Alhamdulillah. Dinamakan Faathir (pencipta) ada hubungannya dengan perkataan Faathir yang terdapat pada ayat pertama pada surat ini. Pada ayat tersebut diterangkan bahwa Allah adalah Pencipta langit dan bumi, Pencipta malaikat-malaikat, Pencipta semesta alam yang semuanya itu adalah sebagai bukti atas kekuasaan dan kebesaran-Nya. Surat ini dinamai juga dengan surat Malaikat karena pada ayat pertama disebutkan bahwa Allah telah menjadikan malaikat-malaikat sebagai utusan-Nya  yang mempunyai beberapa sayap.
+33. سورہ الأحزاب (سورہ الاحزاب (قبیلہ کے گروہ))، 73 آیات | مدينة
+سورہ احزاب 73 آیات پر مشتمل ہے جن میں مدنی سورتیں بھی شامل ہیں جو سورہ علی عمران کے بعد نازل ہوئی ہیں۔ اس کا نام الاحزاب رکھا گیا ہے جس کا مطلب اتحادی گروہ ہے کیونکہ اس خط میں متعدد آیات ہیں، یعنی آیات 9 سے آیت 27 جو جنگ الاحزاب سے متعلق ہیں، یعنی مدینہ میں اہل ایمان کے خلاف یہودیوں، منافقین اور مشرکین کی جنگ۔ . انہوں نے مومنوں کو اتنا گھیر لیا تھا کہ ان میں سے بعض نے امید چھوڑ دی تھی اور یہ خیال کیا تھا کہ وہ ان کے دشمنوں کے ہاتھوں تباہ ہو جائیں گے۔ یہ اللہ کی طرف سے ایک سخت امتحان ہے کہ ان کا ایمان کتنا پختہ ہے۔ آخر کار اللہ تعالیٰ نے ایک نادیدہ فوج اور سمندری طوفان کی صورت میں مدد بھیجی کہ دشمن آپس میں الجھ کر بھاگ گئے۔
 
-36. Surat يس (Surah Yasin (Yasin Yaseen)), 83 ayat | مكة
-Surat Yaasiin terdiri atas 83 ayat, termasuk golongan surat-surat Makkiyyah,  diturunkan sesudah surat Jin. Dinamai Yaasiin karena dimulai dengan huruf Yaasiin. Sebagaimana halnya arti huruf-huruf abjad yang terletak pada permulaan beberapa surat Al Quran, maka demikian pula arti Yaasiin yang terdapat pada ayat permulaan surat ini, yaitu Allah mengisyaratkan bahwa sesudah huruf tersebut akan dikemukakan hal-hal yang penting antara lain: Allah bersumpah dengan Al Quran bahwa Muhammad s.a.w. benar-benar seorang rasul yang diutus-Nya kepada kaum yang belum pernah diutus kepada mereka rasul-rasul.
+34. سورہ سبإ (سورہ سبا' (سبا' شیبہ)، 54 آیات | مكة
+سورہ سبا 54 آیات پر مشتمل ہے جن میں مکی سورتیں بھی شامل ہیں جو سورہ لقمان کے بعد نازل ہوئی ہیں۔ اسے صبا کہا جاتا ہے کیونکہ اس میں اہلِ سبا کی کہانی ہے۔ سبا یمن میں رہنے والے عرب قبائل کے ایک قبیلے کا نام ہے۔ انہوں نے ایک مملکت کی بنیاد رکھی جسے سبائیہ بادشاہی کہا جاتا ہے، جس کا دارالحکومت معارب تھا۔ ایک بڑا ڈیم بنانے میں کامیاب رہے ہیں، جسے معارب ڈیم کہا جاتا ہے، تاکہ میکا ملک زرخیز اور خوشحال ہو۔ اس عیش و عشرت اور خوشحالی کی وجہ سے سبائی لوگ اللہ کو بھول گئے اور اس کا انکار کیا جس نے ان پر اپنی نعمتیں نازل کی تھیں اور انہوں نے رسولوں کی دعوت کا بھی انکار کیا۔ ان کی نافرمانی کی وجہ سے اللہ تعالیٰ نے ان پر سیل العریم (عظیم سیلاب) کا عذاب نازل کیا جو معارب بند ٹوٹنے سے آیا۔ معارب بند ٹوٹنے کے بعد سبا کی سرزمین خشک ہوگئی اور ان کی سلطنت تباہ ہوگئی۔
 
-37. Surat الصافات (Surah As-Saffat (Barisan-Barisan Those drawn up in Ranks)), 182 ayat | مكة
-Surat Ash Shaaffaat terdiri atas 182 ayat termasuk golongan surat Makkiyyah diturunkan sesudah surat Al An'aam. Dinamai dengan Ash Shaaffaat (yang bershaf-shaf) ada hubungannya dengan perkataan Ash Shaaffaat yang terletak pada ayat permulaan surat ini yang mengemukakan bagaimana para malaikat yang berbaris di hadapan Tuhannya yang bersih jiwanya, tidak dapat digoda oleh syaitan. Hal ini hendaklah menjadi i'tibar bagi manusia dalam menghambakan dirinya kepada Allah.
+35. سورہ فاطر (سورہ فاطر) 45 آیات | مكة
+سورہ فاتحر 45 آیات پر مشتمل ہے، مکی حروف کے گروپ سے تعلق رکھتی ہے، سورہ فرقان کے بعد نازل ہوئی اور قرآن کے حروف کی ترتیب کا آخری حرف ہے جو الحمدللہ سے شروع ہوتا ہے۔ نام فاطر (خالق) کا تعلق فاطر کے ان الفاظ سے ہے جو اس حرف کی پہلی آیت میں موجود ہیں۔ اس آیت میں اس بات کی وضاحت کی گئی ہے کہ اللہ زمین و آسمان کا خالق، فرشتوں کا خالق، کائنات کا خالق، یہ سب اس کی قدرت و عظمت کا ثبوت ہے۔ اس خط کو فرشتے کا خط بھی کہا جاتا ہے کیونکہ پہلی آیت میں بتایا گیا ہے کہ اللہ تعالیٰ نے فرشتوں کو اپنا رسول بنایا ہے جن کے کئی پر ہیں۔
 
-38. Surat ص (Surah Sad (Sad The letter Saad)), 88 ayat | مكة
-Surat Shaad  terdiri atas  88 ayat  termasuk golongan  surat Makkiyyah, diturunkan sesudah surat Al Qamar. Dinamai  dengan  Shaad  karena surat  ini  dimulai  dengan Shaad (selanjutnya lihat no. [10)). Dalam surat  ini Allah  bersumpah dengan  Al Quran,   untuk menunjukkan bahwa Al Quran itu suatu  kitab yang  agung dan bahwa siapa saja yang  mengikutinya  akan mendapat  kebahagiaan  dunia  dan akhirat dan untuk menunjukkan bahwa Al Quran ini adalah mukjizat Nabi Muhammad s.a.w. yang  menyatakan kebenarannya dan ketinggian akhlaknya.
+36. سورہ یس (سورہ یاسین)، 83 آیات | مكة
+خط یاسین 83 آیات پر مشتمل ہے جس میں مکی حروف بھی شامل ہیں، یہ خط جن کے بعد نازل ہوا۔ یاسین کا نام دیا گیا کیونکہ یہ حروف یاسین سے شروع ہوتا ہے۔ جیسا کہ حروف تہجی کا مفہوم ہے جو قرآن کے متعدد حروف کے شروع میں موجود ہے، اسی طرح اس حرف کی ابتدائی آیت میں موجود یاسین کے معنی، یعنی اللہ تعالیٰ نے اشارہ کیا کہ اس حرف کے بیان ہونے کے بعد اہم چیزیں شامل ہیں: خدا نے قرآن کی قسم کھائی ہے کہ محمد صلی اللہ علیہ وسلم واقعی ایک رسول اس نے ان لوگوں کے پاس بھیجا جو کبھی ان کے رسولوں کے پاس نہیں بھیجا گیا تھا۔
 
-39. Surat الزمر (Surah Az-Zumar (Rombongan The Groups)), 75 ayat | مكة
-Surat Az Zumar terdiri ataz 75 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Saba'. Dinamakan Az Zumar (Rombongan-rombongan) karena perkataan Az Zumar yang terdapat pada ayat 71 dan 73 ini. Dalam ayat-ayat tersebut diterangkan keadaan manusia di hari kiamat setelah mereka dihisab, di waktu itu mereka terbagi atas dua rombongan; satu rombongan dibawa ke neraka dan satu rombongan lagi dibawa ke syurga. Masing- masing rombongan memperoleh balasan dari apa yang mereka kerjakan di dunia dahulu. Surat ini dinamakan juga Al Ghuraf (kamar-kamar) berhubung perkataan ghuraf yang terdapat pada ayat 20, dimana diterangkan keadaan kamar-kamar dalam syurga yang diperoleh orang-orang yang bertakwa.
+37. خط الصافات (سورۃ الصافات (درجہ بندی کرنے والوں کی صفیں))، 182 آیات | مكة
+ایش شفیک ایبل خط 182 پیراگراف پر مشتمل ہے جس میں مکیہ خط بھی شامل ہے، یہ الانعام خط کے بعد نازل ہوا۔ اش شفاعتسات (جسے شفٹ کیا گیا تھا) کا نام اشش شفاعت بینیفٹ کے الفاظ سے کچھ تعلق تھا جو اس خط کی ابتدائی آیت میں ہے جس میں بتایا گیا ہے کہ جو فرشتے اپنی پاکیزہ زندگی کے سامنے صف آرا ہوتے ہیں، انہیں شیطان کس طرح آزمایا نہیں جا سکتا۔ یہ انسانوں کے لیے اپنے آپ کو اللہ پر لعنت بھیجنے کا اِتبار ہونا چاہیے۔
 
-40. Surat غافر (Surah Gafir (Maha Pengampun The Forgiver)), 85 ayat | مكة
-Surat Al Mu'min terdiri atas 85 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Az Zumar. Dinamai Al Mu'min (Orang yang beriman), berhubung dengan perkataan mukmin yang terdapat pada ayat 28 surat ini. Pada ayat 28 diterangkan bahwa salah seorang dari kaum Fir'aun telah beriman kepada Nabi Musa a.s. dengan menyembunyikan imannya kepada kaumnya, setelah mendengar keterangan dan melihat mukjizat yang dikemukakan oleh Nabi Musa a.s. Hati kecil orang ini mencela Fir'aun dan kaumnya yang tidak mau beriman kepada Nabi Musa a.s., sekalipun telah dikemukakan keterangan dan mukjizat yang diminta mereka.Dinamakan pula Ghafir (yang mengampuni), karena ada hubungannya dengan kalimat Ghafir yang terdapat pada ayat 3 surat ini. Ayat ini mengingatkan bahwa Maha Pengampun dan Maha Penerima Taubat adalah sebagian dari sifat-sifat Allah, karena itu hamba-hamba Allah tidak usah khawatir terhadap  perbuatan-perbuatan dosa yang telah terlanjur mereka lakukan, semuanya itu akan diampuni Allah asal benar-benar memohon ampun dan bertaubat kepada-Nya dan berjanji tidak akan mengerjakan  perbuatan-perbuatan dosa itu lagi. Dan surat ini dinamai Dzit Thaul (Yang Mempunyai Kurnia) karena perkataan tersebut terdapat pada ayat 3.
+38. خط ص (سورہ اداس (اداس خط سعد)) ، 88 پیراگراف | امی
+شاد خط 88 پیراگراف پر مشتمل ہے جس میں مککیہ لیٹر گروپ بھی شامل ہے ، جو القمر خط کے بعد انکشاف ہوا ہے۔ شاد کے ساتھ نامزد کیا گیا ہے کیونکہ یہ خط شاد سے شروع ہوتا ہے (پھر نہیں دیکھیں۔ [10))۔ اس خط میں خدا قرآن پاک کے ساتھ گھومتا ہے ، یہ ظاہر کرنے کے لئے کہ قرآن پاک ایک عمدہ کتاب ہے اور جو بھی اس کی پیروی کرتا ہے اسے دنیا اور اس کے بعد کی خوشی ملے گی اور یہ ظاہر کرنے کے لئے کہ قرآن مجید حضرت محمد ایس اے ڈبلیو کا ایک معجزہ ہے۔ جو اس کے اخلاق کی سچائی اور اونچائی میں بیان کرتا ہے۔
 
-41. Surat فصلت (Surah Fussilat (Yang Dijelaskan Explained in detail)), 54 ayat | مكة
-Surat Fushshilat terdiri atas 54 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Al Mu'min. Dinamai Fushshilat (yang dijelaskan) karena ada hubungannya dengan perkataan Fushshilat yang terdapat pada permulaan surat ini yang berarti yang dijelaskan. Maksudnya ayat-ayatnya diperinci dengan jelas tentang hukum-hukum, keimanan, janji dan ancaman, budi pekerti, kisah, dan sebagainya. Dinamai juga dengan Haa Miim dan As Sajdah karena surat ini dimulai dengan Haa Miim dan dalam surat ini terdapat ayat Sajdah.
+39. الکمر کا خط (سورہ از زومار (گروپوں کا گروپ)) ، 75 آیات | امی
+اے زومر کا خط اٹاز 75 پیراگراف پر مشتمل تھا ، بشمول مککیہ خط ، صبا کے خط کے بعد انکشاف ہوا۔ AZ ZUMAR (گروپس) کا نام AZ زومار کے الفاظ 71 اور 73 میں شامل ہیں۔ ان آیات میں انصاف کے دن انصاف کے دن انسانی صورتحال کی وضاحت کی گئی تھی ، اس وقت ان کو دو گروہوں میں تقسیم کیا گیا تھا۔ ایک گروہ کو جہنم میں لایا گیا اور دوسرا گروہ جنت میں لے جایا گیا۔ ہر گروپ کو پہلے دنیا میں کیا کیا اس سے جواب ملا۔ اس خط کو آیت 20 میں موجود غفف کے الفاظ کی وجہ سے الغورف (کمرے کے کمرے) بھی کہا جاتا ہے ، جہاں جنت میں کمروں کی حالت متقیوں کے ذریعہ حاصل کی جاتی ہے۔
 
-42. Surat الشورى (Surah Asy-Syura (Musyawarah Consultation)), 53 ayat | مكة
-Surat Asy Syuura terdiri atas 53 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Fushshilat. Dinamai dengan Asy Syuura (musyawarat) diambil dari perkataan Syuura yang terdapat pada ayat 38 surat ini. Dalam ayat tersebut diletakkan salah satu dari dasar-dasar pemerintahan Islam ialah musyawarat. Dinamai juga Haa Miim 'Ain Siin Qaaf karena surat ini dimulai dengan huruf-huruf hijaiyah itu.
+40. خط غaaur (سورہ گیفیر (معاف کرنے والے کے لئے سپلائی)) ، 85 آیات | امی
+ال مومن کے خط میں 85 آیات پر مشتمل تھا ، بشمول مککیہ خط ، AZ زومر خط کے بعد انکشاف ہوا تھا۔ اس خط کی آیت 28 میں موجود مومنوں کے الفاظ کی وجہ سے ، المون (ایک شخص جو یقین کرتا ہے) کا نام لیا۔ آیت 28 میں یہ سمجھایا گیا ہے کہ فرعون میں سے ایک کا نبی موسیٰ امریکی پر اعتماد تھا۔ بیان سننے اور نبی موسیٰ کے ذریعہ پیش کردہ معجزات کو دیکھ کر ، اپنے لوگوں پر اپنے اعتماد کو چھپانے سے اس شخص کے چھوٹے دل نے فرعون اور اس کے لوگوں کی مذمت کی جو نبی موسیٰ امریکی پر یقین نہیں کرنا چاہتے تھے ، حالانکہ ان کی معلومات اور معجزات نے ان کی درخواست کی تھی (جو معاف کرتا ہے)۔ اس خط کی آیت 3 میں جملہ غفیر شامل ہے۔ یہ آیت یاد دلاتی ہے کہ توبہ کرنے کا سب سے فائدہ اور سب سے زیادہ وصول کنندہ خدا کی خوبیوں کا حصہ ہے ، لہذا خدا کے خادموں کو ان گناہوں کے اعمال کے بارے میں فکر کرنے کی ضرورت نہیں ہے جو انہوں نے پہلے ہی کیے ہیں ، ان سب کو خدا کو معاف کردیا جائے گا۔ جب تک کہ وہ واقعی معافی مانگتے ہیں اور اس سے توبہ کرتے ہیں اور وعدہ کرتے ہیں کہ دوبارہ گناہ کے عمل کو نہ کریں۔ اور اس خط کا نام دزیت تھول (جس کے پاس کارنیا ہے) رکھا گیا ہے کیونکہ یہ الفاظ پیراگراف 3 میں ہیں۔
 
-43. Surat الزخرف (Surah Az-Zukhruf (Perhiasan Ornaments of gold)), 89 ayat | مكة
-Surat Az Zukhruf terdiri atas 89 ayat, termasuk golongan  surat-surat Makkiyyah, diturunkan sesudah surat Asy Syuura. Dinamai Az Zukhruf (Perhiasan) diambil dari perkataan Az Zukhruf yang terdapat pada ayat 35 surat ini.  Orang-orang musyrik mengukur tinggi rendahnya derajat seseorang tergantung kepada perhiasan dan harta benda yang ia punyai, karena Muhammad s.a.w. adalah seorang anak yatim lagi miskin, ia tidak pantas diangkat Allah sebagai seorang rasul dan nabi.  Pangkat rasul dan nabi harus diberikan kepada orang yang kaya.  Ayat ini menegaskan bahwa harta tidak dapat dijadikan dasar untuk mengukur tinggi rendahnya derajat seseorang, karena harta itu merupakan hiasan kehidupan duniawi, bukan berarti kesenangan akhirat.
+41. الٹ کا خط (سورہ فوسیلٹ (تفصیلات میں بیان کردہ)) ، 54 پیراگراف | امی
+فششیلات خط 54 آیات پر مشتمل ہے ، بشمول مککیہ خطوط ، یہ المومن خط کے بعد انکشاف ہوا ہے۔ فش شیلات (بیان کردہ) کا نام دیا گیا ہے کیونکہ اس کا تعلق اس خط کے آغاز میں پائے جانے والے فششیلات کے الفاظ کے ساتھ کرنا ہے جس کی وضاحت کی گئی ہے۔ اس کا مطلب یہ ہے کہ آیات قوانین ، ایمان ، وعدوں اور دھمکیوں ، کردار ، کہانیاں ، اور اسی طرح کے بارے میں واضح طور پر تفصیل سے ہیں۔ اس کا نام ہا مِم اور سجدہ بھی رکھا گیا کیونکہ اس خط کا آغاز ہا مِم سے ہوا تھا اور اس خط میں ایک آیت ہے۔
 
-44. Surat الدخان (Surah Ad-Dukhan (Kabut The Smoke)), 59 ayat | مكة
-Surat Ad Dukhaan terdiri atas 59 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah Az Zukhruf. Dinamai Ad Dukhaan (kabut), diambil dari perkataan Dukhaan yang terdapat pada ayat 10 surat ini.Menurut riwayat Bukhari secara ringkas dapat diterangkan sebagai berikut: Orang-orang kafir Mekah dalam menghalang-halangi agama Islam dan menyakiti serta mendurhakai Nabi Muhammad s.a.w. sudah melewati batas, karena itu Nabi mendoa kepada Allah agar diturunkan azab sebagaimana yang telah diturunkan kepada orang-orang yang durhaka kepada Nabi Yusuf yaitu musim kemarau yang panjang.  Do'a Nabi itu dikabulkan Allah sampai orang-orang kafir memakan tulang dan bangkai, karena kelaparan.  Mereka selalu menengadah ke langit mengharap pertolongan Allah.  Tetapi tidak satupun yang mereka lihat kecuali kabut yang menutupi pandangan mereka.Akhirnya mereka datang kepada Nabi agar Nabi memohon kepada Allah supaya hujan diturunkan.  Setelah Allah mengabulkan doa Nabi, dan hujan di turunkan, mereka kembali kafir seperti semula; karena itu Allah menyatakan bahwa nanti mereka akan diazab dengan azab yang pedih.
+42. الکورى کا خط (سور Surah سیسی-سیورا (مشاورت سے متعلق مشاورت)) ، 53 آیات | امی
+ایش سیورا خط 53 آیات پر مشتمل ہے ، جن میں مککیہ خطوط بھی شامل ہیں ، جن کا انکشاف فششیلات خط کے بعد کیا گیا ہے۔ اس خط کے پیراگراف 38 میں موجود سیورہ کے الفاظ سے لیا گیا ایش سیورہ (غور و فکر) کے نام سے منسوب۔ اس آیت میں ، اسلامی حکومت کی ایک بنیاد پر غور و فکر تھا۔ اس کا نام ہا مِم 'آئن سائن قاف بھی رکھا گیا کیونکہ اس خط کا آغاز حجیاہ کے خطوط سے ہوا تھا۔
 
-45. Surat الجاثية (Surah Al-Jasiyah (Berlutut Crouching)), 37 ayat | مكة
-Surat Al Jaatsiyah terdiri atas 37 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Ad Dukhaan. Dinamai dengan Al Jaatsiyah (yang berlutut) diambil dari perkataan Jaatsiyah yang terdapat pada ayat 28 surat ini. Ayat tersebut menerangkan tentang keadaan manusia pada hari kiamat, yaitu semua manusia dikumpulkan ke hadapan mahkamah Allah Yang Maha Tinggi yang memberikan keputusan terhadap perbuatan yang telah mereka lakukan di dunia. Pada hari itu semua manusia berlutut di hadapan Allah. Dinamai juga dengan Asy Syari'ah diambil dari perkataan Syari'ah (Syari'at) yang terdapat pada ayat 18 surat ini.
+43. الیگرف کا خط (سورہ اذ-زوکھروف (سونے کا زیورات کا زیور)) ، 89 آیات | امی
+AZ ZUKHRUF کے خط میں 89 آیات شامل تھیں ، جن میں مککیہ خط بھی شامل ہے ، ایش سیورا خط کے بعد انکشاف ہوا۔ اس خط کی آیت 35 میں شامل AZ ZUKHRUF (زیورات) کے نام سے لیا گیا ہے۔  پولیٹیسٹ کسی زیورات اور جائیداد کے لحاظ سے کسی شخص کی اعلی ڈگری کی پیمائش کرتے ہیں ، کیونکہ محمد ایس اے ڈبلیو۔ کیا یتیم غریب ہے ، وہ خدا کے ذریعہ رسول اور نبی کے طور پر مقرر ہونے کا اہل نہیں ہے۔  رسول اور نبی کا درجہ دولت مندوں کو دینا چاہئے۔  یہ آیت اس بات کی تصدیق کرتی ہے کہ جائیداد کو کسی شخص کی ڈگری کی سطح کی پیمائش کرنے کی بنیاد کے طور پر استعمال نہیں کیا جاسکتا ، کیونکہ خزانہ دنیاوی زندگی کی دنیا ہے ، اس کا مطلب یہ نہیں ہے کہ اس کے بعد کی خوشی ہے۔
 
-46. Surat الأحقاف (Surah Al-Ahqaf (Bukit Pasir The Dunes)), 35 ayat | مكة
-Surat Al Ahqaaf terdiri dari 35 ayat termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Al Jaatsiyah. Dinamai Al Ahqaaf  (bukit-bukit pasir) dari perkataan Al Ahqaaf yang terdapat pada ayat 21 surat ini.Dalam ayat tersebut dan ayat-ayat sesudahnya diterangkan bahwa Nabi Hud a.s. telah menyampaikan risalahnya kepada kaumnya di Al Ahqaaf yang sekarang dikenal dengan Ar Rab'ul Khaali, tetapi kaumnya tetap ingkar sekalipun mereka telah diberi peringatan pula oleh rasul-rasul yang sebelumnya.  Akhirnya Allah menghancurkan mereka dengan tiupan angin kencang.  Hal ini adalah sebagai isyarat dari Allah kepada kaum musyrikin Quraisy bahwa mereka akan dihancurkan bila mereka tidak mengindahkan seruan Rasul.
+44. الدقان کا خط (سورہ اڈ-ڈوبن (دھواں دھواں)) ، 59 آیات | امی
+دوکھان کے خط میں 59 آیات پر مشتمل تھا ، بشمول مککیہ خط ، AZ ZUKHRUF کے بعد انکشاف ہوا تھا۔ اس خط کی آیت 10 میں شامل دوکھان کے الفاظ سے لیان (دھند) کا نام دیا گیا ہے۔ حضرت محمد s.a.w. پہلے ہی اس حد کو عبور کرلیا ، لہذا نبی نے اللہ سے دعا کی کہ وہ اس سزا کا انکشاف کریں جیسا کہ ان لوگوں کے سامنے انکشاف کیا گیا ہے جو نابالغ جوزف ، یعنی طویل خشک موسم کے ساتھ بے دین تھے۔  اللہ کی طرف سے نبی of کی دعا اس وقت تک عطا کی گئی جب تک کہ بھوک کی وجہ سے کافر ہڈیوں اور لاشوں کو نہ کھائیں۔  وہ ہمیشہ خدا کی مدد کی توقع کرتے ہوئے آسمان کی طرف دیکھتے ہیں۔  لیکن ان میں سے کسی نے بھی دھند کے سوا نہیں دیکھا جس نے ان کے خیالات کو ڈھانپ لیا تھا تاکہ وہ نبی. کے پاس آگئے تاکہ بارش کو ختم کردیا گیا۔  اللہ نے نبی of کی دعا کی منظوری کے بعد ، اور بارش کا انکشاف ہوا ، وہ پہلے کی طرح کافروں میں واپس آئے۔ لہذا خدا بیان کرتا ہے کہ بعد میں وہ تکلیف دہ سزا کے درد میں ہوں گے۔
 
-47. Surat محمد (Surah Muhammad (Muhammad Muhammad)), 38 ayat | مدينة
-Surat Muhammad terdiri atas 38 ayat, termasuk golongan surat-surat Madaniyyah, diturunkan sesudah surat Al Hadiid. Nama Muhammad sebagai nama surat ini diambil dari perkataan Muhammad yang terdapat pada ayat 2 surat ini. Pada ayat 1, 2, dan 3 surat ini, Allah membandingkan antara hasil yang diperoleh oleh orang-orang yang tidak percaya kepada apa yang diturunkan kepada Nabi Muhammad s.a.w dan hasil yang diperoleh oleh orang-orang yang tidak percaya kepadanya. Orang-orang yang percaya kepada apa yang dibawa oleh Muhammad s.a.w merekalah orang-orang yang beriman dan mengikuti yang hak, diterima Allah semua amalnya, diampuni segala kesalahannya. Adapun orang-orang yang tidak percaya kepada Muhammad s.a.w adalah orang-orang yang mengikuti kebatilan, amalnya tidak diterima, dosa mereka tidak diampuni, kepada mereka dijanjikan azab di dunia dan di akhirat.Dinamai juga dengan Al Qital (peperangan), karena sebahagian besar surat ini mengutarakan tentang peperangan dan pokok-pokok hukumnya, serta bagaimana seharusnya sikap orang-orang mukmin terhadap orang-orang kafir.
+45. القعقیت کا خط (سورہ الجیسیہ (گھٹنے ٹیکنے کا تاج)) ، 37 آیات | امی
+الجاتیہ کے خط میں 37 آیات پر مشتمل تھا ، بشمول مککیہ خط ، دوکھان کے خط کے بعد اسے نیچے منتقل کردیا گیا تھا۔ اس خط کی آیت 28 میں موجود Jaatihyah کے الفاظ سے لیا گیا ہے۔ اس آیت میں فیصلے کے دن انسانوں کی حالت کے بارے میں وضاحت کی گئی ہے ، یعنی ، تمام انسان خدا کی ہائی کورٹ کے سامنے جمع ہوتے ہیں جو دنیا میں ان کے اقدامات کو فیصلے دیتے ہیں۔ اس دن تمام انسان خدا کے سامنے گھٹنے ٹیکتے ہیں۔ اس خط کی آیت 18 میں شامل شریعت (شریعت) کے الفاظ سے بھی شریعت کا نام لیا گیا ہے۔
 
-48. Surat الفتح (Surah Al-Fath (Kemenangan The Victory)), 29 ayat | مدينة
-Surat Al Fath terdiri atas 29 ayat, termasuk golongan surat-surat Madaniyyah, diturunkan sesudah surat Al Jum'ah. Dinamakan Al Fath (kemenangan) diambil dari perkataan Fat-han yang terdapat pada ayat pertama surat ini. Sebagian besar dari ayat-ayat surat ini menerangkan hal-hal yang berhubungan dengan kemenangan yang dicapai Nabi Muhammad s.a.w. dalam peperangan-peperangannya. Nabi Muhammad s.a.w. sangat gembira dengan turunnya ayat pertama surat ini. Kegembiraan ini dinyatakan dalam sabda beliau yang diriwayatkan Bukhari; Sesungguhnya telah diturunkan kepadaku satu surat, yang surat itu benar-benar lebih aku cintai dari seluruh apa yang disinari matahari. Kegembiraan Nabi Muhammad s.a.w. itu ialah karena ayat-ayatnya menerangkan tentang kemenangan yang akan diperoleh Muhammad s.a.w. dalam perjuangannya dan tentang kesempurnaan nikmat Allah kepadanya.
+46. ​​خط القع (سورہ العقاف (بکیٹ ریت دی ٹیلوں)) ، 35 آیات | امی
+الحقاف کے خط میں 35 آیات پر مشتمل ہے جس میں مککیہ خط بھی شامل ہے ، اس کے بعد سورہ الجاتیہ کے بعد گزر گیا۔ الحقاف (ریت کی پہاڑیوں) کا نام الحقاف کے الفاظ سے اس خط کی آیت 21 میں شامل ہے اور اس کے بعد آیات نے وضاحت کی کہ نبی hud ہڈ اے۔ الحقاف میں اپنے لوگوں کو اپنا مقالہ پہنچا دیا ہے ، جسے اب اے آر ربی الخالی کے نام سے جانا جاتا ہے ، لیکن ان کے لوگ باقی رہے حالانکہ انہیں پچھلے رسولوں نے بھی انتباہ دیا تھا۔  آخر خدا نے انہیں تیز ہواؤں سے تباہ کردیا۔  یہ خدا کی طرف سے قریش پولی کے لئے ایک علامت کے طور پر ہے کہ اگر وہ رسول کی پکار پر توجہ نہ دیں تو وہ تباہ ہوجائیں گے۔
 
-49. Surat الحجرات (Surah Al-Hujurat (Kamar-Kamar The Inner Apartments)), 18 ayat | مدينة
-Surat Al Hujuraat terdiri atas 18 ayat, termasuk golongan surat-surat Madaniyyah, diturunkan sesudah surat Al Mujaadalah. Dinamai Al Hujuraat diambil dari perkataan Al Hujuraat yang terdapat pada ayat 4 surat ini. Ayat tersebut mencela para sahabat yang memanggil Nabi Muhammad SAW yang sedang berada di dalam kamar rumahnya bersama isterinya. Memanggil Nabi Muhammad SAW dengan cara dan dalam keadaan yang demikian menunjukkan sifat kurang hormat kepada beliau dan mengganggu ketenteraman beliau.
+47. خط محمد (سورہ محمد (محمد محمد)) ، 38 پیراگراف | مدیدی
+محمد کے خط میں 38 آیات پر مشتمل تھا ، جن میں مدنیہ لیٹرز سمیت ، الدیہیڈ خط کے بعد گزر گیا تھا۔ اس خط کے نام کے طور پر محمد کا نام اس خط کے پیراگراف 2 میں موجود محمد کے الفاظ سے لیا گیا تھا۔ اس خط کی آیات 1 ، 2 ، اور 3 میں ، اللہ ان لوگوں کے ذریعہ حاصل کردہ نتائج کا موازنہ کرتا ہے جو اس بات پر یقین نہیں کرتے ہیں کہ حضرت محمد s.a.w پر جو انکشاف ہوا تھا اور ان کے ذریعہ حاصل کردہ نتائج جو ان پر یقین نہیں رکھتے تھے۔ وہ لوگ جو محمد ایس اے نے ان کو لائے اس پر یقین رکھتے ہیں کہ وہ وہ لوگ ہیں جو حقوق پر یقین رکھتے ہیں اور ان کی پیروی کرتے ہیں ، خدا نے ان کے تمام اعمال قبول کیے ہیں ، ان کی ساری غلطیوں کو معاف کردیا۔ جہاں تک وہ محمد ایس اے پر یقین نہیں رکھتے ہیں وہ لوگ ہیں جو ان کے اعمال کو قبول نہیں کیا جاتا ہے ، ان کے گناہوں کو معاف نہیں کیا جاتا ہے ، ان کے لئے دنیا اور اس کے بعد ایک سزا کا وعدہ کیا جاتا ہے قانون کے ساتھ ساتھ یہ بھی کہ کافروں کے ساتھ مومنوں کا رویہ ہونا چاہئے۔
 
-50. Surat ق (Surah Qaf (Qaf The letter Qaaf)), 45 ayat | مكة
-Surat Qaaf terdiri atas 45 ayat, termasuk golongan surat-surat Makkiyah diturunkan sesudah surat Al Murssalaat. Dinamai Qaaf karena surat ini dimulai dengan huruf Qaaf. Menurut hadits yang diriwayatkan Imam Muslim, bahwa Rasulullah SAW senang membaca surat ini pada rakaat pertama sembahyang subuh dan pada shalat hari raya. Sedang menurut riwayat Abu Daud, Al Baihaqy dan Ibnu Majah bahwa Rasulullah SAW membaca surat ini pada tiap-tiap membaca Khutbah pada hari Jum'at. Kedua riwayat ini menunjukkan bahwa surat QAAF sering dibaca Nabi Muhammad SAW di tempat-tempat umum, untuk memperingatkan manusia tentang kejadian mereka dan nikmat-nikmat yang diberikan kepadanya, begitu pula tentang hari berbangkit, hari berhisab, syurga, neraka, pahala, dosa, dsb. Surat ini dinamai juga Al Baasiqaat, diambil dari perkataan Al- Baasiqaat yang terdapat pada ayat 10 surat ini.
+48. خط القیت (سورہ الف فیتھ (فتح فتح)) ، 29 آیات | مدیدی
+الفتھ کا خط 29 آیات پر مشتمل ہے ، بشمول مدنیہ لیٹرز ، الجومہ کے خط کے بعد گزر گئے۔ اس خط کی پہلی آیت میں موجود فیٹ ہان کے الفاظ سے الفتھ (فتح) لیا گیا ہے۔ اس خط کی زیادہ تر آیات نبی صلی اللہ علیہ وسلم کے ذریعہ حاصل کردہ فتح سے متعلق معاملات کی وضاحت کرتی ہیں۔ جنگ میں نبی کریم صلی اللہ علیہ وآلہ وسلم۔ اس خط کی پہلی آیت کے زوال سے بہت خوش ہوں۔ یہ جوش و خروش بخاری کے بیان کردہ ان کے الفاظ میں بیان کیا گیا تھا۔ در حقیقت ، یہ میرے سامنے ایک خط کا انکشاف ہوا ہے ، یہ خط جس سے میں واقعتا the ان سب سے زیادہ پیار کرتا ہوں جو سورج کو روشن کیا گیا تھا۔ حضرت محمد s.a.w. کی جوش و خروش اس کی وجہ یہ ہے کہ آیات نے فتح کے بارے میں وضاحت کی ہے کہ محمد ایس اے ڈبلیو۔ اس کی جدوجہد میں اور اس سے خدا کی برکتوں کے کمال کے بارے میں۔
 
-51. Surat الذاريات (Surah Az-Zariyat (Angin yang Menerbangkan The Winnowing Winds)), 60 ayat | مكة
-Surat Adz Dzaariyaat terdiri atas 60 ayat, termasuk golongan surat-surat Makkiyah, diturunkan sesudah surat Al Ahqaaf. Dinamai Adz Dzaariyaat (angin yang menerbangkan), diambil dari perkataan Adz Dzaariyaat yang terdapat pada ayat pertama surat ini. Allah bersumpah dengan angin, mega, bahtera, dan malaikat yang menjadi sumber kesejahteraan dan pembawa kemakmuran. Hal ini meng- isyaratkan inayat Allah kepada hamba-hamba-Nya.
+49. القراط کا خط (سورہ الحوجورات (اندرونی اپارٹمنٹس کے کمرے)) ، 18 آیت | مدیدی
+الحوجورات کا خط 18 آیات پر مشتمل ہے ، جن میں مدنیہ کے خطوط بھی شامل ہیں ، اس کا انکشاف المجاہ کے خط کے بعد ہوا۔ اس خط کی آیت 4 میں شامل الحجورات کے الفاظ سے الحجورات نامی نام لیا گیا ہے۔ اس آیت نے ان دوستوں کی مذمت کی جنہوں نے حضرت محمد صلی اللہ علیہ وآلہ وسلم کو اپنی بیوی کے ساتھ اپنے کمرے میں تھا۔ حضرت محمد کو ایک طرح سے اور ایسے حالات میں پکارنا اس کی بے عزتی کو ظاہر کرتا ہے اور اس کی امن کو پریشان کرتا ہے۔
 
-52. Surat الطور (Surah At-Tur (Bukit Tursina The Mount)), 49 ayat | مكة
-Surat Ath Thuur terdiri atas 49 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat As Sajdah. Dinamai Ath Thuur (Bukit) diambil dari perkataan Ath Thuur yang terdapat pada ayat pertama surat ini. Yang dimaksud dengan bukit di sini ialah bukit Thursina yang terletak di semenanjung Sinai, tempat Nabi Musa menerima wahyu dari Tuhannya.
+50. خط ق (سورہ قاف (قافف لیٹر قاف)) ، 45 آیات | امی
+کیو اے ایف کے خط میں 45 آیات پر مشتمل ہے ، بشمول مککیہ خطوط ، یہ المرسالات خط کے بعد انکشاف ہوا ہے۔ قافف کا نام دیا کیونکہ یہ خط قافی کے خط سے شروع ہوتا ہے۔ مسلم پجاری کے ذریعہ بیان کردہ حدیث کے مطابق ، کہ نبی نے اس خط کو صبح کے وقت اور چھٹی کی نماز کے موقع پر پہلی راکاہ کی نماز میں پڑھ کر خوشی محسوس کی۔ جبکہ ابو داؤد کی تاریخ کے مطابق ، الباہقی اور ابن ماجاہ کہ رسول اللہ نے جمعہ کے روز خطبہ کے ہر پڑھنے میں یہ خط پڑھتے دیکھا۔ ان دونوں بیانات سے پتہ چلتا ہے کہ قاف کا خط اکثر حضرت محمد نے عوامی مقامات پر پڑھا ہے ، تاکہ انسانوں کو ان کے واقعات اور اس کو دی جانے والی نعمتوں کے ساتھ ساتھ دلیل کے دن ، تحفہ کے دن ، جنت کے بارے میں بھی متنبہ کیا جاسکے۔ ، جہنم ، انعام ، گناہ ، وغیرہ۔ اس خط کا نام الباسقات بھی رکھا گیا تھا ، جو اس خط کی آیت 10 میں شامل الباسقاٹ کے الفاظ سے لیا گیا تھا۔
 
-53. Surat النجم (Surah An-Najm (Bintang The Star)), 62 ayat | مكة
-Surat An Najm terdiri atas 62 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Al Ikhlash. Nama An Najm (bintang), diambil dari perkataan  An Najm yang terdapat pada ayat pertama surat ini. Allah bersumpah dengan An Najm (bintang) adalah karena bintang-bintang yang timbul dan tenggelam, amat besar manfaatnya bagi manusia, sebagai pedoman bagi manusia dalam melakukan pelayaran di lautan, dalam perjalanan di padang pasir, untuk menentukan peredaran musim dan sebagainya.
+51. القعرایت کا خط (سورہ ایز زریت (ہوا سے چلنے والی ہواؤں کو اڑ رہی ہے)) ، 60 آیت | امی
+ADZ DZAARIYAT خط میں 60 آیات پر مشتمل ہے ، جس میں مککیہ خط بھی شامل ہے ، یہ الحقاف کے خط کے بعد انکشاف ہوا ہے۔ اس خط کی پہلی آیت میں شامل اڈز ڈزاریات کے الفاظ سے لیا گیا ، اڈز ڈزاریات (دی ونڈ فلائنگ) کے نام سے منسوب۔ خدا ہوا ، میگا ، صندوق ، اور فرشتے جو خوشحالی اور خوشحالی کا ذریعہ ہے۔ اس کے لئے اپنے خادموں کے لئے خدا کو بے چین کرنے کی ضرورت ہے۔
 
-54. Surat القمر (Surah Al-Qamar (Bulan The Moon)), 55 ayat | مكة
-Surat Al Qamar terdiri atas 55 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesedah surat Ath Thaariq. Nama Al Qamar (bulan) diambil dari perkataan Al Qamar yang terdapat pada ayat pertama surat ini. Pada ayat ini diterangkan tentang terbelahnya bulan sebagai mukjizat Nabi Muhammad s.a.w.
+52. الکور کا خط (سورہ اٹ ٹور (بکیٹ تورسینا دی ماؤنٹ)) ، 49 آیات | امی
+اتھور کے خط میں 49 آیات پر مشتمل تھا ، بشمول مککیہ خط ، بطور سجدہ خط کے بعد اسے منتقل کردیا گیا تھا۔ اس خط کی پہلی آیت میں شامل اتھور کے الفاظ سے لیا گیا ہے۔ یہاں پہاڑی سے کیا مراد ہے وہ بوکیٹ تھرسنا ہے جو جزیرہ نما سینا پر واقع ہے ، جہاں نبی موسیٰ کو اپنے رب کی طرف سے ایک انکشاف ہوا۔
 
-55. Surat الرحمن (Surah Ar-Rahman (Maha Pengasih The Beneficent)), 78 ayat | مدينة
-Surat Ar Rahmaan terdiri atas 78 ayat, termasuk golongan surat- surat Madaniyyah, diturunkan sesudah surat Ar Ra'du. Dinamai Ar Rahmaan (Yang Maha Pemurah), diambil dari perkataan Ar Rahmaan yang terdapat pada ayat pertama surat ini. Ar Rahmaan adalah salah satu dari nama-nama Allah. Sebagian besar dari surat ini menerangkan kepemurahan Allah s.w.t. kepada hamba-hamba-Nya, yaitu dengan memberikan nikmat-nikmat yang tidak terhingga baik di dunia maupun di akhirat nanti.
+53. النجم کا خط (سورہ ان نجیم (اسٹار دی اسٹار)) ، 62 آیت | امی
+ایک NAJM کا خط 62 آیات پر مشتمل ہے ، جس میں مککیہ خطوط بھی شامل ہیں ، جو الکھلاش کے بعد اخذ کیے گئے ہیں۔ اس خط کی پہلی آیت میں موجود ایک NAMM کے الفاظ سے لیا گیا نام (بنٹانگ) نام ہے۔ خدا نجم (ستاروں) کے ساتھ گھومتا ہے اس کی وجہ یہ ہے کہ وہ ستارے جو پیدا ہوتے ہیں اور ڈوبتے ہیں ، انسانوں کے لئے بہت فائدہ مند ہیں ، سمندر میں سفر کرنے میں انسانوں کے لئے ایک رہنما کے طور پر ، صحرا میں سفر پر ، موسموں کی گردش کا تعین کرنے کے لئے اور اسی طرح پر
 
-56. Surat الواقعة (Surah Al-Waqi'ah (Hari Kiamat The Inevitable)), 96 ayat | مكة
-Surat Al Waaqi'ah terdiri atas 96 ayat, termasuk golongan surat-surat Makkiyah, diturunkan sesudah surat Thaa Haa. 	Dinamai dengan Al Waaqi'ah (Hari Kiamat), diambil dari perkataan Al Waaqi'ah yang terdapat pada ayat pertama surat ini.
+54. خط الخمر (سورہ القمر (مہینہ چاند)) ، 55 آیات | امی
+القمر کے خط میں 55 آیات پر مشتمل ہے ، جس میں مککیہ خطوط بھی شامل ہیں ، اتھارق کا خط کم کردیا گیا تھا۔ نام القامار (چاند) اس خط کی پہلی آیت میں شامل القامار کے الفاظ سے لیا گیا ہے۔ اس آیت میں چاند کو تقسیم کرنے کے بارے میں وضاحت کی گئی ہے کہ حضرت محمد s.a.w. کے معجزہ کے طور پر۔
 
-57. Surat الحديد (Surah Al-Hadid (Besi The Iron)), 29 ayat | مدينة
-Surat Al Hadiid terdiri atas 29 ayat, termasuk golongan surat-surat Madaniyyah, diturunkan sesudah surat Az Zalzalah. Dinamai Al Hadiid (Besi), diambil dari perkataan Al Hadiid yang terdapat pada ayat 25 surat ini.
+55. الرقمن کا خط (سورہ آر الرحمن (سب سے زیادہ سنیارٹی بینیفٹ)) ، 78 آیت | مدیدی
+اے آر رحمان کا خط 78 آیات پر مشتمل تھا ، جن میں مدنیہ خط بھی شامل ہے ، اے آر راؤڈو خط کے بعد اسے نیچے منتقل کردیا گیا تھا۔ اس خط کی پہلی آیت میں موجود آر رحمان کے الفاظ سے لیا گیا آر رحمان (سب سے بڑا) نامزد کیا گیا ہے۔ اے آر رحمان خدا کے ناموں میں سے ایک ہے۔ اس خط کا بیشتر حصہ اللہ کی ملکیت کی وضاحت کرتا ہے۔ اپنے خادموں کو ، یعنی دنیا میں اور اس کے بعد دونوں میں لامحدود احسان دے کر۔
 
-58. Surat المجادلة (Surah Al-Mujadalah (Gugatan The Pleading Woman)), 22 ayat | مدينة
-Surat Al Mujaadilah terdiri atas 22 ayat, termasuk golongan surat Madaniyyah, diturunkan sesudah surat Al Munaafiquun. Surat ini dinamai dengan Al Mujaadilah (wanita yang mengajukan gugatan) karena pada awal surat ini disebutkan bantahan seorang perempuan, menurut riwayat bernama Khaulah binti Tsa'labah terhadap sikap suaminya yang telah menzhiharnya. Hal ini diadukan kepada Rasulullah s.a.w. dan ia menuntut supaya beliau memberikan putusan yang adil dalam persoalan itu. Dinamai juga Al Mujaadalah yang berarti perbantahan.
+56. الوواعق کا خط (سورہ الواقیہ (یومیہ فیصلے ناگزیر)) ، 96 آیات | امی
+سورہ الواقیہ 96 آیات پر مشتمل ہے ، بشمول مککیہ خطوط ، جس میں تھاہ ہا کے خط کے بعد انکشاف ہوا ہے۔ 	اس خط کی پہلی آیت میں شامل ال واقیہ کے الفاظ سے لیا گیا الواقیہ (قیامت کے دن) کا نام لیا گیا۔
 
-59. Surat الحشر (Surah Al-Hasyr (Pengusiran The Exile)), 24 ayat | مدينة
-Surat Al Hasyr terdiri atas 24 ayat, termasuk golongan surat-surat Madaniyyah, diturunkan sesudah surat Al Bayyinah. 	Dinamai surat Al Hasyr (pengusiran) diambil dari perkataan Al-Hasyr yang terdapat pada ayat 2 surat ini. Di dalam surat ini disebutkan  kisah pengusiran suatu suku Yahudi yang bernama Bani Nadhir yang berdiam  di sekitar kota Madinah.
+57. خط القدیاد (سورہ الحدید (آئرن آئرن)) ، 29 آیات | مدیدی
+الہدید کے خط میں 29 آیات پر مشتمل تھا ، جن میں مدنیہ خط بھی شامل ہے ، AZ ZALZALAH خط کے بعد انکشاف ہوا۔ اس خط کے پیراگراف 25 میں شامل ال ہادیڈ کے الفاظ سے لیا گیا الہدیڈ (آئرن) کا نام لیا گیا ہے۔
 
-60. Surat الممتحنة (Surah Al-Mumtahanah (Wanita Yang Diuji She that is to be examined)), 13 ayat | مدينة
-Surat Al Mumtahanah terdiri atas 13 ayat, termasuk golongan surat-surat Madaniyyah, diturunkan sesudah surat Al Ahzab. Dinamai Al Mumtahanah (wanita yang diuji), diambil dari kata "Famtahinuuhunna" yang berarti maka ujilah mereka, yang terdapat pada ayat 10 surat ini.
+58. المقادلة کا خط (سورہ المجدالہ (مقدمہ چلانے والی عورت)) ، 22 آیت | مدیدی
+المجدیلہ کے خط میں 22 آیات پر مشتمل تھا ، جن میں مدنیہ خط بھی شامل ہے ، اس کے بعد سورہ ال مونافیکون کے بعد منظور کیا گیا تھا۔ اس خط کا نام المجدیلہ (وہ خاتون جس نے مقدمہ دائر کیا تھا) کا نام لیا گیا ہے کیونکہ ابتدا میں اس خط کا ذکر ایک عورت کی تردید نے کیا تھا ، اس کے شوہر کے روی attitude ے کے بارے میں خولہ بنٹی تس اللہ نامی تاریخ کے مطابق جس نے اسے دکھایا تھا۔ اس کی شکایت نبی S.A.W. اور اس نے مطالبہ کیا کہ وہ اس معاملے پر منصفانہ فیصلہ کریں۔ اس کا نام المجا بھی ہے جس کا مطلب ہے ریفینس۔
 
-61. Surat الصف (Surah As-Saff (Barisan The Ranks)), 14 ayat | مدينة
-Surat Ash Shaff terdiri atas 14 ayat termasuk golongan surat-surat Madaniyyah. Dinamai dengan Ash Shaff, karena pada ayat 4 surat ini terdapat kata Shaffan yang berarti satu barisan. Ayat ini menerangkan apa yang diridhai Allah sesudah menerangkan apa yang dimurkai-Nya. Pada ayat 3 diterangkan bahwa Allah murka kepada orang yang hanya pandai berkata saja tetapi tidak melaksanakan apa yang diucapkannya. Dan pada ayat 4 diterangkan bahwa Allah menyukai orang yang mempraktekkan apa yang diucapkannya yaitu orang-orang yang berperang pada jalan Allah dalam satu barisan.
+59. لیٹر آف الشر (سورہ الحسیر (جلاوطنی ایگزیکٹو)) ، 24 آیت | مدیدی
+الحسیر کا خط 24 آیات پر مشتمل ہے ، جن میں مدنیہ کے خطوط بھی شامل ہیں ، جو البیانہ کے خط کے بعد اخذ کیے گئے ہیں۔ 	اس خط کے پیراگراف 2 میں شامل الحسیر کے الفاظ سے نامزد سورہ الحسیر (بے دخل) لیا گیا ہے۔ اس خط میں ، ایک یہودی قبیلے کے بے دخل ہونے کی کہانی جو بنی ندھیر نامی ہے جو مدینہ شہر کے آس پاس رہتا ہے۔
 
-62. Surat الجمعة (Surah Al-Jumu'ah (Jumat Friday)), 11 ayat | مدينة
-Surat Al Jumu'ah ini terdiri atas 11 ayat, termasuk golongan-golongan surat-surat Madaniyyah dan diturunkan sesudah surat Ash Shaf. Nama surat Al Jumu'ah diambil dari kata Al Jumu'ah yang terdapat pada ayat 9 surat ini yang artinya: hari Jum'at.
+60. خط الممتہنیة (سورہ الممتاہنا (جس عورت نے اس کی جانچ کی ہے اس کا تجربہ کیا)) ، 13 آیات | مدیدی
+الممتانہ کا خط 13 آیات پر مشتمل ہے ، جن میں مدنیہ لیٹرز بھی شامل ہیں ، الحزاب کے خط کے بعد اسے منظور کیا گیا ہے۔ نام العمتھانا (جس عورت کو آزمایا جارہا ہے) کا نام دیا گیا ، جس کا لفظ "فیمتاہینوہونا" سے لیا گیا ہے جس کا مطلب ہے کہ وہ ان کی جانچ کرتے ہیں ، جو اس خط کی آیت 10 میں ہیں۔
 
-63. Surat المنافقون (Surah Al-Munafiqun (Orang-Orang Munafik The Hypocrites)), 11 ayat | مدينة
-Surat ini terdiri atas 11 ayat, termasuk golongan surat-surat Madaniyyah, diturunkan sesudah surat Al Hajj. Surat ini dinamai Al-Munaafiquun  yang artinya orang-orang munafik, karena surat ini mengungkapkan  sifat-sifat orang-orang munafik.
+61. الک کا خط (سورہ AS-Saff (صفوں کی صفیں) ، 14 پیراگراف | مدیدی
+ایش شیف لیٹر میں مدنیہ کے خطوط سمیت 14 آیات پر مشتمل ہے۔ ایش شیف کے نام سے منسوب ، کیونکہ آیت 4 میں یہ خط لفظ شفن ہے جس کا مطلب ہے ایک لائن۔ یہ آیت اس کی وضاحت کرتی ہے کہ خدا نے کیا برکت دی اس کی وضاحت کے بعد اس نے کیا لپیٹ لیا۔ آیت 3 میں یہ سمجھایا گیا ہے کہ خدا ان لوگوں کے لئے ناراض ہے جو صرف یہ کہنے میں صرف اچھے ہیں لیکن جو کچھ اس نے کہا اسے انجام نہیں دیتے ہیں۔ اور آیت 4 میں یہ سمجھایا گیا ہے کہ خدا ان لوگوں کو پسند کرتا ہے جو اس کی بات پر عمل کرتے ہیں جو وہ کہتے ہیں وہ وہی لوگ ہیں جو ایک ہی سطر میں خدا کی راہ میں لڑتے ہیں۔
 
-64. Surat التغابن (Surah At-Tagabun (Pengungkapan Kesalahan Mutual Disillusion)), 18 ayat | مدينة
-Surat ini terdiri atas 18 ayat, termasuk golongan surat-surat Madaniyyah dan diturunkan sesudah surat At Tahrim. Nama At Taghaabun diambil dari kata At Taghaabun yang terdapat pada ayat ke 9 yang artinya hari dinampakkan kesalahan-kesalahan.
+62. القمعة کا خط (سورہ الجوموہ (جمعہ جمعہ)) ، 11 آیات | مدیدی
+یہ ال جموہ خط 11 آیات پر مشتمل ہے ، جس میں مدنیہ کے خطوط کے گروپس بھی شامل ہیں اور ایش شاف کے خط کے بعد نیچے چلے گئے۔ ال جموہ کے خط کا نام اس خط کی آیت نمبر 9 میں شامل لفظ ال جموہ سے لیا گیا ہے جس کا مطلب ہے: جمعہ۔
 
-65. Surat الطلاق (Surah At-Talaq (Talak Divorce)), 12 ayat | مدينة
-Surat ini terdiri atas 12 ayat, termasuk golongan surat-surat Madaniyyah, diturunkan sesudah surat Al Insaan. Dinamai surat Ath Thalaaq karena kebanyakan ayat-ayatnya mengenai masalah talak dan yang berhubungan dengan masalah itu.
+. 63. خط المناؤن (سورہ المونافیقون (منافق منافق)) ، 11 آیات | مدیدی
+اس خط میں 11 آیات پر مشتمل ہے ، جن میں مدنیہ خطوط بھی شامل ہیں ، جو الحج خط کے بعد اخذ کیے گئے ہیں۔ اس خط کا نام المونافیکون رکھا گیا ہے جس کا مطلب منافق ہے ، کیونکہ یہ خط منافقوں کی خصوصیات کو ظاہر کرتا ہے۔
 
-66. Surat التحريم (Surah At-Tahrim (Pengharaman The Prohibition)), 12 ayat | مدينة
-Surat ini terdiri atas 12 ayat, termasuk golongan surat-surat Madaniyyah, diturunkan sesudah surat Al Hujuraat. Dinamai surat At Tahrim karena pada awal surat ini terdapat kata tuharrim yang kata asalnya adalah Attahrim yang berarti mengharamkan.
+64. خط الطازابن (سورہ اٹ-تاگابن (باہمی مایوسی کی غلطیوں کا انکشاف)) ، 18 آیت | مدیدی
+اس خط میں 18 آیات پر مشتمل ہے ، جن میں مدنیہ کے خطوط بھی شامل ہیں اور تحریم کے خط کے بعد انکشاف ہوا ہے۔ ٹیگھاابن میں نام آیت 9 میں موجود ٹیگھاابن کے لفظ سے لیا گیا ہے جس کا مطلب ہے کہ اس دن کو غلطیاں دکھائی گئیں۔
 
-67. Surat الملك (Surah Al-Mulk (Kerajaan The Sovereignty)), 30 ayat | مكة
-Surat ini terdiri atas 30 ayat, termasuk golongan surat-surat  Makkiyah, diturunkan sesudah Ath Thuur. Nama Al Mulk diambil dari kata Al Mulk yang terdapat pada ayat pertama surat ini yang artinya kerajaan atau kekuasaan. Dinamai pula surat ini dengan At Tabaarak (Maha Suci).
+65. خط الکلا a (سورہ اتلاق (طلاق طالق) ، 12 آیت | مدیدی
+اس خط میں 12 آیات پر مشتمل ہے ، جن میں مدنیہ خطوط بھی شامل ہیں ، جو المنڈ کے خط کے بعد اخذ کیے گئے ہیں۔ اس خط کا نام اتھ تھالق ہے کیونکہ طلاق کے مسئلے سے متعلق زیادہ تر آیات اور اس مسئلے سے متعلق ہیں۔
 
-68. Surat القلم (Surah Al-Qalam (Pena The Pen)), 52 ayat | مكة
-Surat ini terdiri atas 52 ayat,termasuk golongan surat-surat Makkiyah,diturunkan sesudah surat Al Alaq. Nama Al Qalam diambil dari kata Al Qalam yang terdapat pada ayat pertama surat iniyang artinya pena. Surat ini dinamai pula dengan surat Nun (huruf nun).
+66. التسریم کا خط (سورہ اٹ-تہریم (ممنوعہ نقصان)) ، 12 آیت | مدیدی
+یہ خط 12 آیات پر مشتمل ہے ، جن میں مدنیہ خطوط بھی شامل ہیں ، جو الحجورات کے خط کے بعد اخذ کیے گئے ہیں۔ طھرم میں خط کا نام دیا کیونکہ اس خط کے آغاز میں ایک لفظ توہاررم تھا جس کی اصلیت اتھرم تھی جس کا مطلب ہے حرام تھا۔
 
-69. Surat الحاقة (Surah Al-Haqqah (Hari Kiamat The Reality)), 52 ayat | مكة
-Surat ini terdiri atas 52 ayat,termasuk golongan surat-surat Makkiyah,diturunkan sesudah surat Al Mulk.  Nama Al Haaqqah diambil dari kata Al Haaqqah yang terdapat pada ayat pertama surat ini yang artinya hari kiamat
+67. خط الملہ (سورہ المولک (بادشاہی کی خودمختاری)) ، 30 آیت | امی
+اس خط میں 30 آیات پر مشتمل ہے ، بشمول مککیہ خطوط ، جو اتھور کے بعد اخذ کیے گئے ہیں۔ نام الملک لفظ ال ملک سے لیا گیا ہے جو اس خط کی پہلی آیت میں موجود ہے جس کا مطلب ہے بادشاہی یا طاقت۔ اس خط کا نام تبارک (سب سے زیادہ مقدس) کے ساتھ بھی رکھا گیا ہے۔
 
-70. Surat المعارج (Surah Al-Ma'arij (Tempat Naik The Ascending Stairways)), 44 ayat | مكة
-Surat ini terdiri atas 44 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Al Haaqqah.Perkataan Al Ma'arij yang menjadi nama bagi surat ini adalah kata jamak dari Mi'raj, diambil dari perkataan Al Ma'arij yang terdapat pada ayat 3, yang artinya menurut bahasa tempat naik. Sedang para ahli  tafsir memberi arti bermacam-macam, di antaranya langit, nikmat karunia dan derajat atau tingkatan yang diberikan Allah s.w.t kepada ahli surga.
+68. خط الکلم (سورہ القلم (قلم قلم)) ، 52 آیات | امی
+یہ خط 52 آیات پر مشتمل ہے ، بشمول مککیہ خطوط کے گروپ ، اللہ کے خط کے بعد انکشاف کیا گیا ہے۔ القم کا نام اس خط کی پہلی آیت میں شامل لفظ القم سے لیا گیا ہے جس کا مطلب قلم ہے۔ اس خط کا نام لیٹر نون (خط نون) بھی رکھا گیا ہے۔
 
-71. Surat نوح (Surah Nuh (Nuh Noah)), 28 ayat | مكة
-Surat ini terdiri atas 28 ayat, termasuk golongan surat-surat Makkiyah, diturunkan sesudah surat An Nahl. Dinamakan dengan surat Nuh karena surat ini seluruhnya menjelaskan da'wah dan doa Nabi Nuh a.s.
+69. العق (سورہ الحقاہ (یومیہ فیصلے حقیقت)) کا خط) ، 52 آیات | امی
+یہ خط 52 آیات پر مشتمل ہے ، بشمول مککیہ خطوط ، الملک کے خط کے بعد اخذ کیے گئے ہیں۔  الحققہ کا نام اس خط کی پہلی آیت میں شامل لفظ الحققہ سے لیا گیا ہے جس کا مطلب ہے قیامت کا دن
 
-72. Surat الجن (Surah Al-Jinn (Jin The Jinn)), 28 ayat | مكة
-Surat Al Jin terdiri atas 28 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Al A'raaf. Dinamai Al Jin diambil dari perkataan Al Jin yang terdapat  pada ayat pertama surat ini. Pada ayat tersebut dan ayat-ayat berikutnya  diterangkan bahwa Jin sebagai makhluk halus telah mendengar pembacaan  Al Quran dan mereka mengikuti ajaran Al Quran tersebut.
+70. المعاری کا خط (سورہ المعاریج (جہاں چڑھائی سیڑھیوں پر سوار ہونا ہے)) ، 44 آیات | امی
+یہ خط 44 پیراگراف پر مشتمل ہے ، بشمول مککیہ خطوط ، الحقق کے خط کے بعد انکشاف کیا گیا ہے جو اس خط کا نام بن گیا ہے۔ پیراگراف 3 ، جس کا مطلب ہے اس زبان کے مطابق جہاں یہ طلوع ہوتا ہے۔ جبکہ ترجمان بہت سارے معنی دیتے ہیں ، جن میں جنت ، تحائف اور ڈگری یا سطحیں شامل ہیں جن میں اللہ S.W.T نے جنت کے ماہرین کو دیا ہے۔
 
-73. Surat المزمل (Surah Al-Muzzammil (Orang Yang Berselimut The Enshrouded One)), 20 ayat | مكة
-Surat Al Muzzammil terdiri atas 20 ayat, termasuk golongan surat-surat Makkiyah, diturunkan sesudah surat Al Qalam.Dinamai Al Muzzammil (orang yang berselimut) diambil dari perkataan Al Muzzammil yang terdapat pada ayat pertama surat ini. Yang dimaksud dengan orang yang berkemul ialah Nabi Muhammad s.a.w.
+71. خط نوز (سورہ نوح (نوح نوح)) ، 28 پیراگراف | امی
+اس خط میں 28 پیراگراف پر مشتمل ہے ، بشمول مککیہ خطوط ، جس میں خط کے بعد اخذ کیا گیا ہے۔ نوح کے خط کے ساتھ نامزد کیا گیا ہے کیونکہ یہ خط سب حضرت نوح اے ایس کی داؤ اور دعا کی وضاحت کرتا ہے۔
 
-74. Surat المدثر (Surah Al-Muddassir (Orang Yang Berkemul The Cloaked One)), 56 ayat | مكة
-Surat Al Muddatstsir terdiri atas 56 ayat, termasuk golongan  surat-surat Makkiyah, diturunkan sesudah surat Al Muzzammil. 	Dinamai Al Muddatstsir (orang yang berkemul) diambil dari perkataan Al Muddatstsir yang terdapat pada ayat pertama surat ini.
+72. القان کا خط (سورہ الجن (جن جن)) ، 28 آیات | امی
+ال جن کے خط میں 28 آیات پر مشتمل تھا ، بشمول مککیہ خط ، الحراف کے خط کے بعد اسے منظور کیا گیا تھا۔ ال جن کے نام سے اس خط کی پہلی آیت میں شامل ال جن کے الفاظ سے لیا گیا ہے۔ اس آیت میں اور اگلی آیات نے یہ سمجھایا کہ جن کی حیثیت سے جن کو روحوں نے قرآن پاک پڑھتے ہوئے سنا تھا اور انہوں نے قرآن کی تعلیمات پر عمل کیا۔
 
-75. Surat القيامة (Surah Al-Qiyamah (Hari Kiamat The Resurrection)), 40 ayat | مكة
-Surat Al Qiyaamah terdiri atas 40 ayat, termasuk golongan surat-surat Makkiyah, diturunkan sesudah surat Al Qaari'ah. Dinamai Al Qiyaamah (hari kiamat) diambil dari perkataan Al Qiyaamah yang terdapat pada ayat pertama surat ini.
+73. الممل کا خط (سورہ المزمل (جو لوگ جو ایک میں شامل ہیں)) ، 20 آیات | امی
+سورت المزمل میں 20 آیات پر مشتمل تھا ، بشمول مککیہ کا خط ، اللہم کے خط کے بعد (ایک شخص جس کا احاطہ کیا گیا تھا) کے بعد اس خط کی پہلی آیت میں موجود تھا۔ اس شخص سے کیا مراد ہے جو ایک نبی محمد s.a.w.
 
-76. Surat الانسان (Surah Al-Insan (Manusia Man)), 31 ayat | مدينة
-Surat Al Insaan terdiri atas 31 ayat, termasuk golongan surat-surat Madaniyyah, diturunkan sesudah surat Ar Rahmaan. Dinamai al Insaan (manusia) diambil dari perkataan Al Insaan yang terdapat pada ayat pertama surat ini.
+74. المدڈر کا خط (سورہ المدسیر (ایسے افراد جن کے پاس ایک ہنگامہ ہے)) ، 56 آیات | امی
+ال مدتسیر خط 56 آیات پر مشتمل تھا ، بشمول مککیہ خط ، المزمل خط کے بعد انکشاف ہوا تھا۔ 	اس خط کی پہلی آیت میں شامل ال مدتسٹسیر (ایک شخص جس کے پاس ایک لفظ ہے) کے نام سے لیا گیا ہے۔
 
-77. Surat المرسلات (Surah Al-Mursalat (Malaikat Yang Diutus The Emissaries)), 50 ayat | مكة
-Surat Al Mursalaat terdiri atas 50 ayat, termasuk golongan surat-surat Makkiyah, diturunkan sesudah surat Al Humazah. Dinamai Al Mursalaat (Malaikat-Malaikat yang diutus), diambil dari perkataan Al Mursalaat yang terdapat pada ayat pertama surat ini. Dinamai juga Amma yatasaa aluun diambil dari perkataan Amma yatasaa aluun yang terdapat pada ayat 1 surat ini.
+75. لیٹر الیجی عمومی (سورہ القیاماہ (قیامت کے دن قیامت) ، 40 آیت | امی
+القعامہ کا خط 40 آیات پر مشتمل ہے ، جن میں مککیہ خطوط بھی شامل ہیں ، القاعدہ کے خط کے بعد گزر گئے۔ اس خط کی پہلی آیت میں شامل القائمہ (ڈومس ڈے) کے نام سے منسوب القعامہ کے الفاظ سے لیا گیا ہے۔
 
-78. Surat النبإ (Surah An-Naba' (Berita Besar The Announcement)), 40 ayat | مكة
-Surat An Naba´ terdiri atas 40 ayat, termasuk golongan surat-surat Makkiyah, diturunkan sesudah surat Al Ma´aarij. Dinamai An Naba´ (berita besar) diambil dari perkataan An Naba´ yang terdapat pada ayat 2 surat ini. Dinamai juga Amma yatasaa aluun diambil dari perkataan Amma yatasaa aluun yang terdapat pada ayat 1 surat ini.
+76. خط الانیسن (سورہ السن (انسان آدمی)) ، 31 آیت | مدیدی
+المند سورہ 31 آیات پر مشتمل ہے ، جن میں مدنیہ خطوط بھی شامل ہیں ، جو آر رحمان خط کے بعد اخذ کیے گئے ہیں۔ اس خط کی پہلی آیت میں ال خدا کے الفاظ سے الاسن (انسان) کے نام سے لیا گیا ہے۔
 
-79. Surat النازعات (Surah An-Nazi'at (Malaikat Yang Mencabut Those who drag forth)), 46 ayat | مكة
-Surat An Naazi´aat terdiri atas 46 ayat, termasuk golongan surat-surat Makkiyah, diturunkan sesudah surat An Naba´. Dinamai An Naazi´aat diambil dari perkataan An Naazi´aat yang terdapat pada ayat pertama surat ini. Dinamai pula as Saahirah yang diambil dari ayat 14, dinamai juga Ath Thaammah diambil dari ayat 34.
+77. خط المرسلات (سورہ المرسلات (سفیروں کے ذریعہ بھیجے گئے فرشتوں)) ، 50 آیات | امی
+المرسالات کے خط میں 50 آیات پر مشتمل تھا ، بشمول مککیہ خط ، الومزہ کے خط کے بعد انکشاف ہوا تھا۔ اس خط کی پہلی آیت میں شامل ال مرسالات کے الفاظ سے لیا گیا المرسالات (فرشتوں کو بھیجا گیا) نامزد کیا گیا ہے۔ اس خط کے پیراگراف 1 میں موجود اممہ یاتاسا الوون کے الفاظ سے بھی امما یاتاسا الوون کا نام لیا گیا تھا۔
 
-80. Surat عبس (Surah 'Abasa (Bermuka Masam He frowned)), 42 ayat | مكة
-Surat 'Abasa terdiri atas 42 ayat, termasuk golongan surat-surat Makkiyah, diturunkan sesudah surat An Najm. Dinamai 'Abasa  diambil dari perkataan 'Abasa yang terdapat pada ayat pertama surat ini. Menurut riwayat, pada suatu ketika Rasulullah s.a.w. menerima dan berbicara dengan pemuka-pemuka Quraisy yang beliau harapkan agar mereka masuk Islam. Dalam pada itu datanglah Ibnu Ummi Maktum, seorang sahabat yang buta yang mengharap agar Rasulullah s.a.w. membacakan kepadanya ayat- ayat Al Quran yang telah diturunkan Allah. tetapi Rasulullah s.a.w. bermuka masam dan memalingkan muka dari Ibnu Ummi Maktum yang buta itu, lalu Allah menurunkan surat ini sebagai teguran atas sikap Rasulullah terhadap ibnu Ummi Maktum itu.
+78. النبإ کا خط (سورہ ان نابا '(اعلان کی بڑی خوشخبری) ، 40 آیت | امی
+ایک نیبا خط 40 آیات پر مشتمل ہے ، بشمول مککیہ لیٹرز ، ال ماآراریج خط کے بعد اسے منتقل کردیا گیا تھا۔ اس خط کی آیت 2 میں شامل نیبا کے الفاظ سے لی گئی نیبا (بڑی خبر) کا نام دیا گیا ہے۔ اس خط کے پیراگراف 1 میں موجود اممہ یاتاسا الوون کے الفاظ سے بھی امما یاتاسا الوون کا نام لیا گیا تھا۔
 
-81. Surat التكوير (Surah At-Takwir (Penggulungan The Overthrowing)), 29 ayat | مكة
-Surat At Takwir terdiri atas 29 ayat dan termasuk golongan surat-surat Makkiyah, diturunkan sesudah surat Al Masadd. Kata At Takwir (terbelah) yang menjadi nama bagi surat ini adalah dari kata asal (mashdar) dari kata kerja kuwwirat (digulung) yang terdapat pada ayat pertama surat ini.
+79. خط النععط (سورہ ان نازیت (فرشتہ جو ان لوگوں کو منسوخ کرتا ہے جو آگے بڑھتے ہیں)) ، 46 آیات | امی
+ایک نازیت کا خط 46 آیات پر مشتمل ہے ، جس میں مککیہ خطوط بھی شامل ہیں ، یہ ایک نیبا ´ کے خط کے بعد انکشاف ہوا ہے۔ اس خط کی پہلی آیت میں موجود نازیت کے الفاظ سے ایک نازیات نام لیا گیا تھا۔ اس کا نام صحیرہ بھی ہے جسے آیت 14 سے لیا گیا تھا ، اس کا نام بھی تھاماہ بھی آیت 34 سے لیا گیا تھا۔
 
-82. Surat الإنفطار (Surah Al-Infitar (Terbelah The Cleaving)), 19 ayat | مكة
-Surat ini terdiri atas 19 ayat, termasuk golongan surat-surat Makkiyah dan diturunkan sesudah surat An Naazi'aat. Al Infithaar yang dijadikan  nama untuk surat ini adalah kata asal dari kata Infatharat (terbelah)  yang terdapat pada ayat pertama.
+80. خط بابس (سورہ 'اباسا (کھٹا چہرہ جس نے اسے فروغ دیا)) ، 42 آیات | امی
+خط 'اباسا 42 آیات پر مشتمل ہے ، بشمول مککیہ خطوط ، خط کے ایک نجم کے بعد اسے نیچے منتقل کردیا گیا تھا۔ اس خط کی پہلی آیت میں موجود 'اباسا ان الفاظ سے لیا گیا ہے' اباسا۔ تاریخ کے مطابق ، ایک وقت میں اللہ کے رسول اللہ s.a.w. قریش کے رہنماؤں سے وصول کریں اور ان سے بات کریں جس کی انہیں امید تھی کہ وہ اسلام قبول کریں گے۔ اسی اثنا میں ابن عمی مکتم آیا ، جو ایک نابینا دوست تھا ، جس نے امید کی تھی کہ اللہ کے رسول اللہ S.A.W. اس کو قرآن کی آیات پڑھیں جو خدا گزر چکا ہے۔ لیکن نبی s.a.w. تیزابیت کا شکار اور اندھے ابن امی مکتم کا چہرہ پھیر گیا ، پھر اللہ نے ابن عمی مکتم کے بارے میں نبی of کے روی attitude ے کی سرزنش کے طور پر اس خط کو نیچے کردیا۔
 
-83. Surat المطففين (Surah Al-Mutaffifin (Orang-Orang Curang Defrauding)), 36 ayat | مكة
-Surat ini terdiri atas 36 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Al 'Ankabuut dan merupakan  surat yang terakhir di Mekkah sebelum hijrah. Al Muthaffifiin  yang dijadikan nama bagi surat ini diambil dari kata  Al Muthaffifiin yang terdapat pada ayat pertama.
+81. التسوئیر کا خط (سورہ اتاکویر (تختہ الٹنے کا حکم)) ، 29 آیات | امی
+تکویر میں خط 29 آیات پر مشتمل ہے اور اس میں مککیہ خطوط کا گروپ بھی شامل ہے ، جو العماد کے خط کے بعد انکشاف ہوا ہے۔ اس خط کا نام جو اس خط کا نام ہے اس کا لفظ اس خط کی پہلی آیت میں موجود فعل کووایرات (رولڈ) کے لفظ اصل (مشار) سے ہے۔
 
-84. Surat الإنشقاق (Surah Al-Insyiqaq (Terbelah The Splitting Open)), 25 ayat | مكة
-Surat Al Insyiqaaq, terdiri atas 25 ayat, termasuk golongan surat-surat Makkiyah, diturunkan sesudah surat Al Infithaarr. Dinamai Al Insyiqaaq (terbelah), diambil dari perkataan Insyaqqat yang terdapat pada permulaan surat ini, yang pokok katanya ialah insyiqaaq.
+82. خط الکحار (سورہ ال انفیٹر (سپلٹ دی کلیمنگ)) کا خط) ، 19 آیات | امی
+اس خط میں 19 آیات پر مشتمل ہے ، جس میں مککیہ خطوط کے گروپ سمیت اور خط کے بعد ایک نازیت کے بعد گزر گیا۔ ال انفیتھار جو اس خط کے نام کے طور پر استعمال ہوتا ہے وہ پہلی آیت میں شامل لفظ انفتھارت (اسپلٹ) کی اصل ہے۔
 
-85. Surat البروج (Surah Al-Buruj (Gugusan Bintang The Constellations)), 22 ayat | مكة
-Surat Al Buruuj terdiri atas 22 ayat, termasuk golongan surat-surat Makkiyyah diturunkan sesudah surat Asy-Syams.Dinamai Al Buruuj (gugusan bintang) diambil dari perkataan Al Buruuj yang terdapat pada ayat 1 surat ini.
+83. المِسین کا خط (سورہ المطاففین (دھوکہ دہی دھوکہ دہی)) ، 36 آیات | امی
+اس خط میں 36 آیات پر مشتمل ہے ، بشمول مککیہ خطوط ، جس میں الانکا بوٹ کے خط کے بعد انکشاف کیا گیا ہے اور ہجرت کرنے سے پہلے مکہ میں آخری خط ہے۔ اس خط کے نام کے طور پر استعمال کیا جاتا ہے التتففین جو پہلی آیت میں شامل لفظ ال مٹھاففین سے لیا گیا ہے۔
 
-86. Surat الطارق (Surah At-Tariq (Yang Datang Di Malam Hari The Morning Star)), 17 ayat | مكة
-Surat Ath Thaariq terdiri atas 17 ayat, termasuk golongan surat-surat Makkiyah,  diturunkan sesudah surat Al Balad.  Dinamai Ath Thaariq (yang datang di malam hari) diambil dari  perkataan Ath Thaariq yang terdapat pada ayat 1 surat ini.
+84. خط القنیشق (سورہ ال انیسقق (تقسیم شدہ کھلی تقسیم)) ، 25 آیات | امی
+سورت ال انسائقق ، جس میں 25 آیات پر مشتمل ہے ، جس میں مککیہ خطوط کے گروپ سمیت ، ال انفیتھار خط کے بعد انکشاف ہوا تھا۔ الاسیاقق (اسپلٹ) کا نام ، خدا انسیاکقات کے الفاظ سے لیا گیا جو اس خط کے آغاز میں پایا جاتا ہے ، اس کی اہم بات یہ کہیئقق تھی۔
 
-87. Surat الأعلى (Surah Al-A'la (Maha Tinggi The Most High)), 19 ayat | مكة
-Surat ini terdiri atas 19 ayat, termasuk golongan surat-surat Makkiyyah, dan diturunkan sesudah surat At Takwiir. Nama Al A´laa diambil dari kata Al A´laa yang terdapat pada ayat pertama, berarti Yang Paling Tinggi. Muslim meriwayatkan dalam kitab Al Jumu'ah, dan diriwayatkan pula oleh Ashhaabus Sunan, dari Nu'man ibnu Basyir bahwa Rasulullah s.a.w. pada shalat dua hari Raya (Fitri dan Adha) dan shalat Jum'at membaca surat Al A´laa pada rakaat pertama, dan surat Al Ghaasyiyah pada rakaat kedua.
+85. البروک کا خط (سورہ البوروج (کنٹیلیشن اسٹار کا کلسٹر) ، 22 آیت | امی
+ال بوروج کا خط 22 آیات پر مشتمل ہے ، بشمول مککیہ لیٹرز ، اس خط کے پیراگراف 1 میں شامل الوروج کے الفاظ سے ایش سیمز کے خط کے بعد یہ انکشاف ہوا۔
 
-88. Surat الغاشية (Surah Al-Gasyiyah (Hari Kiamat The Overwhelming)), 26 ayat | مكة
-Surat ini terdiri atas 26 ayat, termasuk surat-surat Makkiyah, diturunkan sesudah surat Adz Dzaariat. Nama Ghaasyiyah diambil dari kata Al Ghaasyiyah yang terdapat pada ayat pertama surat ini yang  artinya peristiwa yang dahsyat, tapi yang dimaksud adalah hari kiamat. Surat ini adalah surat yang kerap kali dibaca Nabi pada rakaat kedua  pada shalat hari-hari Raya dan shalat Jum'at
+86. خط القارق (سورہ اتارق (جو رات کو صبح کے ستارے میں آتا ہے)) ، 17 آیات | امی
+اتھیرق کے خط میں 17 آیات پر مشتمل تھا ، بشمول مککیہ خط ، ال بالاد خط کے بعد اسے نیچے منتقل کردیا گیا تھا۔  اس خط کے پیراگراف 1 میں شامل اتھیرق کے الفاظ سے لیا گیا تھا جو اتھارق (جو رات کو آیا تھا) کے نام سے لیا گیا تھا۔
 
-89. Surat الفجر (Surah Al-Fajr (Fajar The Dawn)), 30 ayat | مكة
-Surat ini terdiri atas 30 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Al Lail. Nama Al Fajr diambil dari kata Al Fajr yang terdapat pada ayat pertama surat ini yang artinya fajar.
+87. خط الق الع ہی (سورہ الاولا (سب سے زیادہ اونچا)) ، 19 آیت | امی
+اس خط میں 19 آیات پر مشتمل ہے ، جس میں مککیہ خطوط کا گروپ بھی شامل ہے ، اور تکیئر کے خط کے بعد انکشاف ہوا ہے۔ الالا کا نام پہلی آیت میں شامل لفظ الاولا سے لیا گیا ہے ، جس کا مطلب سب سے زیادہ ہے۔ مسلمانوں نے کتاب ال جمو ah ا میں بیان کیا ، اور اشھابوس سنن کے ذریعہ یہ بھی بیان کیا گیا ، نو مین ابن بسیر سے کہ اللہ کے رسول اللہ s.a.w. دو تعطیلات میں (فٹری اور اڈھا) اور جمعہ کی دعاؤں نے پہلے راکہ پر الحلا کا خط اور دوسرے راکہ پر سورہ الغاسیہ پر پڑھا۔
 
-90. Surat البلد (Surah Al-Balad (Negeri The City)), 20 ayat | مكة
-Surat Al Balad terdiri atas 20 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Qaaf. Dinamai Al Balad, diambil dari perkataan Al Balad yang terdapat  pada ayat pertama surat ini. Yang dimaksud dengan kota di sini ialah kota Mekah.
+88. القعقیت کا خط (سورہ الغیہیہ (یومیہ فیصلے کا دن)) ، 26 آیات | امی
+اس خط میں 26 آیات پر مشتمل ہے ، بشمول مککیہ لیٹرز ، ایڈز ڈزارات کے خط کے بعد گزر گئے۔ غاسیہ کا نام اس خط کی پہلی آیت میں شامل لفظ الغاسیہ سے لیا گیا ہے جس کا مطلب ایک خوفناک واقعہ ہے ، لیکن اس کا مطلب یہ ہے کہ فیصلے کا دن ہے۔ یہ خط ایک خط ہے جو نبی اکثر چھٹیوں اور جمعہ کی دعاؤں کی دعاؤں پر دوسرے راکہ پر پڑھتا ہے
 
-91. Surat الشمس (Surah Asy-Syams (Matahari The Sun)), 15 ayat | مكة
-Surat Asy Syams terdiri atas 15 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Al Qadar.  Dinamai Asy Syams (matahari) diambil dari perkataan Asy Syams yang terdapat pada ayat permulaan surat ini.
+89. الکر کا خط (سورہ الفجر (فجر ڈان)) ، 30 آیت | امی
+اس خط میں 30 آیات پر مشتمل ہے ، بشمول مککیہ خطوط ، الل لیل لیٹر کے بعد انکشاف کیا گیا ہے۔ الفجر نام اس خط کی پہلی آیت میں شامل لفظ الفجر سے لیا گیا ہے جس کا مطلب ہے ڈان۔
 
-92. Surat الليل (Surah Al-Lail (Malam The Night)), 21 ayat | مكة
-Surat ini terdiri atas 21 ayat, termasuk golongan surat-surat Makkiyah, diturunkan sesudah surat Al A'laa. Surat ini dinamai Al Lail (malam), diambil dari perkataan Al Lail yang terdapat pada ayat pertama surat ini
+90. خط البلڈ (سورہ البالاد (شہر کا ملک)) ، 20 آیت | امی
+ال بالاد خط 20 آیات پر مشتمل ہے ، جس میں مککیہ خطوط بھی شامل ہیں ، یہ قافی کے خط کے بعد انکشاف ہوا ہے۔ اس خط کی پہلی آیت میں شامل ال بالاد کے الفاظ سے لیا گیا البالاد نامی ہے۔ یہاں شہر سے مراد شہر مکہ ہے۔
 
-93. Surat الضحى (Surah Ad-Duha (Duha The Morning Hours)), 11 ayat | مكة
-Surat ini terdiri atas 11 ayat, termasuk golongan surat Makiyyah dan diturunkan sesudah surat Al Fajr. Nama Adh Dhuhaa diambil dari kata yang terdapat pada ayat pertama, artinya : waktu matahari sepenggalahan naik.
+91. خط الکیمس (سورہ آشیم (ماتاہری دی سن)) ، 15 آیات | امی
+ایش سیمس لیٹر 15 آیات پر مشتمل ہے ، جس میں مککیہ خط بھی شامل ہے ، یہ القاعدہ کے خط کے بعد انکشاف ہوا ہے۔  اس خط کی ابتدائی آیت میں پائے جانے والے ایش سائمز کے الفاظ سے ایش سیمس (سن) نامی نام لیا گیا ہے۔
 
-94. Surat الشرح (Surah Asy-Syarh (Lapang The Consolation)), 8 ayat | مكة
-Surat ini terdiri atas 8 ayat, termasuk golongan surat-surat Makkiyah dan diturunkan sesudah surat Adh Dhuhaa. Nama Alam Nasyrah diambil dari kata Alam Nasyrah yang terdapat pada ayat pertama, yang berarti: bukankah Kami telah melapangkan.
+92. اللیلیل کا خط (سورہ ال-لیل (نائٹ دی نائٹ)) ، 21 آیت | امی
+اس خط میں 21 آیات پر مشتمل ہے ، بشمول مککیہ خطوط ، الالا کے خط کے بعد اخذ کیے گئے ہیں۔ اس خط کا نام ال لیل (نائٹ) رکھا گیا ہے ، جو اس خط کی پہلی آیت میں شامل ال لیل کے الفاظ سے لیا گیا ہے
 
-95. Surat التين (Surah At-Tin (Buah Tin The Fig)), 8 ayat | مكة
-Surat ini terdiri atas 8 ayat, termasuk golongan surat-surat Makkiyah, diturunkan sesudah surat Al Buruuj. Nama At Tiin diambil dari kata At Tiin yang terdapat pada ayat pertama surat ini yang artinya buah Tin.
+93. خط کا خط (سورہ ادوحہ (دوہا صبح کے اوقات)) ، 11 آیات | امی
+اس خط میں 11 آیات پر مشتمل ہے ، جس میں ماکیہ خط بھی شامل ہے اور ال فجر خط کے بعد اسے منتقل کردیا گیا ہے۔ ADH دھوہا نام پہلی آیت میں شامل الفاظ سے لیا گیا ہے ، جس کا مطلب ہے: جب سورج طلوع ہوتا ہے۔
 
-96. Surat العلق (Surah Al-'Alaq (Segumpal Darah The Clot)), 19 ayat | مكة
-Surat Al 'Alaq terdiri atas 19 ayat, termasuk golongan surat-surat Makkiyah. Ayat 1 sampai dengan 5 dari surat ini adalah ayat-ayat Al Quran yang pertama sekali diturunkan, yaitu di waktu Nabi Muhammad s.a.w. berkhalwat di gua Hira'. Surat ini dinamai Al 'Alaq (segumpal darah), diambil dari perkataan Alaq yang terdapat pada ayat 2 surat ini. Surat ini dinamai juga dengan Iqra atau Al Qalam.
+94. القیرح کا خط (سور Surah س آسی-سیاڑھ (فیلڈ دی تسلی)) ، 8 آیت | امی
+اس خط میں 8 آیات پر مشتمل ہے ، جس میں مککیہ خطوط کا گروپ بھی شامل ہے اور ADH دھوہا خط کے بعد گزر گیا۔ نسیرہ کی نوعیت کا نام پہلی آیت میں موجود قدرتی نسیرہ کے لفظ سے لیا گیا ہے ، جس کا مطلب ہے: کیا ہم اس کی وضاحت نہیں کر رہے ہیں۔
 
-97. Surat القدر (Surah Al-Qadr (Kemuliaan The Power, Fate)), 5 ayat | مكة
-Surat Al Qadr terdiri atas 5 ayat, termasuk golongan surat-surat Makkiyah, diturunkan sesudah surat 'Abasa. Surat ini dinamai Al Qadr (kemuliaan), diambil dari perkataan Al Qadr yang terdapat pada ayat pertama surat ini.
+95. خط التیان (سورہ اٹ ٹن (ٹن فگ پھل)) ، 8 آیت | امی
+اس خط میں 8 آیات پر مشتمل ہے ، بشمول مککیہ خطوط کے گروپ ، الورووج کے خط کے بعد گزر گئے۔ ٹائن میں نام اس خط کی پہلی آیت میں موجود ٹائن کے لفظ سے لیا گیا ہے جس کا مطلب ہے ٹن۔
 
-98. Surat البينة (Surah Al-Bayyinah (Bukti Nyata The Evidence)), 8 ayat | مدينة
-Surat Al Bayyinah terdiri atas 8 ayat, termasuk golongan surat-surat Madaniyyah, diturunkan sesudah surat Ath Thalaq. Dinamai Al Bayyinah (bukti yang nyata) diambil dari perkataan Al Bayyinah yang terdapat pada ayat pertama surat ini.
+96. العلق کا خط (سورہ العلق (جمنے کا ایک گانٹھ)) ، 19 آیات | امی
+سورہ ال العق 19 آیات پر مشتمل ہے ، جس میں مککیہ کے خطوط بھی شامل ہیں۔ اس خط کی آیات 1 سے 5 قرآن کی پہلی آیات ہیں ، یعنی جب حضرت محمد s.a.w. ہیرا غار میں مبارک ہو۔ اس خط کا نام ال العق (خون کا ایک گانٹھ) رکھا گیا ہے ، جو اس خط کے پیراگراف 2 میں شامل الاق کے الفاظ سے لیا گیا ہے۔ اس خط کو اقرا یا القلم کا نام بھی دیا گیا ہے۔
 
-99. Surat الزلزلة (Surah Az-Zalzalah (Guncangan The Earthquake)), 8 ayat | مدينة
-Surat ini terdiri atas 8 ayat, termasuk golongan surat-surat Madaniyyah diturunkan sesudah surat An Nisaa'. Nama Al Zalzalah diambil dari kata: Zilzaal yang terdapat pada ayat pertama surat ini yang berarti goncangan.
+97. خط القودر (سورہ القدر (طاقت کی شان ، تقدیر)) ، 5 آیات | امی
+القادر کا خط 5 آیات پر مشتمل ہے ، بشمول مککیہ خطوط ، خط کے بعد ابسا کے بعد اخذ کیے گئے ہیں۔ اس خط کا نام القدر (گلوری) رکھا گیا ہے ، جو اس خط کی پہلی آیت میں شامل القادر کے الفاظ سے لیا گیا ہے۔
 
-100. Surat العاديات (Surah Al-'Adiyat (Kuda Yang Berlari Kencang The Chargers)), 11 ayat | مكة
-Surat ini terdiri atas 11 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Al'Ashr. Nama Al 'Aadiyaat diambil dari kata Al 'Aadiyaat yang terdapat pada ayat pertama surat ini, artinya yang berlari kencang.
+98. سورۃ البیینۃ (سورۃ البیینۃ)، 8 آیات | شہر
+سورۃ البینہ 8 آیات پر مشتمل ہے، جن میں مدنی سورتوں کا گروپ بھی شامل ہے، جو سورۃ الطلاق کے بعد نازل ہوئی ہیں۔ اس خط کی پہلی آیت میں موجود لفظ البیینہ سے لیا گیا البیینہ (حقیقی ثبوت) کا نام دیا گیا ہے۔
 
-101. Surat القارعة (Surah Al-Qari'ah (Hari Kiamat The Calamity)), 11 ayat | مكة
-Surat ini terdiri atas 11 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Quraisy. Nama Al Qaari'ah diambil dari kata Al Qaari'ah yang terdapat pada ayat pertama, artinya mengetok dengan keras, kemudian kata ini dipakai untuk nama hari kiamat.
+99. سورۃ الزلزلہ (سورۃ الزلزلہ (زلزلہ))، 8 آیات | شہر
+یہ خط 8 آیات پر مشتمل ہے، جس میں مدنی خطوط کا گروپ بھی شامل ہے جو خط النسا کے بعد نازل ہوا ہے۔ زلزال کا نام اس لفظ سے لیا گیا ہے: زلزال اس حرف کی پہلی آیت میں موجود ہے جس کا مطلب ہے ہلنا۔
 
-102. Surat التكاثر (Surah At-Takasur (Bermegah-Megahan Competition)), 8 ayat | مكة
-Surat At Takaatsur terdiri atas 8 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Al Kautsar. Dinamai At Takaatsur (bermegah-megahan) diambil dari perkataan At Takaatsur yang terdapat pada ayat pertama surat ini.
+100. سورۃ الادیات (سورۃ العدیات (د چارجرز) 11 آیات | مکہ
+یہ سورت 11 آیات پر مشتمل ہے جس میں مکی سورتوں کا گروپ بھی شامل ہے جو سورۃ العشر کے بعد نازل ہوئی ہیں۔ العادیات کا نام اس سورہ کی پہلی آیت میں موجود لفظ العادیات سے لیا گیا ہے جس کا مطلب ہے تیز دوڑنے والا۔
 
-103. Surat العصر (Surah Al-'Asr (Asar The Declining Day, Epoch)), 3 ayat | مكة
-Surat Al 'Ashr terdiri atas 3 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Alam Nasyrah. Dinamai Al 'Ashr (masa) diambil dari perkataan Al 'Ashr yang terdapat pada ayat pertama surat ini.
+101. سورۃ القراء (سورۃ القریٰ (روز قیامت آفت))، 11 آیات | مکہ
+یہ خط 11 آیات پر مشتمل ہے جس میں مکی خطوط کا گروپ بھی شامل ہے جو قریش کے خط کے بعد نازل ہوئے تھے۔ القاریۃ کا نام پہلی آیت میں پائے جانے والے لفظ القاریۃ سے لیا گیا ہے جس کا مطلب ہے سخت دستک دینا، پھر یہ لفظ قیامت کے نام کے لیے استعمال ہوا۔
 
-104. Surat الهمزة (Surah Al-Humazah (Pengumpat The Traducer)), 9 ayat | مكة
-Surat Al Humazah terdiri atas 9 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Al Qiyaamah. Dinamai Al Humazah (pengumpat) diambil dari perkataan Humazah yang terdapat pada ayat pertama surat ini.
+102. سورت التکاسور (سورہ التکاسور (برمیحہ-میغان مقابلہ))، 8 آیات | مکہ
+سورت تاکاتسور 8 آیات پر مشتمل ہے، جس میں مکی سورتوں کا گروپ بھی شامل ہے، جو سورۃ الکوثر کے بعد نازل ہوئی ہیں۔ اس خط کی پہلی آیت میں پائے جانے والے لفظ At Takaatsur سے لیا گیا At Takaatsur (فخر)۔
 
-105. Surat الفيل (Surah Al-Fil (Gajah The Elephant)), 5 ayat | مكة
-Surat ini terdiri atas 5 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat Al Kaafirun. Nama Al Fiil diambil dari kata Al Fiil yang terdapat pada ayat pertama surat ini, artinya gajah. Surat Al Fiil mengemukakan cerita pasukan bergajah dari Yaman yang dipimpin oleh Abrahah yang ingin meruntuhkan Ka'bah di Mekah. Peristiwa ini terjadi pada tahun Nabi Muhammad s.a.w. dilahirkan.
+103. سورۃ العصر (سورۃ العصر (عصر زوال کا دن، عہد)، 3 آیات | مکہ
+سورۃ العشر 3 آیات پر مشتمل ہے جن میں مکی سورتوں کا گروپ بھی شامل ہے جو سورۃ عالم ناصرہ کے بعد نازل ہوئی ہیں۔ اس سورہ کی پہلی آیت میں موجود لفظ العشر سے لیا گیا ہے جس کا نام العشر (وقت) ہے۔
 
-106. Surat قريش (Surah Quraisy (Quraisy Quraysh)), 4 ayat | مكة
-Surat ini terdiri atas 4 ayat, termasuk golongan surat-surat Makkiyyah dan diturunkan sesudah surat At Tiin. Nama Quraisy diambil dari kata Quraisy yang terdapat pada ayat pertama, artinya suku Quraisy. Suku Quraisy adalah suku yang mendapat  kehormatan untuk memelihara Ka'bah.
+104. سورہ الحمزة (سورہ حمزہ)، 9 آیات | مکہ
+سورہ حمزہ 9 آیات پر مشتمل ہے، جس میں مکی سورتوں کا گروپ بھی شامل ہے، جو سورۃ القیامہ کے بعد نازل ہوئی ہیں۔ اس خط کی پہلی آیت میں پائے جانے والے لفظ حمزہ سے لیا گیا الحمزہ ( بہتان کرنے والا) کا نام۔
 
-107. Surat الماعون (Surah Al-Ma'un (Barang Yang Berguna Almsgiving)), 7 ayat | مكة
-Surat ini terdiri atas 7 ayat, termasuk golongan surat-surat Makkiyyah, diturunkan sesudah surat At Taakatsur. Nama Al Maa'uun diambil dari kata Al Maa'uun yang terdapat pada ayat 7, artinya barang-barang yang berguna.
+105. سورہ الفیل (سورہ الفیل)، 5 آیات | مکہ
+یہ سورت 5 آیات پر مشتمل ہے جس میں مکی سورتوں کا گروپ بھی شامل ہے جو سورہ کافرون کے بعد نازل ہوئی ہیں۔ الفیل نام اس سورہ کی پہلی آیت میں پائے جانے والے لفظ الفیل سے لیا گیا ہے جس کا مطلب ہاتھی ہے۔ سورت الفیل میں یمن سے ہاتھیوں کی ایک فوج کی کہانی بیان کی گئی ہے جس کی قیادت ابرہہ کر رہے تھے جو مکہ میں کعبہ کو تباہ کرنا چاہتے تھے۔ یہ واقعہ رسول اللہ صلی اللہ علیہ وسلم کے سال کا ہے۔ پیدا ہوا تھا
 
-108. Surat الكوثر (Surah Al-Kausar (Pemberian Yang Banyak Abundance)), 3 ayat | مكة
-Surat Al Kautsar terdiri atas 3 ayat, termasuk golongan surat-surat  Makkiyyah diturunkan sesudah surat Al 'Aadiyaat. Dinamai Al Kautsar (nikmat yang banyak) diambil dari perkataan Al Kautsar yang terdapat pada ayat pertama surat ini.Surat ini sebagai penghibur hati Nabi Muhammad s.a.w.
+106. سورہ قریش (سورہ قریش)، 4 آیات | مکہ
+یہ خط 4 آیات پر مشتمل ہے جس میں مکیہ خطوط کا گروپ بھی شامل ہے اور یہ خط التین کے بعد نازل ہوا ہے۔ قریش کا نام پہلی آیت میں پائے جانے والے لفظ قریش سے لیا گیا ہے جس کا مطلب ہے قریش کا قبیلہ۔ قبیلہ قریش وہ قبیلہ ہے جسے خانہ کعبہ کی حفاظت کا اعزاز حاصل ہے۔
 
-109. Surat الكافرون (Surah Al-Kafirun (Orang-Orang kafir The Disbelievers)), 6 ayat | مكة
-Surat Al Kaafiruun terdiri atas 6 ayat, termasuk golongan surat-surat  Makkiyyah, diturunkan sesudah surat Al Maa'uun. Dinamai Al Kaafiruun (orang-orang kafir), diambil dari perkataan  Al Kaafiruun yang terdapat pada ayat pertama surat ini.
+107. سورت الماعون (سورۃ الماعون (خیرات کے لیے مفید اشیاء))، 7 آیات | مکہ
+یہ خط 7 آیات پر مشتمل ہے، جس میں مکیہ خطوط کا گروپ بھی شامل ہے، جو خط تکتسور کے بعد نازل ہوا ہے۔ المعون کا نام آیت 7 میں موجود لفظ المعون سے لیا گیا ہے جس کا مطلب ہے مفید اشیاء۔
 
-110. Surat النصر (Surah An-Nasr (Pertolongan Divine Support)), 3 ayat | مدينة
-Surat An Nashr terdiri atas 3 ayat, termasuk golongan surat-surat  Madaniyyah yang diturunkan di Mekah sesudah surat At Taubah.  Dinamai An Nashr (pertolongan) diambil dari perkataan Nashr yang  terdapat pada ayat pertama surat ini.
+108. سورۃ الکوثر (سورۃ الکوثر)، 3 آیات | مکہ
+سورۃ الکوثر 3 آیات پر مشتمل ہے جن میں مکی سورتوں کا گروپ بھی شامل ہے جو سورۃ العادیات کے بعد نازل ہوئی ہیں۔ اس خط کی پہلی آیت میں موجود لفظ الکوثر سے لیا گیا الکوثر (کثرت احسان) یہ خط رسول اللہ صلی اللہ علیہ وسلم کے دل کو تسلی دینے والا ہے۔
 
-111. Surat المسد (Surah Al-Lahab (Api Yang Bergejolak The Palm Fibre)), 5 ayat | مكة
-Surat ini terdiri atas 5 ayat, termasuk golongan surat-surat Makkiyyah,  diturunkan sesudah surat Al Fath. Nama Al Lahab diambil dari kata  Al Lahab yang terdapat pada ayat ketiga surat ini yang artinya gejolak  api. Surat ini juga dinamakan surat Al Masad.
+109. سورت الکافرون (سورۃ الکافرون)، 6 آیات | مکہ
+سورۃ الکافرون 6 آیات پر مشتمل ہے، جس میں مکی سورتوں کا گروپ بھی شامل ہے، جو سورۃ الماعون کے بعد نازل ہوئی ہیں۔ اس سورہ کی پہلی آیت میں پائے جانے والے لفظ کافرون سے لیا گیا ہے، جس کا نام الکافیرون (کافر) ہے۔
 
-112. Surat الإخلاص (Surah Al-Ikhlas (Ikhlas Sincerity)), 4 ayat | مكة
-Surat ini terdiri atas 4 ayat, termasuk golongan surat-surat  Makkiyyah, diturunkan sesudah sesudah surat An Naas. Dinamakan Al Ikhlas karena surat ini sepenuhnya menegaskan kemurnian keesaan Allah s.w.t.
+110. سورۃ النصر (سورۃ النصر (الٰہی تائید))، 3 آیات | شہر
+سورۃ النشر 3 آیات پر مشتمل ہے جن میں مدنی سورتوں کا گروپ بھی شامل ہے جو مکہ میں سورۃ التوبہ کے بعد نازل ہوئیں۔  اس خط کی پہلی آیت میں پائے جانے والے لفظ نشر سے لیا گیا ایک نشر (مدد) کا نام ہے۔
 
-113. Surat الفلق (Surah Al-Falaq (Subuh The Dawn)), 5 ayat | مكة
-Surat ini terdiri atas 5 ayat, termasuk golongan surat-surat Makkiyah, diturunkan sesudah surat Al Fiil. Nama Al Falaq diambil dari kata Al Falaq yang terdapat pada ayat pertama surat ini yang artinya waktu subuh. Diriwayatkan oleh Abu Daud, At Tirmizi dan An Nasa-i dari 'Uqbah bin 'Aamir bahwa Rasulullah s.a.w. bersembahyang dengan membaca surat Al Falaq  dan surat An Naas dalam perjalanan.
+111. سورۃ المسد (سورۃ اللھب (ہنگامہ خیز آگ کھجور کا ریشہ))، 5 آیات | مکہ
+یہ سورت 5 آیات پر مشتمل ہے جس میں مکی سورتوں کا گروپ بھی شامل ہے جو سورہ فتح کے بعد نازل ہوئی ہیں۔ اللھب کا نام اس سورہ کی تیسری آیت میں پائے جانے والے لفظ اللھب سے لیا گیا ہے جس کا مطلب ہے آگ کی ہلچل۔ اس خط کو المساد کا خط بھی کہا جاتا ہے۔
 
-114. Surat الناس (Surah An-Nas (Manusia Mankind)), 6 ayat | مكة
-Surat ini terdiri atas 6 ayat, termasuk golongan surat-surat Makkiyah,  diturunkan sesudah surat Al Falaq. Nama An Naas diambil dari An Naas yang berulang kali disebut dalam surat ini yang artinya manusia.
+112. سورہ اخلاص (سورہ اخلاص)، 4 آیات | مکہ
+یہ سورت 4 آیات پر مشتمل ہے جن میں مکی سورتوں کا گروپ بھی شامل ہے جو سورہ ناس کے بعد نازل ہوئی ہیں۔ اخلاص کا نام دیا گیا کیونکہ یہ خط خدا کی وحدانیت کی مکمل تصدیق کرتا ہے۔
+
+113. سورۃ الفلق (سورۃ الفلق) 5 آیات | مکہ
+یہ سورت 5 آیات پر مشتمل ہے جس میں مکی سورتوں کا گروپ بھی شامل ہے جو سورہ الفیل کے بعد نازل ہوئی ہیں۔ الفلق کا نام اس سورہ کی پہلی آیت میں پائے جانے والے لفظ الفلق سے لیا گیا ہے جس کا مطلب طلوع فجر ہے۔ ابو داؤد، ترمذی اور نسائی نے عقبہ بن عامر سے روایت کی ہے کہ رسول اللہ صلی اللہ علیہ وسلم نے راستے میں سورۃ الفلق اور سورۃ الناس پڑھ کر دعا کریں۔
+
+114. سورۃ الناس (سورۃ الناس)، 6 آیات | مکہ
+یہ سورت 6 آیات پر مشتمل ہے، جس میں مکی سورتوں کا گروپ بھی شامل ہے، جو سورۃ الفلق کے بعد نازل ہوئی ہیں۔ ان ناس نام آن ناس سے لیا گیا ہے جس کا بار بار اس خط میں ذکر آیا ہے جس کا مطلب ہے انسان۔
+
+
+
 `
     if (!(args[0] || args[1])) throw `${daftarsurah}`;
     if (isNaN(args[0]) || isNaN(args[1])) throw `${daftarsurah}`;
@@ -365,7 +372,7 @@ Surat ini terdiri atas 6 ayat, termasuk golongan surat-surat Makkiyah,  diturunk
     while (retries < maxRetries) {
         try {
             const response = await fetch('https://raw.githubusercontent.com/Xnuvers007/Xnuvers007.github.io/master/database/alquran.json');
-            if (!response.ok) throw 'Tidak dapat mengambil data Al-Quran.';
+            if (!response.ok) throw 'Unable to retrieve Al-Quran data.';
             api = await response.json();
             break; // berhenti kalo udah berhasil
         } catch (error) {
@@ -376,11 +383,11 @@ Surat ini terdiri atas 6 ayat, termasuk golongan surat-surat Makkiyah,  diturunk
     }
 
     if (retries === maxRetries) {
-        throw 'Gagal mengambil data Al-Quran setelah beberapa percobaan.';
+        throw 'Failed to retrieve the Quran data after several attempts.';
     }
 
     if (!Array.isArray(api)) {
-        throw `Data Al-Quran tidak sesuai format yang diharapkan.`;
+        throw `The Qur'anic data is not in accordance with the expected format.`;
     }
 
     /*
@@ -391,7 +398,8 @@ Surat ini terdiri atas 6 ayat, termasuk golongan surat-surat Makkiyah,  diturunk
 
     const listsurah = `Nama-nama Surah:\n${surahList}`;
 
-    if (!(args[0] || args[1])) throw `contoh:\n${usedPrefix + command} 1 2\n\nmaka hasilnya adalah surah Al-Fatihah ayat 2 beserta audionya, & ayatnya 1 saja\n\n${listsurah}`;
+    if (!(args[0] || args[1])) throw `contoh:\n${usedPrefix + command} 1 2\n\nmaka hasilnya adalah surah Al-Fatihah ayat 2 beserta audionya, & ayatnya 1 saja\n\n${listsurah}`;98. سورۃ البیینۃ (سورۃ البیینۃ)، 8 آیات | شہر
+
     if (isNaN(args[0]) || isNaN(args[1])) throw `contoh:\n${usedPrefix + command} 1 2\n\nmaka hasilnya adalah surah Al-Fatihah ayat 2 beserta audionya, dan ayatnya 1 aja\n\n${listsurah}`;
     */
 
@@ -401,11 +409,11 @@ Surat ini terdiri atas 6 ayat, termasuk golongan surat-surat Makkiyah,  diturunk
 ${api[args[0] - 1].ayahs[args[1] - 1].text.ar}
 ${api[args[0] - 1].ayahs[args[1] - 1].text.read}
         
-Indonesia: ${api[args[0] - 1].ayahs[args[1] - 1].translation.id}
+Urdu: ${api[args[0] - 1].ayahs[args[1] - 1].translation.ur}
 English: ${api[args[0] - 1].ayahs[args[1] - 1].translation.en}
 ( Q.S ${api[args[0] - 1].asma.id.short} (${api[args[0] - 1].asma.ar.short}) : ${api[args[0] - 1].ayahs[args[1] - 1].number.insurah} )
   
-*Tafsir: ${api[args[0] - 1].ayahs[args[1] - 1].tafsir.id}*
+*Tafsir: ${api[args[0] - 1].ayahs[args[1] - 1].tafsir.ur}*
 `.trim();
     await m.reply(mes);
     await conn.sendFile(m.chat, api[args[0] - 1].ayahs[args[1] - 1].audio.url, '', `( Q.S ${api[args[0] - 1].asma.id.short} (${api[args[0] - 1].asma.ar.short}) : ${api[args[0] - 1].ayahs[args[1] - 1].number.insurah} )`, m);

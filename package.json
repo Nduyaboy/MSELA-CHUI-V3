@@ -115,7 +115,7 @@
 "yt-search": "^2.10.3",
 "google-it": "^1.6.3",
 "youtube-yts": "^2.0.0", 
-"youtubedl-core": "*"
+"youtubedl-core": "^4.11.7"
 },
   "optionalDependencies": {
     "@xct007/frieren-scraper": "*"

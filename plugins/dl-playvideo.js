@@ -1,4 +1,4 @@
-import ytdl from 'youtubedl-core'
+import ytdl from 'ytdl-core'
 import fs from 'fs'
 import search from 'yt-search'
 

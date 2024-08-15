@@ -1,84 +1,110 @@
-import ytdl from 'youtubedl-core';
-import yts from 'yt-search';
-import fs from 'fs';
-import { pipeline } from 'stream';
-import { promisify } from 'util';
-import os from 'os';
+ 
+import yts from 'yt-search'
+import ytdl from 'ytdl-core'
+import fs from 'fs'
+import { pipeline } from 'stream'
+import { promisify } from 'util'
+import os from 'os'
+import fg from 'api-dylux'
+import fetch from 'node-fetch'
+let limit = 320
+let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, command }) => {
+  
+    if (!text) throw `✳️ ${mssg.example} *${usedPrefix + command}* Aya hai bulawa naat`
+  let chat = global.db.data.chats[m.chat]
+  let res = await yts(text)
+  //let vid = res.all.find(video => video.seconds < 3600)
+  let vid = res.videos[0]
+  if (!vid) throw `✳️ Video/Audio not found`
+  let isVideo = /vid$/.test(command)
+  m.react('🎧') 
+  
+  let play = `
+	≡ *𝗣𝗥𝗜𝗡𝗖𝗘 𝗣𝗟𝗔𝗬𝗘𝗥*
+┌──────────────
+▢ 📌 *${mssg.title}:* ${vid.title}
+▢ 📆 *${mssg.aploud}:* ${vid.ago}
+▢ ⌚ *${mssg.duration}:* ${vid.timestamp}
+▢ 👀 *${mssg.views}:* ${vid.views.toLocaleString()}
+└──────────────
+
+_Sending..._` 
+conn.sendFile(m.chat, vid.thumbnail, 'play', play, m, null)
+  
+  let q = isVideo ? '360p' : '128kbps' 
+try {
+	
+ // let api = await fetch(global.API('fgmods', `/api/downloader/${isVideo ? "ytv" : "yta"}`, { url: vid.url, quality: q}, 'apikey'))
+ // let yt = await api.json()
+  
+   let yt = await (isVideo ? fg.ytv : fg.yta)(vid.url, q)
+  let { title, dl_url, quality, size, sizeB } = yt
+  let isLimit = limit * 1024 < sizeB 
+
+     await conn.loadingMsg(m.chat, '📥 Downloading', ` ${isLimit ? `≡  *𝗣𝗥𝗜𝗡𝗖𝗘 𝗣𝗟𝗔𝗬𝗘𝗥*\n\n▢ *⚖️${mssg.size}*: ${size}\n▢ *🎞️${mssg.quality}*: ${quality}\n\n▢ _${mssg.limitdl}_ *+${limit} MB*` : '✅ Download Completed' }`, ["▬▭▭▭▭▭", "▬▬▭▭▭▭", "▬▬▬▭▭▭", "▬▬▬▬▭▭", "▬▬▬▬▬▭", "▬▬▬▬▬▬"], m)
+     
+	  if(!isLimit) conn.sendFile(m.chat, dl_url, title + '.mp' + (3 + /vid$/.test(command)), `
+ ≡  *𝗣𝗥𝗜𝗡𝗖𝗘 𝗣𝗟𝗔𝗬𝗘𝗥*
+  
+▢ *📌Title* : ${title}
+▢ *🎞️Quality* : ${quality}
+▢ *⚖️Size* : ${size}
+`.trim(), m, false, { mimetype: isVideo ? '' : 'audio/mpeg', asDocument: chat.useDocument })
+		m.react(done) 
+  } catch {
+  try {
+//  let q = isVideo ? '360p' : '128kbps' 
+  let yt = await (isVideo ? fg.ytmp4 : ytmp3)(vid.url, q)
+  let { title, dl_url, quality, size, sizeB} = yt
+  let isLimit = limit * 1024 < sizeB 
+
+     await conn.loadingMsg(m.chat, '📥 Downloading', ` ${isLimit ? `≡  *𝗣𝗥𝗜𝗡𝗖𝗘 𝗣𝗟𝗔𝗬𝗘𝗥*\n\n▢ *⚖️${mssg.size}*: ${size}\n▢ *🎞️${mssg.quality}*: ${quality}\n\n▢ _${mssg.limitdl}_ *+${limit} MB*` : '✅ Download Completed' }`, ["▬▭▭▭▭▭", "▬▬▭▭▭▭", "▬▬▬▭▭▭", "▬▬▬▬▭▭", "▬▬▬▬▬▭", "▬▬▬▬▬▬"], m)
+	  if(!isLimit) conn.sendFile(m.chat, dl_url, title + '.mp' + (3 + /2$/.test(command)), `
+ ≡  *𝗣𝗥𝗜𝗡𝗖𝗘 𝗣𝗟𝗔𝗬𝗘𝗥*
+  
+*📌${mssg.title}* : ${title}
+*🎞️${mssg.quality}* : ${quality}
+*⚖️${mssg.size}* : ${size}
+`.trim(), m, false, { mimetype: isVideo ? '' : 'audio/mpeg', asDocument: chat.useDocument })
+		m.react(done) 
+		
+		 } catch (error) {
+        m.reply(`❎ ${mssg.error}`)
+    }
+}
+
+}
+handler.help = ['play']
+handler.tags = ['dl']
+handler.command = ['play', 'playvid']
+handler.disabled = false
+
+export default handler
+
 const streamPipeline = promisify(pipeline);
 
-var handler = async (m, {
-  conn,
-  command,
-  text,
-  usedPrefix
-}) => {
-  if (!text) {
-    throw `${mssg.example}: ${usedPrefix + command} Naat`;
-  }
-  m.reply(wait);
-  try {
-    let results = await yts(text);
-    let tes = results.all[0]
-    let {
-      title,
-      thumbnail,
-      timestamp,
-      views,
-      ago,
-      url
-    } = tes;
-    let teks = "\n*" + title + "*" + "\n\n*${mssg.duration}:* " + timestamp + "\n*${mssg.views}:* " + views + "\n*${mssg.aploud}:* " + ago + "\n*${mssg.link}:* " + url + "\n";
-    let msg = generateWAMessageFromContent(m.chat, {
-      'viewOnceMessage': {
-        'message': {
-          'messageContextInfo': {
-            'deviceListMetadata': {},
-            'deviceListMetadataVersion': 0x2
-          },
-          'interactiveMessage': proto.Message.InteractiveMessage.create({
-            'body': proto.Message.InteractiveMessage.Body.create({
-              'text': teks
-            }),
-            'footer': proto.Message.InteractiveMessage.Footer.create({
-              'text': packname
-            }),
-            'header': proto.Message.InteractiveMessage.Header.create({
-              'hasMediaAttachment': false,
-              ...(await prepareWAMessageMedia({
-                'image': {
-                  'url': thumbnail
-                }
-              }, {
-                'upload': conn.waUploadToServer
-              }))
-            }),
-            'nativeFlowMessage': proto.Message.InteractiveMessage.NativeFlowMessage.create({
-              'buttons': [{
-                'name': "quick_reply",
-                'buttonParamsJson': "{\"display_text\":\"Audio🎵\",\"id\":\".yta " + url + "\"}"
-              }, {
-                'name': "quick_reply",
-                'buttonParamsJson': "{\"display_text\":\"Video📹\",\"id\":\".ytv " + url + "\"}"
-              }]
-            })
-          })
-        }
-      }
-    }, {
-      'quoted': m
-    });
-    return await conn.relayMessage(m.chat, msg.message, {});
-  } catch (err) {
-    conn.sendFile(m.chat, eror, "anu.mp3", null, m, true, {
-      'type': "audioMessage",
-      'ptt': true
-    });
-  }
-};
+async function ytmp3(url) {
+    const videoInfo = await ytdl.getInfo(url);
+    const { videoDetails } = videoInfo;
+    const { title, thumbnails, lengthSeconds, viewCount, uploadDate } = videoDetails;
+    const thumbnail = thumbnails[0].url;
+    
+    const audioStream = ytdl(url, { filter: 'audioonly', quality: 'highestaudio' });
+    const tmpDir = os.tmpdir();
+    const audioFilePath = `${tmpDir}/${title}.mp3`;
 
-handler.help = ['play'].map((v) => v + ' <query>');
-handler.tags = ['downloader'];
-handler.command = /^(play|song|lagu|music)$/i;
+    await streamPipeline(audioStream, fs.createWriteStream(audioFilePath));
 
+    return {
+        title,
+        views: viewCount,
+        publish: uploadDate,
+        duration: lengthSeconds,
+        quality: '128kbps',
+        thumb: thumbnail,
+        size: '0mb', 
+        sizeB: '0', 
+        dl_url: audioFilePath
+    };
+}
 
-export default handler;

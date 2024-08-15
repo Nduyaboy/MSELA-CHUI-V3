@@ -409,11 +409,12 @@ ADZ DZAARIYAT خط میں 60 آیات پر مشتمل ہے ، جس میں مکک
 ${api[args[0] - 1].ayahs[args[1] - 1].text.ar}
 ${api[args[0] - 1].ayahs[args[1] - 1].text.read}
         
-Urdu: ${api[args[0] - 1].ayahs[args[1] - 1].translation.ur}
+ENGLISH: ${api[args[0] - 1].ayahs[args[1] - 1].translation.en}
+
 English: ${api[args[0] - 1].ayahs[args[1] - 1].translation.en}
 ( Q.S ${api[args[0] - 1].asma.id.short} (${api[args[0] - 1].asma.ar.short}) : ${api[args[0] - 1].ayahs[args[1] - 1].number.insurah} )
   
-*Tafsir: ${api[args[0] - 1].ayahs[args[1] - 1].tafsir.ur}*
+*Tafsir: ${api[args[0] - 1].ayahs[args[1] - 1].tafsir.en}*
 `.trim();
     await m.reply(mes);
     await conn.sendFile(m.chat, api[args[0] - 1].ayahs[args[1] - 1].audio.url, '', `( Q.S ${api[args[0] - 1].asma.id.short} (${api[args[0] - 1].asma.ar.short}) : ${api[args[0] - 1].ayahs[args[1] - 1].number.insurah} )`, m);

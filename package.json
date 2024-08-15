@@ -115,10 +115,10 @@
 "yt-search": "^2.10.3",
 "google-it": "^1.6.3",
 "youtube-yts": "^2.0.0", 
-"youtubedl-core": "npm:@distube/ytdl-core"
+"youtubedl-core": "*"
 },
   "optionalDependencies": {
-    "@xct007/frieren-scraper": "github:xct007/frieren-scraper"
+    "@xct007/frieren-scraper": "*"
   },
   "devDependencies": {
     "eslint": "^8.45.0",

@@ -41,11 +41,6 @@
       "required": true,
       "value": "ᴛʜᴇ-ᴘʀɪɴᴄᴇ-ᴍᴅ-ʙᴏᴛ"
       },
-    "antilink": {
-      "description": "If you want to turn off antilink then make it false",
-      "required": false,
-      "value": "true"
-      },
     "DATABASE_URL": {
       "description": "Put your MongoDB here",
       "required": false,

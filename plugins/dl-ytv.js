@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import ytdl from 'youtubedl-core';
+import ytdl from 'ytdl-core';
 import { Client } from 'undici';
 import { fileURLToPath } from 'url';
 import fetch from 'node-fetch';

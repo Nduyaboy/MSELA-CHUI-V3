@@ -33,7 +33,7 @@
 "url": "https://github.com/PRINCE-GDS/PRINCE-MD-BOT/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
-"@whiskeysockets/baileys": "npm:@whiskeysockets/baileys@6.7.2",
+"@whiskeysockets/baileys": "^6.7.5",
 "@adiwajshing/keyed-db": "^0.2.4",
 "@bochilteam/scraper": "*",
 "@bochilteam/scraper-youtube": "^5.0.0",

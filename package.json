@@ -38,6 +38,7 @@
 "@bochilteam/scraper": "*",
 "@bochilteam/scraper-youtube": "^5.0.0",
 "@bochilteam/scraper-sosmed":"*",
+"@bochilteam/scraper-savefrom":"*",
 "@brandond/findthelyrics": "^2.0.5",
 "@green-code/music-track-data": "^2.0.3",
 "@shineiichijo/marika": "^2.0.6",

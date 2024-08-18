@@ -15,7 +15,7 @@ import {
  
  const defaultMenu = {
   before: `
-  │✫ - 「🛡️ ${botname} 🛡️」 - ✫│\n
+  │✫ - 「🐯 ${botname} 🐯」 - ✫│\n
   
  
  

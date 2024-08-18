@@ -31,7 +31,7 @@
   </a>
 </p>
 
-https://camo.githubusercontent.com/ffd78850f5c96fd945511ddc7e072426379e9c4747512206f34a1fdc6f3f6882/68747470733a2f2f692e696d6775722e636f6d2f4c7948696333692e676966
+
 
  ## MSELA-CHUI-V3 Deployment Methods
 

@@ -23,11 +23,11 @@ for (let i = 0; i < ownerlist.length; i += 2) {
     global.owner.push(owner);
 }
 
-//💌------------------------------------------💌
+//🐯------------------------------------------🐯
 
 
-//💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923042205427'] 
+//🐯global.pairingNumber = "" //put your bot number here🐯
+global.mods = ['260774358600'] 
 global.prems = ['']
 global.allowed = ['']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
@@ -37,17 +37,17 @@ global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
 global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
-//💌------------------------------------------💌
+//🐯------------------------------------------🐯
 
 
 
-//💌------------------------------------------💌
+//🐯------------------------------------------🐯
 //CONFIG VARS. Do not touch them⚠️
 
   global.vidcap = process.env.DL_MSG
 
 
-//💌------------------------------------------💌
+//🐯------------------------------------------🐯
 
 
 
@@ -68,7 +68,7 @@ global.APIs = {
   bg: 'http://bochil.ddns.net',
   fgmods: 'https://api.fgmods.xyz'
 }
-// 💌------------------------------------------💌
+// 🐯------------------------------------------🐯
 
 
 
@@ -85,7 +85,7 @@ global.APIKeys = {
    
 }
 
-//💌------------------------------------------💌
+//🐯------------------------------------------🐯
 
 
 
@@ -101,7 +101,7 @@ global.imagen8 = fs.readFileSync("./Assets/menus/img8.jpg")
 global.imagen9 = fs.readFileSync("./Assets/menus/img9.jpg")
 global.imagen10 = fs.readFileSync("./Assets/menus/img11.jpg")
 global.imagen11 = fs.readFileSync("./Assets/menus/img12.jpg")
-//💌------------------------------------------💌
+//🐯------------------------------------------🐯
 
 
 
@@ -113,29 +113,29 @@ global.imagen11 = fs.readFileSync("./Assets/menus/img12.jpg")
 
 // Randome
 global.princeImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11]
-//💌------------------------------------------💌
+//🐯------------------------------------------🐯
 
 
 
 // Moderator 
-global.developer = 'https://wa.me/message/DCAK67ON3XVOG1' //contact
-//💌------------------------------------------💌
+global.developer = 'https://wa.me/260774358600' //contact
+//🐯------------------------------------------🐯
 
 
 
 //Sticker WM
 global.botname = process.env.BOT_NAME
-global.princebot = '🛡️𝘗𝘙𝘐𝘕𝘊𝘌-𝘉𝘖𝘛-𝘔𝘋🛡️'
-global.packname = 'Prince♥️' 
-global.author = 'Prince♥️' 
-global.princeig = 'https://www.instagram.com' 
-global.princegp = 'https://whatsapp.com/channel/0029VaKNbWkKbYMLb61S1v11'
-global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
-global.Princesc = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT' 
-global.princeyt = 'https://youtube.com/'
-global.Princelog = 'https://i.imgur.com/cUvIv5w.jpeg'
-global.thumb = fs.readFileSync('./Assets/Prince.png')
-//💌------------------------------------------💌
+global.princebot = 'MSELA-CHUI-V3'
+global.packname = 'MSELA-CHUI-V3' 
+global.author = 'MSELACHUI' 
+global.mselachuiig = 'https://www.instagram.com' 
+global.mselachuigp = 'https://whatsapp.com/channel/0029VakhqAaLtOjBJOL9Wn1q'
+global.menuvid = 'https://imgur.com/a/wGZkgbC.mp4'
+global.mselachuisc = 'https://github.com/Mselachui03/MSELA-CHUI-V3' 
+global.mselachuiyt = 'https://youtube.com/'
+global.mselachuilog = 'https://imgur.com/a/5AbXZVz.jpeg'
+global.thumb = fs.readFileSync('./Assets/mselachui.png')
+//🐯------------------------------------------🐯
 
 
 
@@ -150,7 +150,7 @@ global.xmoji = '🌀'
 global.multiplier = 69 
 global.maxwarn = '2' 
 global.eror = '```404 error```'
-//💌------------------------------------------💌
+//🐯------------------------------------------🐯
 
 
 

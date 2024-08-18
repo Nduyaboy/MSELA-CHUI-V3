@@ -1,140 +1,110 @@
- <p align="center">  
-  <a href="">
-    <img alt="PRINCE" width="600" height="350" src="https://i.imgur.com/iI086tX.jpeg">
-  </a>
-</p>
-
-
-
+# MSELA-CHUI-V3
+   <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
-<a href="https://github.com/PRINCE-GDS/PRINCE-MD-BOT"><img title="Author" src="https://img.shields.io/badge/𝑷𝑹𝑰𝑵𝑪𝑬 𝑴𝑫 𝑩𝑶𝑻-black?style=for-the-badge&logo=github"></a>
-<p/>
-
 <p align="center">
-<a href="https://github.com/PRINCE-GDS?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/PRINCE-GDS?label=Followers&style=social"></a>
-<a href="https://github.com/PRINCE-GDS/PRINCE-MD-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/PRINCE-GDS/PRINCE-MD-BOT?&style=social"></a>
-<a href="https://github.com/PRINCE-GDS/PRINCE-MD-BOT/network/members"><img title="Fork" src="https://img.shields.io/github/forks/PRINCE-GDS/PRINCE-MD-BOT?style=social"></a>
-<a href="https://github.com/PRINCE-GDS/PRINCE-MD-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/PRINCE-GDS/PRINCE-MD-BOT?label=Watching&style=social"></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝ MSELA_+CHUI-+V3★⃝•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+MSELA+CHUI;RELEASED+DATE+29%2F7%2F2024." alt="Typing SVG" /></a>
+ </p>
+<p align="center">
+<img src="https://telegra.ph/file/4f1ff5e2a71624d564944.jpg"/> 
+<p align="center"><img src="https://profile-counter.glitch.me/{Mselachui03}/count.svg" alt="Mselachui03 :: Visitor's Count" /></p>
+<p align="center">
+<a href="https://github.com/Mselachui03/followers"><img title="Followers" src="https://img.shields.io/github/followers/Mselachui03?color=red&style=flat-square"></a>
+<a href="https://github.com/Mselachui03/MSELA-CHUI-V3/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Mselachui03/MSELA-CHUI-V3?color=blue&style=flat-square"></a>
+<a href="https://github.com/Mselachui03/MSELA-CHUI-V3/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Mselachui03/MSELA-CHUI-V3?color=red&style=flat-square"></a>
+<a href="https://github.com/Mselachui03/MSELA_CHUI-Md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Mselachui03/MSELA-CHUI-V3?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Mselachui03/MSELA-CHUI-V3/"><img title="Size" src="https://img.shields.io/github/repo-size/Mselachui03/MSELA-CHUI-V3?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMselachui03%2Msela_Chui-Md&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/Mselachui03/MSELA-CHUI-V3/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
+<p align='center'>
+    </p>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<p align="center">
 
+ ## MSELA-CHUI-V3 Deployment Methods
 
- <h1 align="center">𝑷𝑹𝑰𝑵𝑪𝑬-𝑴𝑫-𝑩𝑶𝑻</h1>
+### 1. FORK THIS REPO
 
-****
+<a href='https://github.com/Mselachui03/MSELA-CHUI-V3/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
+### 2. GET SESSION ID HERE
 
-
-***
-
-### 💠𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀 
-### Click and wait a little bit for loading the site.
-<p align="left">
-<a href="https://gds-md-pair.onrender.com/"><img height= "30" title="Author" src="https://img.shields.io/badge/SESSION ID-black?style=for-the-badge&logo=render"></a>
-<p/>
-
-
-### 💠𝙋𝘼𝙄𝙍 𝘼𝙉𝘿 𝙌𝙍 𝘾𝙊𝘿𝙀
-### Click and wait a little bit for loading the site.
-<p align="left">
-<a href="https://princebotzsession.onrender.com"><img height= "30" title="Author" src="https://img.shields.io/badge/SESSION ID-skyblue?style=for-the-badge&logo=render"></a>
-<p/>
-  
-𝘐𝘧 𝘱𝘢𝘪𝘳 𝘤𝘰𝘥𝘦 𝘥𝘰𝘯'𝘵 𝘸𝘰𝘳𝘬 𝘵𝘩𝘦𝘯 𝘴𝘤𝘢𝘯 𝘘𝘙 𝘧𝘰𝘳 𝘴𝘦𝘴𝘴𝘪𝘰𝘯 𝘐𝘋
-### 💠𝙌𝙍 𝙎𝘾𝘼𝙉
-<p align="left">
-<a href="https://princebotqr.onrender.com/"><img height= "30" title="Author" src="https://img.shields.io/badge/SESSION ID-black?style=for-the-badge&logo=render"></a>
-<p/>
-
-****
-
-
-****
-
-### 🟣 𝘿𝙀𝙋𝙇𝙊𝙔 𝙊𝙉 𝙃𝙀𝙍𝙊𝙆𝙐 🟣
-  𝘐𝘧 𝘠𝘰𝘶 𝘥𝘰𝘯'𝘵 𝘩𝘢𝘷𝘦 𝘢𝘯 𝘢𝘤𝘤𝘰𝘶𝘯𝘵 𝘪𝘯 𝘏𝘦𝘳𝘰𝘬𝘶. 𝘊𝘳𝘦𝘢𝘵𝘦 𝘢𝘯 𝘢𝘤𝘤𝘰𝘶𝘯𝘵.
-  
-  💠[𝘊𝘓𝘐𝘊𝘒 𝘏𝘌𝘙𝘌](https://signup.heroku.com)
-  
-👇---------------------ɢᴅs-ᴍᴅ---------------------👇
-
-🟣 𝘿𝙀𝙋𝙇𝙊𝙔 𝙉𝙊𝙒 👇
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PRINCE-GDS/PRINCR-MD-BOT) 
-
-  
-****
-
-
-### 🟤 𝘿𝙀𝙋𝙇𝙊𝙔 𝙊𝙉 𝙍𝙀𝙋𝙇𝙄𝙏 🟤
-𝘐𝘧 𝘠𝘰𝘶 𝘥𝘰𝘯'𝘵 𝘩𝘢𝘷𝘦 𝘢𝘯 𝘢𝘤𝘤𝘰𝘶𝘯𝘵 𝘪𝘯 𝘙𝘦𝘱𝘭𝘪𝘵. 𝘊𝘳𝘦𝘢𝘵𝘦 𝘢𝘯 𝘢𝘤𝘤𝘰𝘶𝘯𝘵.
-  
-  💠 [𝘊𝘓𝘐𝘊𝘒 𝘏𝘌𝘙𝘌](https://replit.com/signup) 
-  
-👇-------------------ɢᴅs-ᴍᴅ-----------------------👇
-
- 🟤 𝘿𝙀𝙋𝙇𝙊𝙔 𝙉𝙊𝙒 👇
-    <br>
-<p align="left"><a href="https://repl.it/github/PRINCE-GDS/PRINCE-MD-BOT"> <img src="https://img.shields.io/badge/Deploy%20To%20Replit-gray?style=for-the-badge&logo=replit" height="30"/></a></p>
-
-****
-
-### ⚫ 𝘿𝙀𝙋𝙇𝙊𝙔 𝙊𝙉 𝙆𝙊𝙔𝙀𝘽 ⚫
-𝘪𝘧 𝘺𝘰𝘶 𝘥𝘰𝘯'𝘵 𝘩𝘢𝘷𝘦 𝘢𝘯 𝘢𝘤𝘤𝘰𝘶𝘯𝘵 𝘰𝘯 𝘒𝘰𝘺𝘦𝘣. 𝘊𝘳𝘦𝘢𝘵𝘦 𝘢𝘯 𝘢𝘤𝘤𝘰𝘶𝘯𝘵.
-
-💠[𝘊𝘓𝘐𝘊𝘒 𝘏𝘌𝘙𝘌](https://app.koyeb.com/auth/signup)
-
-👇--------------------ɢᴅs-ᴍᴅ----------------------👇
-   
-⚫ 𝘿𝙀𝙋𝙇𝙊𝙔 𝙉𝙊𝙒 👇
-   <br>
-  <p align="left"><a href="https://app.koyeb.com/apps/deploy?type=git&repository=github.com%2FPRINCE-GDS%2FPRINCE-MD-BOT&branch=main&nameprincegds&builder=dockerfile&env[DATABASE_URL]=&env[SESSION_ID]=your+sessionid+here&env[MODE]=public&env=[autoRead]=false&env[statusview]=false&env[REMOVEBG_KEY]=your+rmbg+key&env[antidelete]=false"> <img src="https://www.koyeb.com/static/images/deploy/button.svg" height="40"/></a></p>
-
-****
-
-------------------
-### ☁️ 𝘿𝙀𝙋𝙇𝙊𝙔 𝙏𝙊 𝙍𝙀𝙉𝘿𝙀𝙍
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/blueprint/new?repo=https%3A%2F%2Fgithub.com%2FPRINCE-GDS%2FGDS-MD) 
-
-***
-
-### 🟢 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝙂𝙍𝙊𝙐𝙋 𝙇𝙄𝙉𝙆 🟢
-   <p align="left">
-      <a href="https://chat.whatsapp.com/Jo5bmHMAlZpEIp75mKbwxP"><img height= "40" length= "10" title="Author" src="https://img.shields.io/badge/Support Group-25D366?style=for-the-badge&logo=whatsApp&logoColor=white"></a>
-     <p/>
-       
-***
-
-### 𝗟𝗜𝗖𝗘𝗡𝗦𝗘: [MIT](https://en.wikipedia.org/wiki/MIT_License)
+### SERVER 1
  
+<a href="https://chui-md.onrender.com/pair"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
+
+<a href="https://chui-md.onrender.com/qr"><img src="https://img.shields.io/badge/QR CODE-green" alt="Click Here to Get QR-Code" width="90"></a>
+
+
+
+### DEPLOY ON RENDER
+
+1. If you don't have an account in RENDER, create one and deploy.
+    <br>
+    <a href='https://dashboard.render.com/select-repo?type=web' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/></a>
+
+
+### DEPLOY CODESPECE (Free)
+
+<a href="https://github.com/codespaces/new"><img title="MSELA-CHUI-V3 Deploy CodeSpace" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode"></a>
+
+### DEPLOY ON HEROKU
+
+1. Now deploy.
+    <br>
+    <a href='https://dashboard.heroku.com/new?template=https://github.com/Mselachui03/MSELA-CHUI-V3' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+### DEPLOY ON REPLIT
+1. Deploy.
+    <br>
+    <a href='https://replit.com/github/Mselachui03/MSELA-CHUI-V3' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Deploy-red?style=for-the-badge&logo=replit&logoColor=white'/></a>
+### DEPLOY ON RAILWAY
+1. Deploy.
+    <br>
+    <a href='https://railway.com/github/Mselachui03/MSELA-CHUI-V3' target="_blank"><img alt='Railway' src='https://img.shields.io/badge/-Deploy-green?style=for-the-badge&logo=railway&logoColor=white'/></a>
+
+    <h2 align="center"> ⚠️ NOTE  </h2>
+## MSELA-CHUI-V3 SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 
+
+## ```Connect With Me```<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1> 
+ <br> 
+<p align="center">
+<a href="https://wa.me/260774358600"><img src="https://img.shields.io/badge/Contact Chui-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/KStfBpcFDOi154eVtrz6n1"><img src="https://img.shields.io/badge/Join Official channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+<p align="center">
+<img alt="Development" width="250" src="https://media2.giphy.com/media/W9tBvzTXkQopi/giphy.gif?cid=6c09b952xu6syi1fyqfyc04wcfk0qvqe8fd7sop136zxfjyn&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" /> </p>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+# 
+
+<br>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+* [🧑‍💻 Follow MSELA-CHUI-V2 Whatsapp Channel🧑‍💻](https://chat.whatsapp.com/KStfBpcFDOi154eVtrz6n1)
+
+
+* [✅ Join Public Group ⚡](https://chat.whatsapp.com/KStfBpcFDOi154eVtrz6n1)
+
+  <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
   
-----
-### 💠 [`𝐿𝐴𝑁𝐺𝑈𝐴𝐺𝐸𝑆 𝐴𝑉𝐴𝐼𝐿𝐴𝐵𝐿𝐸 𝐹𝑂𝑅 𝑃𝑅𝐼𝑁𝐶𝐸-𝑀𝐷`]
-#### 🌐 Arabic = ar 
-#### 🌐 Urdu = ur
-#### 🌐 English Global = en
-#### 🌐 Bahasa Indonesia = id
-#### 🌐 Portuguese = pt
-#### 🌐 Spanish = es
+
+- *MSELA-CHUI-V2 is not made by `WhatsApp Inc.` Sometimes or misusing the bot might `ban` your `WhatsApp account!`*
+- *In that case, I'm not responsible for banning your account.*
+- *Use MSELA-CHUI-V3 at your own risk by keeping this warning in mind.*
+  
+  #### ```MSELA CHUI PROFILE VIEWS 🐯```
+![Visitor Count](https://profile-counter.glitch.me/Mselachui03/count.svg)
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
+## THANKS = MY SELF 🥱
+
+## Support
+
+SUPPORT CHANNEL: <a href= "(https://chat.whatsapp.com/KStfBpcFDOi154eVtrz6n1)"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
+### Please Give One Star ✨ & [follow me notify my updates 💗](https://github.com/Mselachui03)
+<b>Version -> 2.0.0</b>
 
-
-
-
-
-### 💌-----------------------👇🏻𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘👇🏻-------------------------💌
-
-
-<p align="left">
-<a href="https://gd-sdeploy.vercel.app/PRINCE-MD-WEB-main/projects/index.html"><img height= "70" title="Author" src="https://img.shields.io/badge/𝗣𝗥𝗜𝗡𝗖𝗘 𝗕𝗢𝗧 𝗔𝗟𝗟 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧𝗦-032B44?style=for-the-badge&logo=vercel"></a>
-<p/>
-
-
-****
-
-
-
-
-
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>

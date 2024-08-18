@@ -47,6 +47,7 @@ const translations = {
 
     oversizePrem: 'El tamaño del archivo supera el limite de descarga',
     error: 'Ocurrio un Error, intente mas tarde',
+    auth: 'Autor',
     size: 'Tamaño',
     link: 'Link',
     dev: 'Desarrollador',

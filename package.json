@@ -1,5 +1,5 @@
 {
-"name": "P-MD-BOT",
+"name": "MSELA-CHUI-V3",
 "version": "3.0.0",
 "description": "super advanced WhatsApp user bot",
 "main": "index.js",
@@ -21,16 +21,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
     
-"homepage": "https://github.com/PRINCE-GDS/PRINCE-MD-BOT",
+"homepage": "https://github.com/Mselachui03/MSELA-CHUI-V3",
 "author": {
 "name": "P-MD" },
     
 "repository": {
 "type": "git",
-"url": "git+https://github.com/PRINCE-GDS/PRINCE-MD-BOT.git" },
+"url": "git+https://github.com/Mselachui03/MSELA-CHUI-V3.git" },
 
 "bugs": {
-"url": "https://github.com/PRINCE-GDS/PRINCE-MD-BOT/issues" },
+"url": "https://github.com/Mselachui03/MSELA-CHUI-V3/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@whiskeysockets/baileys": "^6.7.5",

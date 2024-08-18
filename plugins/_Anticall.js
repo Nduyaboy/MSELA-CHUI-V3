@@ -13,7 +13,7 @@ export async function all(m) {
 	
 	if (m.messageStubType === (WAMessageStubType.CALL_MISSED_VOICE || WAMessageStubType.CALL_MISSED_VIDEO )) {
 	    await delay(1000) 
-		await conn.reply(m.chat, `*📍We apologize, at the moment we cannot receive calls, whether in a group or private.*
+		await conn.reply(m.chat, `*🐯We apologize, at the moment we cannot receive calls, whether in a group or private.*
 
 *📌If you need help or request a feature, please message the owner. Contacting bots is not good because you are annoying the bot owner. Please respect the policy of using bots. You will be banned now so that you do not repeat the same thing again with any bot.*
 *You can unban yourself by contacting Owner.*`, m)

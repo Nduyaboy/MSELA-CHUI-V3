@@ -1,15 +1,15 @@
 {
-  "name": "P-MD-BOT",
-  "description": "P-MD A SUPER WHATSAPP USER BOT",
+  "name": "MSELA-CHUI-V3",
+  "description": "MSELA-CHUI-V3 A SUPER WHATSAPP USER BOT",
   "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
-  "repository": "https://github.com/PRINCE-GDS/PRINCE-MD-BOT",
+  "repository": "https://github.com/Mselachui03/MSELA-CHUI-V3",
   
   "stack": "container",
   "env": {
       "OWNERS": {
       "description": "Put your Number as Owner",
       "required": true,
-      "value": "923092668108;Prince"
+      "value": "260774358600;MSELACHUI"
       },
      "MODE": {
       "description": "mode public or private",
@@ -29,7 +29,7 @@
     "PREFIX": {
       "description": "Put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": false,
-      "value": ""
+      "value": "."
      },
     "antidelete": {
       "description": "BOT will forward deleted messages if you make it true",
@@ -39,7 +39,7 @@
     "BOT_NAME": {
       "description": "Put your BOT a name",
       "required": true,
-      "value": "ᴛʜᴇ-ᴘʀɪɴᴄᴇ-ᴍᴅ-ʙᴏᴛ"
+      "value": "MSELA-CHUI-V3"
       },
     "DATABASE_URL": {
       "description": "Put your MongoDB here",
@@ -49,7 +49,7 @@
     "DL_MSG": {
       "description": "Video downloader caption",
       "required": true,
-      "value": "💌--------------------ᴘʀɪɴᴄᴇ-ᴍᴅ----------------------💌"
+      "value": "🐯--------------------MSELA-CHUI-V3----------------------🐯"
        },
     "STATUSVIEW": {
       "description": "Make it true if you want bot to view status",

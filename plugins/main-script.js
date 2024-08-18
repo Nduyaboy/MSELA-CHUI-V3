@@ -19,7 +19,7 @@ let handler = async function (m, { conn, __dirname }) {
 ╭⊱✫🐯MSELA-CHUI-V3🐯✫⊱╮
 │✫ - *📂Repository Name: ${repoData.name}*
 │✫ - *📃Description: ${repoData.description}*
-│✫ - *🛡️Owner: ${repoData.owner.login}*
+│✫ - *🐯Owner: ${repoData.owner.login}*
 │✫ - *⭐Stars: ${repoData.stargazers_count}*
 │✫ - *💌Forks: ${repoData.forks_count}*
 │✫ - *🌐 URL:* ${repoData.html_url}

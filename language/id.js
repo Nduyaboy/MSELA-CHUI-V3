@@ -47,6 +47,7 @@ const translations = {
 
     oversizePrem: 'Ukuran file melebihi batas unduhan',
     error: 'Terjadi kesalahan, coba lagi nanti',
+    auth: 'Pengarang',
     size: 'Ukuran',
     link: 'Tautan',
     dev: 'Pengembang',
